@@ -1,0 +1,25 @@
+[{
+    "month": "October",
+    "monthIndex": 9,
+    "date": 4,
+    "title": "ALL FOR ONE, ONE FOR ALL",
+    "quote": "That which isn’t good for the hive, isn’t good for the bee.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6.54",
+    "text": "Inherent in the Stoic concept of sympatheia is the notion of an interconnected cosmos in which everything in the universe is part of a larger whole. Marcus Aurelius was one of the first writers to articulate the notion of cosmopolitanism—saying that he was a citizen of the world, not just of Rome.",
+    "id": 1
+  },
+  {
+    "month": "October",
+    "monthIndex": 9,
+    "date": 5,
+    "title": "WORDS CAN’T BE UNSAID ",
+    "quote": "Better to trip with the feet than with the tongue.",
+    "author": "ZENO, QUOTED IN DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 7.1.26 ",
+    "text": "You can always get up after you fall, but remember, what has been said can never be unsaid. Especially cruel and hurtful things.",
+    "id": 2
+  }]
+  quote = stoic.filter((quote) => {
+    const date = new Date();
+    const month = date.getMonth();
+    return quote.monthIndex == month;
+  }
