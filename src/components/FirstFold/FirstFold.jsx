@@ -1,9 +1,9 @@
 import React from 'react'
-
+import QuoteDate from '../quoteDate/quoteDate'
 const FirstFold = () => {
   return (
     <div>
-        <h2>Memnto Mori </h2>
+        <QuoteDate />
     </div>
   )
 }

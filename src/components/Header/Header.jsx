@@ -1,12 +1,13 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import Logo from '../../assets/images/skull_logo_2.png'
 import Home from '../../assets/images/home.svg'
-import Skull from '../../assets/images/skully.svg'
+import Skull from '../../assets/images/about.svg'
 import DarkModeToggle from '../../assets/images/moon.svg'
 import { Link, Outlet } from 'react-router-dom'
 import './header.scss';
 
 const Header = () => {
+
   return (
     <>
         <nav>
@@ -17,7 +18,7 @@ const Header = () => {
         </div>
         <div className="nav-links">
             <Link className='nav-link' to="/about">
-                <img src={Skull} alt="skull logo" />
+                <img className="skull-about" src={Skull} alt="skull logo" />
             </Link>
         </div>
     </nav>

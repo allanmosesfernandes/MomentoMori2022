@@ -5,12 +5,14 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './routes/home';
 import React from 'react'
 import About from './routes/About';
+import FirstFold from './components/FirstFold/FirstFold';
 
 const App = () => {
   return (
     
    <Routes>
-    <Route path='/' element={<Home />}>
+    <Route path='/' element={<Header />}>
+      <Route index element={<FirstFold />} />
       <Route path='/about' element={<About />} />
     </Route>
    </Routes>
