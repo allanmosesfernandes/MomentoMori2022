@@ -6,14 +6,6 @@ const monthNumber = today.getMonth();
 const monthDate = today.getDate();
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const monthName = monthNames[monthNumber];
-
-let filterQuote = sampleAPI.filter(quote => {
-    return quote.monthIndex === monthNumber && quote.date === monthDate;
-});
-
-let quoteOfTheDay = filterQuote[0];
-let {title, author, text, quote} = quoteOfTheDay;
-
 const QuoteDate = () => {
     const [data, setData ] = useState(null);
     
@@ -29,7 +21,13 @@ const QuoteDate = () => {
   if (!data) {
     return <p>Loading...</p>;
   }
-  const {title, author, text} = data;
+
+  let filterQuote = data.filter(quote => {
+    return quote.monthIndex === monthNumber && quote.date === monthDate;
+});
+
+let quoteOfTheDay = filterQuote[0];
+let {title, author, text, quote} = quoteOfTheDay;
   return (
     <>
     <div className="quote-container">
