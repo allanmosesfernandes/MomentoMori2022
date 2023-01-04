@@ -11,3 +11,15 @@
 .about__date {
     font-size: 1.3rem;
 }
+
+
+.pronounce {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+.pronounce-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    width: 30px;
+}
