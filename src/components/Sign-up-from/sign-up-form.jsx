@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import FormInput from '../formInput/FormInput';
 import { createAuthUserEmailPassword, createUserDocFromAuth } from '../../utils/firebase.utils';
 const SignUpForm = () => {
 
@@ -40,6 +41,13 @@ const handleSubmit = async (event) => {
     <div>
         <h1>Sign up with your email and password!</h1>
         <form onSubmit={handleSubmit}>
+            <FormInput label="Display Name"
+                type="text" 
+                placeholder=''
+                value={displayName}
+                name="displayName"
+                onChange={handleChange} />
+
             <label>Display Name</label>
             <input 
                 type="text" 
