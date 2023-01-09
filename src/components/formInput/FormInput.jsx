@@ -1,9 +1,12 @@
 import './forminput.scss';
 import React from 'react'
 
-const FormInput = () => {
+const FormInput = ({label, otherInput}) => {
   return (
-    <div>FormInput</div>
+    <div>
+        <label>{label}</label>
+        <input {...otherInput} />
+    </div>
   )
 }
 
