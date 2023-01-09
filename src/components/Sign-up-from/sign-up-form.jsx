@@ -48,8 +48,8 @@ const handleSubmit = async (event) => {
                 name="displayName"
                 onChange={handleChange} />
 
-            <label>Display Name</label>
-            <input 
+            <FormInput 
+                label="email"
                 type="text" 
                 placeholder=''
                 value={displayName}
@@ -57,30 +57,19 @@ const handleSubmit = async (event) => {
                 onChange={handleChange}
             />
 
-            <label>Email</label>
-            <input 
-                type="email" 
-                placeholder=''
-                value={email}
-                name="email"
-                onChange={handleChange}
-            />
 
-            <label>Password</label>
-            <input 
-                 
+
+            <FormInput 
+                label="password"
                 type="password" 
-                placeholder='******'
                 value={password}
                 name="password"
                 onChange={handleChange}
             />
             
-            <label>Confirm Password</label>
-            <input 
-                 
+            <FormInput 
+                label="Confirm Password"
                 type="password" 
-                placeholder='******'
                 value={confirmPassword}
                 name="confirmPassword"
                 onChange={handleChange}
