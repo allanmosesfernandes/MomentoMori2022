@@ -67,7 +67,7 @@ export const createUserDocFromAuth = async (userAuth, additionalInformation = {}
         displayName,
         email,
         createdAt,
-        ...additionalInformation
+        ...additionalInformation,
       });
       
     } catch(error) {

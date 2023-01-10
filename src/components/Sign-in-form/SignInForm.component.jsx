@@ -36,10 +36,10 @@ const handleSubmit = async (event) => {
     try{
         const response = await userSignInEmailPassword(email, password);
         if(response) {
-            console.log(response)
-            //console.log(user);
+            const {user} = response;
+            const {email} = user;
             resetFormFields();
-            //toast.success(`Kaisa hai ${displayName} lavde`)
+            toast.success(`Welcome ${email} `)
         };
 
         console.log(response.user);
@@ -74,9 +74,9 @@ const handleSubmit = async (event) => {
 
   const logGoogleUser = async () => {
     const { user } = await signInWithGooglePopUp();
-    console.log(user);
+    const {displayName} = user;
     const userDocRef = await createUserDocFromAuth(user);
-    console.log("user signed in with google popup")
+    toast.success(`Welcome back ${displayName}`)
   }
 
   return (
