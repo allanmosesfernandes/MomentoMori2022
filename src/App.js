@@ -6,8 +6,7 @@ import Home from './routes/home';
 import React from 'react'
 import About from './routes/About';
 import FirstFold from './components/FirstFold/FirstFold';
-import SignIn from './routes/SignIn';
-
+import Auth from './routes/auth';
 const App = () => {
   return (
     
@@ -15,7 +14,7 @@ const App = () => {
     <Route path='/' element={<Header />}>
       <Route index element={<FirstFold />} />
       <Route path='/about' element={<About />} />
-      <Route path='/sign-in' element={<SignIn />} />
+      <Route path='/sign-in' element={<Auth />} />
     </Route>
    </Routes>
   )
