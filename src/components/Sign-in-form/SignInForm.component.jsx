@@ -5,6 +5,8 @@ import './sign-in-form.styles.scss'
 import { createUserDocFromAuth, userSignInEmailPassword, signInWithGooglePopUp } from '../../utils/firebase.utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
+  import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const SignInForm = () => {
 
 const defaultFormFields = {
@@ -25,6 +27,7 @@ const handleChange = (event) => {
 const resetFormFields = () => {
     setformFields(defaultFormFields)
 }
+
 //==Form Submit Handler ==//
 
 const handleSubmit = async (event) => {
@@ -32,11 +35,37 @@ const handleSubmit = async (event) => {
 
     try{
         const response = await userSignInEmailPassword(email, password);
-        if(response.user) resetFormFields();
+        if(response) {
+            console.log(response)
+            //console.log(user);
+            resetFormFields();
+            //toast.success(`Kaisa hai ${displayName} lavde`)
+        };
+
         console.log(response.user);
     }
     catch(error){
-        console.log(error);
+        let errorMessage = "";
+        console.log(error.message)
+        switch(error.code) {
+      
+            case "auth/user-not-found":
+                errorMessage = "We're sorry, but we couldn't find an account associated with that email address. Please double-check the email you entered and try again, or create a new account";
+                break;
+
+            case "auth/wrong-password":
+                errorMessage = "We're sorry, but the password you entered is incorrect. Please double-check your password and try again";
+                break;
+
+            case "auth/account-exists-with-different-credential":
+                errorMessage = "An account already exists with this email. Please sign in with that account or link the social account with that email address.";
+                break;
+
+            default:
+                errorMessage = "There was a problem creating your account. Please try again later";
+        }
+
+       toast.error(errorMessage);
     }
 
 }
@@ -45,6 +74,7 @@ const handleSubmit = async (event) => {
 
   const logGoogleUser = async () => {
     const { user } = await signInWithGooglePopUp();
+    console.log(user);
     const userDocRef = await createUserDocFromAuth(user);
     console.log("user signed in with google popup")
   }
@@ -57,20 +87,22 @@ const handleSubmit = async (event) => {
 
             <FormInput 
                 required
-                label="email"
-                type="text" 
+                label="Email"
+                type="email" 
                 placeholder=''
                 value={email}
                 name="email"
                 onChange={handleChange}
+                
             />
 
             <FormInput 
-                label="password"
+                label="Password"
                 type="password" 
                 value={password}
                 name="password"
                 onChange={handleChange}
+                required
             />
             <div className='button__container'>
                 <Button type="submit" buttonType="default">Sign In</Button>
@@ -78,8 +110,20 @@ const handleSubmit = async (event) => {
                 <button onClick={logGoogleUser} className="google-brand"> <FontAwesomeIcon icon={faGoogle} /></button>
                
             </div>
-
-        </form>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={4000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="light"
+                />
+    
+    </form>
     </div>
   )
 }
