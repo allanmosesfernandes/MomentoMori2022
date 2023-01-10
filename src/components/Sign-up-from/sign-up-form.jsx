@@ -54,8 +54,8 @@ const handleSubmit = async (event) => {
                 label="email"
                 type="text" 
                 placeholder=''
-                value={displayName}
-                name="displayName"
+                value={email}
+                name="email"
                 onChange={handleChange}
             />
 

@@ -10,14 +10,12 @@ google: "google-sign-in"
 
 
 const Button = ({buttonType,children, ...otherProps}) => {
+
   return (
-    <button className={`button-container ${buttonClasses[buttonType]}`} {...otherProps}>{children}</button>
+    <button className={`button-container ${buttonClasses[buttonType]}`} {...otherProps}>
+        {children}
+    </button>
   )
 }
 
 export default Button
-/* 
-    <button className={`button-container ${buttonClasses[buttonType]}`} {...otherProps}>
-      {children}
-    </button>
-  ) */
