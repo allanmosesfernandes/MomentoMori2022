@@ -1,5 +1,7 @@
 import { React, useState } from 'react';
 import FormInput from '../formInput/FormInput';
+import Button from '../Button/button.component';
+import './sign-up-form.styles.scss'
 import { createAuthUserEmailPassword, createUserDocFromAuth } from '../../utils/firebase.utils';
 const SignUpForm = () => {
 
@@ -38,7 +40,7 @@ const handleSubmit = async (event) => {
 
 }
   return (
-    <div>
+    <div className='sign-up-container'>
         <h1>Sign up with your email and password!</h1>
         <form onSubmit={handleSubmit}>
             <FormInput label="Display Name"
@@ -57,8 +59,6 @@ const handleSubmit = async (event) => {
                 onChange={handleChange}
             />
 
-
-
             <FormInput 
                 label="password"
                 type="password" 
@@ -74,8 +74,8 @@ const handleSubmit = async (event) => {
                 name="confirmPassword"
                 onChange={handleChange}
             />
-
-            <button type='submit'>Sign Up</button>
+            <Button type="submit" buttonType="default">Sign up</Button>
+            
         </form>
     </div>
   )

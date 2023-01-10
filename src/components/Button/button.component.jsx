@@ -1,10 +1,23 @@
 import React from 'react'
 import './buttonStyles.scss'
 
-const Button = () => {
+//Match these with the buttonType prop received
+const buttonClasses = {
+default: "",
+inverted: "inverted",
+google: "google-sign-in"
+}
+
+
+const Button = ({buttonType,children, ...otherProps}) => {
   return (
-    <button>Button</button>
+    <button className={`button-container ${buttonClasses[buttonType]}`} {...otherProps}>{children}</button>
   )
 }
 
 export default Button
+/* 
+    <button className={`button-container ${buttonClasses[buttonType]}`} {...otherProps}>
+      {children}
+    </button>
+  ) */
