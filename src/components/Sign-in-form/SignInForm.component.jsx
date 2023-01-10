@@ -3,7 +3,8 @@ import FormInput from '../formInput/FormInput';
 import Button from '../Button/button.component';
 import './sign-in-form.styles.scss'
 import { createUserDocFromAuth, userSignInEmailPassword, signInWithGooglePopUp } from '../../utils/firebase.utils';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 const SignInForm = () => {
 
 const defaultFormFields = {
@@ -30,9 +31,9 @@ const handleSubmit = async (event) => {
     event.preventDefault();
 
     try{
-        const {user} = await userSignInEmailPassword(email, password);
-        if(user) resetFormFields();
-        console.log(user);
+        const response = await userSignInEmailPassword(email, password);
+        if(response.user) resetFormFields();
+        console.log(response.user);
     }
     catch(error){
         console.log(error);
@@ -73,7 +74,9 @@ const handleSubmit = async (event) => {
             />
             <div className='button__container'>
                 <Button type="submit" buttonType="default">Sign In</Button>
-                <Button onClick={logGoogleUser} buttonType="google">Sign In With Google</Button>
+               {/*  <Button onClick={logGoogleUser} buttonType="google">Sign In With Google</Button> */}
+                <button onClick={logGoogleUser} className="google-brand"> <FontAwesomeIcon icon={faGoogle} /></button>
+               
             </div>
 
         </form>
