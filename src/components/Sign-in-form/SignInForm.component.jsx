@@ -41,8 +41,6 @@ const handleSubmit = async (event) => {
             resetFormFields();
             toast.success(`Welcome ${email} `)
         };
-
-        console.log(response.user);
     }
     catch(error){
         let errorMessage = "";
@@ -107,7 +105,7 @@ const handleSubmit = async (event) => {
             <div className='button__container'>
                 <Button type="submit" buttonType="default">Sign In</Button>
                {/*  <Button onClick={logGoogleUser} buttonType="google">Sign In With Google</Button> */}
-                <button onClick={logGoogleUser} className="google-brand"> <FontAwesomeIcon icon={faGoogle} /></button>
+                <button type="button" onClick={logGoogleUser} className="google-brand"> <FontAwesomeIcon icon={faGoogle} /></button>
                
             </div>
                 <ToastContainer

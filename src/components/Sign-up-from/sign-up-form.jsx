@@ -50,7 +50,7 @@ const handleSubmit = async (event) => {
 }
   return (
     <div className='sign-up-container'>
-        <h1>Sign up with your email and password!</h1>
+        <h2>Sign up with your email & password!</h2>
         <form onSubmit={handleSubmit}>
             <FormInput label="Display Name"
                 type="text" 
@@ -84,7 +84,6 @@ const handleSubmit = async (event) => {
                 onChange={handleChange}
             />
             <Button type="submit" buttonType="default">Sign up</Button>
-            
         </form>
     </div>
   )

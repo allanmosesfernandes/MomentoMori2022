@@ -6,7 +6,7 @@ import Home from './routes/home';
 import React from 'react'
 import About from './routes/About';
 import FirstFold from './components/FirstFold/FirstFold';
-import Auth from './routes/auth';
+import Auth from './routes/auth/auth';
 const App = () => {
   return (
     
