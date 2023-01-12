@@ -21,3 +21,15 @@ small {
     margin: 1rem 0;
     line-height: 1.5;
 }
+
+
+@media only screen and (max-width: 600px) {
+ .hide-mob-temp {
+    display: none;
+ }
+ .quote-container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0rem auto;
+ }
+}

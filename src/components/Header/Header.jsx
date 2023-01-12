@@ -21,7 +21,7 @@ const Header = () => {
             <Link className='nav-link' to="about">
                 <img className="skull-about" src={Skull} alt="skull logo" />
             </Link>
-            <Link className='nav-link' to='sign-in'>
+            <Link className='nav-link hide-mob-temp' to='sign-in'>
                  <img className="login-key " src={Key} alt="key logo" />
             </Link>
         </div>
