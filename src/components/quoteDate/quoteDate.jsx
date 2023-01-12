@@ -11,7 +11,7 @@ const QuoteDate = () => {
     
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('https://api.npoint.io/e3ada543b2f069a7948c');
+      const response = await fetch('https://api.npoint.io/0276e85a262fcefdbe7e');
       const json = await response.json();
       setData(json);
     }
