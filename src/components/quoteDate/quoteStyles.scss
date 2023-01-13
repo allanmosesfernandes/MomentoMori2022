@@ -21,7 +21,34 @@ small {
     margin: 1rem 0;
     line-height: 1.5;
 }
+.custom-shape-divider-bottom-1673554861 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1673555143 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1673555143 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1673555143 .shape-fill {
+    fill: #FFFFFF;
+}
 
 @media only screen and (max-width: 600px) {
  .hide-mob-temp {
