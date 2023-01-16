@@ -3,6 +3,7 @@ import  Header from './components/Header/Header'
 import Lodu from './routes/About';
 import { Routes, Route } from 'react-router-dom';
 import Home from './routes/home';
+import Shop from './components/Shop/Shop';
 import React from 'react'
 import About from './routes/About';
 import FirstFold from './components/FirstFold/FirstFold';
@@ -15,6 +16,7 @@ const App = () => {
       <Route index element={<FirstFold />} />
       <Route path='/about' element={<About />} />
       <Route path='/sign-in' element={<Auth />} />
+      <Route path='/shop' element={<Shop />} />
     </Route>
    </Routes>
   )
