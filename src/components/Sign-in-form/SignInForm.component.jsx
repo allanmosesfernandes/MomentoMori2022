@@ -80,7 +80,7 @@ const handleSubmit = async (event) => {
     console.log(user);
     const {displayName} = user;
     const userDocRef = await createUserDocFromAuth(user);
-    toast.success(`Welcome back ${displayName}`)
+    toast.success(`Welcome back ${displayName}`);
   }
 
   return (

@@ -40,8 +40,6 @@ const handleSubmit = async (event) => {
         const additionalData = {displayName}
         const response = await createUserDocFromAuth(user, additionalData);
         if(user) resetFormFields();
-        console.log(response);
-        
     }
     catch(error){
         console.log(error);

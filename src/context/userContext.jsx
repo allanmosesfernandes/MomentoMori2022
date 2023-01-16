@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { createContext } from "react";
 import { useState } from "react";
-import { onAuthStateChangedListener } from "../utils/firebase.utils";
+import { onAuthStateChangedListener, signOutUser } from "../utils/firebase.utils";
 
 
 export const UserContext = createContext({
@@ -15,9 +15,9 @@ export const UserProvider = ({children}) => {
     const value = {currentUser, setCurrentUser};
     
     // use effect to track and load authentication changes
-
     useEffect(() => {
         const unsubscribe = onAuthStateChangedListener((user) => {
+            setCurrentUser(user);
             console.log(user);
         })
         return unsubscribe;

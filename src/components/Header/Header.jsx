@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import Logo from '../../assets/images/skull_logo_2.png'
 import Home from '../../assets/images/home.svg'
 import Skull from '../../assets/images/about.svg'
-import Key from '../../assets/images/key.svg'
-import DarkModeToggle from '../../assets/images/moon.svg'
+import { UserContext } from '../../context/UserContext'
 import { Link, Outlet } from 'react-router-dom'
-import './header.scss';
 
+import './header.scss';
+import { signOutUser } from '../../utils/firebase.utils'
 const Header = () => {
+
+const { currentUser } = useContext(UserContext);
 
   return (
     <>
@@ -21,14 +23,15 @@ const Header = () => {
             <Link className='nav-link' to="about">
                 About
             </Link>
-            <Link className='nav-link hide-mob-temp' to='sign-in'>
-                Sign in
-            </Link>
+
+            {
+                currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='nav-link' to='/sign-in'> Sign In </Link>)
+            }
+ 
         </div>
     </nav>
     <Outlet />
     </>
-
   )
 }
 
