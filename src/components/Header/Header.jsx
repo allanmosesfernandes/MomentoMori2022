@@ -23,9 +23,9 @@ const { currentUser } = useContext(UserContext);
             <Link className='nav-link' to="about">
                 About
             </Link>
-            
+
             {
-                currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='nav-link' to='/sign-in'> Sign In </Link>)
+                currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='hide-for-now nav-link' to='/sign-in'> Sign In </Link>)
             }
  
         </div>

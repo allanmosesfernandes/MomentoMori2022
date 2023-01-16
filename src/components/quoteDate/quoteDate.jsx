@@ -36,7 +36,7 @@ let {title, author, text, quote} = quoteOfTheDay;
             <p>{title}</p>
         </div>
         <div className="quote-body">
-            <p>{quote}</p>
+            <p className='quote-highlight'>{quote}</p>
             <small>- {author}</small>
             <p className='quote-subtext'>
                 {text}
