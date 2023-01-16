@@ -32,8 +32,11 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize the provider
 const provider = new GoogleAuthProvider();
+provider.addScope('https://www.googleapis.com/auth/userinfo.profile');
+provider.addScope('https://www.googleapis.com/auth/userinfo.email');
 provider.setCustomParameters({
-    prompt: "select_account"
+    prompt: "select_account",
+    scope: 'profile email'
 })
 
 //Initialize auth 

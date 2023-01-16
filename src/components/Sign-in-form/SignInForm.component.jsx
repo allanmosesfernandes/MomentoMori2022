@@ -71,7 +71,13 @@ const handleSubmit = async (event) => {
 //==Form Submit Handler ==//
 
   const logGoogleUser = async () => {
+   
     const { user } = await signInWithGooglePopUp();
+    console.log(user.additionalUserInfo);
+
+//     const {dateOfBirth} = user.additionalUserInfo;
+// console.log(dateOfBirth);
+    console.log(user);
     const {displayName} = user;
     const userDocRef = await createUserDocFromAuth(user);
     toast.success(`Welcome back ${displayName}`)
