@@ -43,7 +43,8 @@ $main-color: black;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
-    left: 5px;
+    position: absolute;
+    left: 10px;
     top: 10px;
     transition: 300ms ease all;
 

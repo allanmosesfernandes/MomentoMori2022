@@ -14,15 +14,15 @@ const Header = () => {
         <nav>
         <div className="logo">
             <Link to="/">
-                <img src={Logo} className="logo-image" alt='website logo'/>
+                <img className="skull-about" src={Skull} alt='website logo'/>
             </Link>
         </div>
         <div className="nav-links">
             <Link className='nav-link' to="about">
-                <img className="skull-about" src={Skull} alt="skull logo" />
+                About
             </Link>
             <Link className='nav-link hide-mob-temp' to='sign-in'>
-                 <img className="login-key " src={Key} alt="key logo" />
+                Sign in
             </Link>
         </div>
     </nav>
