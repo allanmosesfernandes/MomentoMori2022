@@ -1,0 +1,61 @@
+footer {
+
+    padding: 1rem 1rem;
+    text-align: center;
+    width: 90%;
+    margin: 5rem auto 1rem auto;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+
+    a {
+        color: inherit;
+        border-bottom: 3px solid var(--body-neon);
+        text-decoration: none;
+    }
+
+    h4 {
+        margin: 2rem 0;
+    }
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+
+    img {
+        width: 250px;
+    }
+}
+
+.footer-right {
+    text-align: right;
+}
+
+#root {
+    position: relative;
+}
+
+.copyright {
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}

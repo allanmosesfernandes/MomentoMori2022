@@ -4,7 +4,7 @@ import Home from '../../assets/images/home.svg'
 import Skull from '../../assets/images/about.svg'
 import { UserContext } from '../../context/UserContext'
 import { Link, Outlet } from 'react-router-dom'
-
+import Footer from '../Footer/Footer.component'
 import './header.scss';
 import { signOutUser } from '../../utils/firebase.utils'
 const Header = () => {
@@ -31,6 +31,7 @@ const { currentUser } = useContext(UserContext);
         </div>
     </nav>
     <Outlet />
+    <Footer />
     </>
   )
 }

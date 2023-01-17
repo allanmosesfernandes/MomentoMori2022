@@ -2,16 +2,13 @@
     margin: 1rem;
     padding: 1rem;
     border: 13px solid var(--body-neon);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
 }
 
-.die {
-   border-bottom: 3px solid var(--body-neon);
+.header-text {
+    font-family: "Cinzel", serif;
 }
-
-.about__date {
-    font-size: 1.3rem;
-}
-
 
 .pronounce {
     display: flex;

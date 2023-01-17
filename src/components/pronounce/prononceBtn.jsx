@@ -7,9 +7,8 @@ const PronounceButton = ({ word }) => {
     synth.speak(utterance);
   };
 
-  return <img src={PronunceIcon} class="pronounce-icon" alt="speech icon" onClick={handleClick} />
+  return <img src={PronunceIcon} className="pronounce-icon" alt="speech icon" onClick={handleClick} />
 };
 
 export default PronounceButton;
 
-{/* <button onClick={handleClick}>Pronounce</button>; */}

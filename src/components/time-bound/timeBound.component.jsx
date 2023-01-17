@@ -6,7 +6,7 @@ const TimeBound = () => {
 
 //== get current date 
   return (
-    <div className="quote-container">TimeBound</div>
+    <div className="quote-container"></div>
   )
 }
 
