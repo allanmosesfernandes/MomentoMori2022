@@ -45,3 +45,10 @@
 .Toastify {
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+  .about__container {
+    font-size: 1.2rem;
+  }
+}

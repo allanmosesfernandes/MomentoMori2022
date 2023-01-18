@@ -44,7 +44,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .footer-container {
-        grid-template-columns: 1fr 1fr;
+        
+        display: flex;
+        flex-direction: column;
 
         img {
             width: 100px;
@@ -53,9 +55,15 @@ footer {
 
     footer {
         font-size: 1rem;
+        width: 100%;
+        padding: 1rem;
     }
 
     .copyright {
         font-size: 14px;
+    }
+    
+    .footer-right {
+        margin-top: -25px;
     }
 }

@@ -5,13 +5,15 @@ nav {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    font-family: "Cinzel", serif;
     font-size: 1.6rem;
     max-width: 95%;
     justify-content: center;
     margin: auto;
+
     .nav-links {
         margin-left: auto;
-    
+
         ul {
             display: flex;
             gap: 2rem;
@@ -45,6 +47,7 @@ nav {
     .nav-link {
         cursor: pointer;
     }
+
     a {
         text-decoration: none;
         color: #fff;
@@ -71,3 +74,4 @@ nav {
     }
 
 }
+

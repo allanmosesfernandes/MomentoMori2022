@@ -3,12 +3,14 @@
     border-bottom: 5px double white;
     font-family: 'Cinzel', serif;
     text-align: center;
-
+    background: #00000078;
     h4 {
         padding: 1rem 0;
     }
 }
-
+.quote-highlight {
+    background: #00000078;
+}
 .quote-container {
     width: 80%;
     display: flex;
@@ -16,11 +18,16 @@
     margin: 2rem auto;
     padding: 1rem;
     text-align: center;
+
 }
 
 .quote-body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
+        background-image: url(https://cdn.discordapp.com/ephemeral-attachments/1008571057562714113/1065032862136549376/grid_0.webp);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 small {
@@ -32,6 +39,7 @@ small {
     margin: 2rem 0;
     line-height: 1.5;
     font-size: 2rem;
+    background: #00000078;
 
     a {
         color: inherit;
@@ -82,5 +90,9 @@ small {
         font-size: 1.4rem;
         text-align: center;
         margin: 0;
+    }
+
+    .quote-body {
+        background-size: 100%;
     }
 }
