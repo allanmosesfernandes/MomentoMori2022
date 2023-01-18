@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="footer-right">
       
-      <p>Created with 🤍 by <a href="https://allanfernandes.dev/">allan moses fernandes</a></p>
+      <p>Created by <a href="https://allanfernandes.dev/">allan moses fernandes</a></p>
       </div>
       </div>
         <p className='copyright'>Copyright ©  {year} </p>
