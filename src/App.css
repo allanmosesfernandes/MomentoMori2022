@@ -5,9 +5,9 @@
 }
 
 body {
-    background-color: var(--app-bg);
+    background-color: #fff;
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 *,
