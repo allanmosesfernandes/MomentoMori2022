@@ -9,9 +9,12 @@ import Footer from '../Footer/Footer.component'
 import './header.scss';
 import CartIcon from '../cart-icon/cart-icon.component';
 import { signOutUser } from '../../utils/firebase.utils';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component'
-const Header = () => {
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
+import { CartContext } from '../../context/CartContext';
+
+const Header = () => {
+const {isCartOpen} = useContext(CartContext);
 const { currentUser } = useContext(UserContext);
 
   return (
@@ -39,7 +42,7 @@ const { currentUser } = useContext(UserContext);
             {
                 currentUser ? <CartIcon /> : null
             }
-            <CartDropdown />
+            {isCartOpen && <CartDropdown />}
 
         </div>
         
