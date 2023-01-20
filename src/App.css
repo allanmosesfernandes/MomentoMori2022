@@ -2,6 +2,7 @@
 :root {
   --app-bg: #010101;
   --body-neon: #96cf48;
+  --test-bg: #fff;
 }
 
 body {
