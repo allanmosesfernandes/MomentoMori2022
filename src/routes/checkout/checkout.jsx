@@ -5,10 +5,7 @@ import CheckoutItems from './checkout-items.component';
 import '../checkout/checkout-items.styles.scss'
 const Checkout = () => {
 
-const {cartDropDownItems, addProductToDropDown} = useContext(CartContext);
-
-
-console.log(cartDropDownItems);
+const {cartDropDownItems, addProductToDropDown,removeProductFromDropDown} = useContext(CartContext);
 
     return (
 
@@ -18,7 +15,7 @@ console.log(cartDropDownItems);
                 const {name,quantity, price} = item;
                 return <div className="checkout-item" key={item.id}>
                         <h2>{name}</h2>
-                        
+                        <button onClick={() => removeProductFromDropDown(item)}> - </button>
                         <p>{quantity}</p>
                         <button onClick={() => addProductToDropDown(item)}> + </button>
                         <p>{price}</p>

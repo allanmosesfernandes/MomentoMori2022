@@ -19,12 +19,28 @@ const addProductToDropDownHelperFn = (cartDropDownItems, productToAdd) => {
     return [...cartDropDownItems, {...productToAdd, quantity:1}]
 }
 
+//=====Remove Product From DropDown==========//
+const removeProductFromDropDownHelperFn = (cartDropDownItems, productToRemove) => {
+
+    //==Check for the exact Item we need to remove ==//
+    const exactItem = cartDropDownItems.find(item => item.id === productToRemove.id);
+
+    //== Check if quantity is equal to one, if yes remove from array
+
+    if(exactItem.quantity === 1) {
+        return cartDropDownItems.filter(item => item.id !== exactItem.id);
+    }
+
+    return cartDropDownItems.map(item => item.id === productToRemove.id ? {...item, quantity: item.quantity - 1} : item)
+}
+
 export const CartContext = createContext({
     isCartOpen: false,
     setCartOpen: () => {},
     cartDropDownItems: [],
     addProductToDropDown: () => {},
-    cartCount: 0
+    cartCount: 0,
+    removeProductFromDropDown: () => {}
 })
 
 
@@ -43,6 +59,17 @@ export const CartContextProvider = ({children}) => {
         setCartDropDownItems(addProductToDropDownHelperFn(cartDropDownItems, product))
     }
     
-    const value = {isCartOpen,setCartOpen,addProductToDropDown,cartDropDownItems, cartCount}
+    const removeProductFromDropDown = (product) => {
+        setCartDropDownItems(removeProductFromDropDownHelperFn(cartDropDownItems, product))
+    }
+    
+    const value = {
+        isCartOpen,
+        setCartOpen,
+        addProductToDropDown,
+        removeProductFromDropDown,
+        cartDropDownItems,
+        cartCount,
+    }
     return <CartContext.Provider value={value}>{children}</CartContext.Provider>
 }
