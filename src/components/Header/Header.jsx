@@ -29,7 +29,7 @@ const { currentUser } = useContext(UserContext);
             <Link className='nav-link' to="about">
                 About
             </Link>
-            <Link className='nav-link' to="shop">
+{/*             <Link className='nav-link' to="shop">
                Shop
             </Link>
 
@@ -41,7 +41,7 @@ const { currentUser } = useContext(UserContext);
             
             {
                 currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='hide-for-now nav-link' to='/sign-in'> Sign In </Link>)
-            } 
+            }  */}
  
         </div>
         
