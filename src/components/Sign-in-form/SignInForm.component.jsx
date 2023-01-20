@@ -5,14 +5,20 @@ import './sign-in-form.styles.scss'
 import { createUserDocFromAuth, userSignInEmailPassword, signInWithGooglePopUp } from '../../utils/firebase.utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
-  import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
+
+
 const SignInForm = () => {
 
 const defaultFormFields = {
     email: "",
     password: "",
 }
+
+const navigate = useNavigate();
+const goHome = () => navigate('/');
 
 const [formFields, setformFields] = useState(defaultFormFields);
 const {email, password} = formFields;
@@ -39,7 +45,8 @@ const handleSubmit = async (event) => {
             const {user} = response;
             const {email} = user;
             resetFormFields();
-            toast.success(`Welcome ${email} `)
+            toast.success(`Welcome ${email} `);
+            goHome();
         };
     }
     catch(error){
@@ -80,7 +87,9 @@ const handleSubmit = async (event) => {
     console.log(user);
     const {displayName} = user;
     const userDocRef = await createUserDocFromAuth(user);
-    toast.success(`Welcome back ${displayName}`);
+    
+    goHome();
+    toast.success(`Welcome back ${displayName}`);toast.success(`Welcome back ${displayName}`);
   }
 
   return (

@@ -19,7 +19,7 @@ const QuoteDate = () => {
   }, []);
 
   if (!data) {
-    return <span class="loader"></span>;
+    return <span className="loader"></span>;
   }
 
   let filterQuote = data.filter(quote => {
