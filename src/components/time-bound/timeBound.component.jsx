@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import PieChart from '../PieChart/piechart'
-
+import TodayTimeBlock from '../TimeComponents/today/TodayTimeBlock'
 const TimeBound = () => {
 
 //== Set State for days, weeks, 
@@ -54,7 +54,8 @@ const [chartData, setChartData] = useState({
       {/* <h2>{timePassed.days} days / 365 have passed since the year began</h2>
       <h2>{timePassed.weeks} weeks  / 52 have passed since the year began</h2> */}
       <div>
-        <PieChart chartData={chartData} />
+        {/* <PieChart chartData={chartData} /> */}
+        <TodayTimeBlock />
       </div>
    
     </div>
