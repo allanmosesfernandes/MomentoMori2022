@@ -28,6 +28,7 @@ const QuoteDate = () => {
 
 let quoteOfTheDay = filterQuote[0];
 let {title, author, text, quote} = quoteOfTheDay;
+// const textBlock = text.replace("\n", "<br>")
   return (
     <>
     <div className="quote-container">

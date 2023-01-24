@@ -46,35 +46,6 @@ small {
     }
 }
 
-.custom-shape-divider-bottom-1673554861 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1673555143 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1673555143 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-bottom-1673555143 .shape-fill {
-    fill: #FFFFFF;
-}
-
 @media only screen and (max-width: 600px) {
     .hide-mob-temp {
         display: none;
@@ -87,8 +58,7 @@ small {
     }
 
     .quote-subtext {
-        font-size: 1.4rem;
-        text-align: center;
+        font-size: 1.2rem;
         margin: 0;
     }
 
@@ -96,3 +66,7 @@ small {
         background-size: 100%;
     }
 }
+
+// .quote-subtext {
+//   white-space: pre-line;
+// }

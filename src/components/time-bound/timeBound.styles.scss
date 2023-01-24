@@ -1,0 +1,13 @@
+.time-clocks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+  .time-clocks-container {
+    grid-template-columns: 1fr;
+    margin: 5rem 1rem;
+}
+
+}

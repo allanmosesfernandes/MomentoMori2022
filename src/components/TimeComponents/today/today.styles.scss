@@ -1,9 +1,34 @@
 .today__time--container {
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
     background-color: #333333;
     border-radius: 25px;
     padding: 19px;
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+.today__time--container-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.today__time--container-hour {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+    .today__time--container-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.today__time--container-hour {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
 }

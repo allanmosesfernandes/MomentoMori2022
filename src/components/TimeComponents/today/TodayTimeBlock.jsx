@@ -19,6 +19,7 @@ return (
 
             value={currentHour} 
             maxValue={24} 
+            strokeWidth={15}
             styles={buildStyles({
                 // Rotation of path and trail, in number of turns (0-1)
                 rotation: 0.25,
@@ -39,14 +40,14 @@ return (
                 pathColor: "#96cf48",
                 textColor: '#fff',
                 trailColor: '#fff',
-                backgroundColor: '#3e98c7',
+                backgroundColor: '#3e98c7'
         })}
         />
         </div>
 
         <p className='today__time--container-header'>Today</p>
         <p className='today__time--container-hour'>{ `${currentHour} / 24 h Passed`} </p>
-        <p className='today__time--container-hour'>{percentage} <span> %</span></p>
+        <p className='today__time--container-header '>{percentage} <span> %</span></p>
     </div>
   )
 }
