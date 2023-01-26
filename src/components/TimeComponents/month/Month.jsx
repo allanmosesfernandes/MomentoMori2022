@@ -42,22 +42,10 @@ const Month = () => {
             maxValue={totalDays} 
             strokeWidth={15}
             styles={buildStyles({
-                // Rotation of path and trail, in number of turns (0-1)
                 rotation: 0.25,
-
-                // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
                 strokeLinecap: 'round',
-
-                // Text size
                 textSize: '16px',
-
-                // How long animation takes to go from one percentage to another, in seconds
                 pathTransitionDuration: 0.5,
-
-                // Can specify path transition in more detail, or remove it entirely
-                // pathTransition: 'none',
-
-                // Colors
                 pathColor: "#fff",
                 textColor: '#C1C1C1',
                 trailColor: '#45A4AB',
@@ -65,17 +53,17 @@ const Month = () => {
         />
         </div>
         <p className="month__name">{monthName}</p>
-        <p>
+        <p className='today__time--container-hour'>
           {todaysDate}/{totalDays} . Passed
         </p>
-        <p>
-          {MonthPercent} %
+        <p className='month__name'>
+          {MonthPercent}<span className='no-stylist'> %</span>
         </p>
+
+      </div>
         <div className="month-block-right">
           <Calendar />
         </div>
-      </div>
-
        
     </div>
   )

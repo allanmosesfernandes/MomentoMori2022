@@ -1,19 +1,106 @@
 .time-clocks-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+abbr {
+  text-decoration: none;
+  color: #000;
 }
 
 .month-block-container {
-    background-color: #178E96;
-    border-radius: 25px;
-    padding: 19px;
+  background-color: #178E96;
+  border-radius: 25px;
+  padding: 19px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: "droid-sans-mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+
 }
+
+.month__name {
+  font-size: 2rem;
+}
+
+.month-block-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-block-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .react-calendar {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+  }
+
+
+
+  span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .react-calendar__tile--now {
+
+    background: none;
+    border: 2px dashed #178E96 !important;
+    border-radius: 20px;
+    
+    abbr {
+      font-weight: bold;
+    }
+  }
+
+  .react-calendar__month-view__weekdays {
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .react-calendar button {
+    margin: 0;
+    border: 0;
+    outline: none;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+//--- Calendar Styles ---//
+
+
 @media only screen and (max-width: 600px) {
+
   //code goes here
   .time-clocks-container {
     grid-template-columns: 1fr;
     margin: 5rem 1rem;
-}
+  }
 
+  .month-block-container {
+    grid-template-columns: 1fr;
+    padding: 30px 19px;
+
+  }
+
+  .month__name {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
 }

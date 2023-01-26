@@ -47,7 +47,7 @@ return (
 
         <p className='today__time--container-header'>Today</p>
         <p className='today__time--container-hour'>{ `${currentHour} / 24 h Passed`} </p>
-        <p className='today__time--container-header '>{percentage} <span> %</span></p>
+        <p className='today__time--container-header '>{percentage}&nbsp;<span className='no-stylist'>%</span></p>
     </div>
   )
 }
