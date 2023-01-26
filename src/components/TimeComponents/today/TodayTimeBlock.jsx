@@ -16,7 +16,7 @@ return (
     <div className='today__time--container'>
         <div style={{ width: 100, height: 100 }}>
          <CircularProgressbar 
-
+            counterClockwise
             value={currentHour} 
             maxValue={24} 
             strokeWidth={15}

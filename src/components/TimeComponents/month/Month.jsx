@@ -2,7 +2,6 @@ import React from 'react'
 // Import react-circular-progressbar module and styles
 import {
   CircularProgressbar,
-  CircularProgressbarWithChildren,
   buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -34,10 +33,11 @@ const MonthPercent = Math.floor((todaysDate * 100) / totalDays);
 
 const Month = () => {
   return (
-    <div>
+    <div className='month-block-container'>
+      <div className="month-block-left">
         <div style={{ width: 100, height: 100 }}>
          <CircularProgressbar 
-
+            counterClockwise
             value={todaysDate} 
             maxValue={totalDays} 
             strokeWidth={15}
@@ -58,10 +58,9 @@ const Month = () => {
                 // pathTransition: 'none',
 
                 // Colors
-                pathColor: "#96cf48",
-                textColor: '#fff',
-                trailColor: '#fff',
-                backgroundColor: '#3e98c7'
+                pathColor: "#fff",
+                textColor: '#C1C1C1',
+                trailColor: '#45A4AB',
         })}
         />
         </div>
@@ -72,7 +71,12 @@ const Month = () => {
         <p>
           {MonthPercent} %
         </p>
-        <Calendar />
+        <div className="month-block-right">
+          <Calendar />
+        </div>
+      </div>
+
+       
     </div>
   )
 }

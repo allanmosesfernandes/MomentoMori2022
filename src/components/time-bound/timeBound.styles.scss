@@ -1,8 +1,14 @@
 .time-clocks-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
 }
 
+.month-block-container {
+    background-color: #178E96;
+    border-radius: 25px;
+    padding: 19px;
+}
 @media only screen and (max-width: 600px) {
   //code goes here
   .time-clocks-container {
