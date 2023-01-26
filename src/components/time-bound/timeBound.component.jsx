@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import PieChart from '../PieChart/piechart'
 import './timeBound.styles.scss';
-import TodayTimeBlock from '../TimeComponents/today/TodayTimeBlock'
+import TodayTimeBlock from '../TimeComponents/today/TodayTimeBlock';
+import Month from '../TimeComponents/month/Month';
 const TimeBound = () => {
 
 //== Set State for days, weeks, 
@@ -57,6 +58,7 @@ const [chartData, setChartData] = useState({
       <div className='time-clocks-container'>
         {/* <PieChart chartData={chartData} /> */}
         <TodayTimeBlock />
+        <Month />
       </div>
    
     </div>
