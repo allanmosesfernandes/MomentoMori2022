@@ -16,13 +16,13 @@ return (
     <div className='today__time--container'>
         <div style={{ width: 100, height: 100 }}>
          <CircularProgressbar 
-            counterClockwise
+          
             value={currentHour} 
             maxValue={24} 
             strokeWidth={15}
             styles={buildStyles({
                 // Rotation of path and trail, in number of turns (0-1)
-                rotation: 0.25,
+                rotation: 0,
 
                 // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
                 strokeLinecap: 'round',

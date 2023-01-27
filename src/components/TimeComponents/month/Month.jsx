@@ -37,12 +37,10 @@ const Month = () => {
       <div className="month-block-left">
         <div style={{ width: 100, height: 100 }}>
          <CircularProgressbar 
-            counterClockwise
             value={todaysDate} 
             maxValue={totalDays} 
             strokeWidth={15}
             styles={buildStyles({
-                rotation: 0.25,
                 strokeLinecap: 'round',
                 textSize: '16px',
                 pathTransitionDuration: 0.5,

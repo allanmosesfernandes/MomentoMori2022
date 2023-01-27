@@ -3,6 +3,7 @@ import PieChart from '../PieChart/piechart'
 import './timeBound.styles.scss';
 import TodayTimeBlock from '../TimeComponents/today/TodayTimeBlock';
 import Month from '../TimeComponents/month/Month';
+import YearProgress from '../TimeComponents/yearProgress/YearProgress';
 const TimeBound = () => {
 
 //== Set State for days, weeks, 
@@ -58,6 +59,7 @@ const [chartData, setChartData] = useState({
       <div className='time-clocks-container'>
         {/* <PieChart chartData={chartData} /> */}
         <TodayTimeBlock />
+        <YearProgress />
         <Month />
       </div>
    
