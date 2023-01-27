@@ -31,7 +31,7 @@ let {title, author, text, quote} = quoteOfTheDay;
 // const textBlock = text.replace("\n", "<br>")
   return (
     <>
-    <div className="quote-container">
+    <div className="quote-container first-fold">
         <div className='date-container'>
             <h2>{`${monthName}, ${monthDate}`}</h2>
             <p>{title}</p>

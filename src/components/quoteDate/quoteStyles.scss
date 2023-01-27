@@ -12,7 +12,7 @@
     background: #00000078;
 }
 .quote-container {
-    width: 90%;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     margin: 2rem auto;
@@ -28,6 +28,7 @@
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat; 
+    height: 100%;
 }
 
 small {
