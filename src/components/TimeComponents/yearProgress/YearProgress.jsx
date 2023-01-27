@@ -26,7 +26,7 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
 
   return (
     <div className='year-block-container'>
-    <div style={{ width: 100, height: 100, margin: "auto" }}>
+    <div style={{ width: 100, height: 100}}>
         <CircularProgressbar 
             value={daysPassed} 
             maxValue={totalDays} 
