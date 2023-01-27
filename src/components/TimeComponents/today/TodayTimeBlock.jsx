@@ -14,7 +14,7 @@ const percentage = Math.floor((currentHour * 100) / 24);
 
 return (
     <div className='today__time--container'>
-        <div style={{ width: 100, height: 100 }}>
+        <div className="arrow" style={{ width: 100, height: 100 }}>
          <CircularProgressbar 
           
             value={currentHour} 
@@ -25,7 +25,7 @@ return (
                 rotation: 0,
 
                 // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
-                strokeLinecap: 'round',
+                strokeLinecap: "butt",
 
                 // Text size
                 textSize: '16px',
@@ -42,6 +42,7 @@ return (
                 trailColor: '#fff',
                 backgroundColor: '#3e98c7'
         })}
+        
         />
         </div>
 
