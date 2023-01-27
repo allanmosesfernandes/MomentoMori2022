@@ -59,8 +59,9 @@ const [chartData, setChartData] = useState({
       <div className='time-clocks-container'>
         {/* <PieChart chartData={chartData} /> */}
         <TodayTimeBlock />
-        <YearProgress />
         <Month />
+        <YearProgress />
+
       </div>
    
     </div>
