@@ -37,7 +37,7 @@ return (
                 // pathTransition: 'none',
 
                 // Colors
-                pathColor: "#96cf48",
+                pathColor: "#F7F02B",
                 textColor: '#fff',
                 trailColor: '#fff',
                 backgroundColor: '#3e98c7'
