@@ -6,11 +6,11 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const UserLife = () => {
 
-      const [userBirthDate, setUserBirthDate] = useState({});
+    const [userBirthDate, setUserBirthDate] = useState({});
+    console.log(userBirthDate);
 
     const userBirthInput = (event) => {
         let userBirthDate = event.target.value;
-
         let userYear = Number(userBirthDate.split("-")[0]);
         let userMonth = Number(userBirthDate.split("-")[1]);
         let userDay = Number(userBirthDate.split("-")[2]);
@@ -28,17 +28,28 @@ const UserLife = () => {
 
         setUserBirthDate({
           years: differenceInYears,
-          months: differenceInMonths,
-          days: differenceInDays
+          months: Math.floor(differenceInMonths % 12),
+          days: Math.floor(differenceInDays % 30.44)
         })
     }
   return (
     <div className='quote-container user-life-component'>
       <div className="user-date-container">
-         <input 
+        <input 
          type="date" 
          placeholder='YYYY / MM / DD'
          onChange={userBirthInput}/>
+
+         {
+    Object.keys(userBirthDate).length !== 0 ? (
+       (
+        <div>
+          you are {userBirthDate.years} years old
+        </div>
+      )
+    ) : null
+  }
+
       </div>
       
     </div>
