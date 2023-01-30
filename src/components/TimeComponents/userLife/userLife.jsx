@@ -15,7 +15,10 @@ const UserLife = () => {
         let userMonth = Number(userBirthDate.split("-")[1]);
         let userDay = Number(userBirthDate.split("-")[2]);
         let userBirthTime = new Date(`${userYear},${userMonth},${userDay}`);
-        console.log(userBirthTime)
+        let monthName = userBirthTime.toDateString().split(" ")[1];
+        console.log(monthName);
+
+
         //===Current Day ===//
         let currentDayinMilliSeconds = new Date();
         let differenceInMilliSeconds = currentDayinMilliSeconds - userBirthTime;
@@ -36,7 +39,20 @@ const UserLife = () => {
         })
     }
     const { years, months, days,birthYear, birthMonth,birthDate } = userBirthDate;
-
+      const CalendarMonths = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ];
   return (
     <div className='quote-container user-life-component'>
       <div className="user-date-container">
@@ -57,7 +73,7 @@ const UserLife = () => {
             <div className="img-block">sdsd</div>
             <div className="user-life-birthday">
               <p>Your Life,</p>
-              <p>{`${birthMonth} ${birthDate} , ${birthYear}`}</p>
+              <p>{`${CalendarMonths[birthMonth - 1]} ${birthDate} , ${birthYear}`}</p>
             </div>
             <div className="user-age">
               {years} years
