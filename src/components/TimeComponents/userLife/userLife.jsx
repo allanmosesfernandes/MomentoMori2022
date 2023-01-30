@@ -15,7 +15,7 @@ const UserLife = () => {
         let userMonth = Number(userBirthDate.split("-")[1]);
         let userDay = Number(userBirthDate.split("-")[2]);
         let userBirthTime = new Date(`${userYear},${userMonth},${userDay}`);
-        
+        console.log(userBirthTime)
         //===Current Day ===//
         let currentDayinMilliSeconds = new Date();
         let differenceInMilliSeconds = currentDayinMilliSeconds - userBirthTime;
@@ -29,28 +29,46 @@ const UserLife = () => {
         setUserBirthDate({
           years: differenceInYears,
           months: Math.floor(differenceInMonths % 12),
-          days: Math.floor(differenceInDays % 30.44)
+          days: Math.floor(differenceInDays % 30.44),
+          birthYear: userYear,
+          birthMonth: userMonth,
+          birthDate: userDay
         })
     }
+    const { years, months, days,birthYear, birthMonth,birthDate } = userBirthDate;
+
   return (
     <div className='quote-container user-life-component'>
       <div className="user-date-container">
+        <span> BIRTHDAY</span>
         <input 
          type="date" 
          placeholder='YYYY / MM / DD'
-         onChange={userBirthInput}/>
-
+         onChange={userBirthInput}
+         />
+        </div>
+        {/* When user inputs his date display block */}
          {
     Object.keys(userBirthDate).length !== 0 ? (
        (
-        <div>
-          you are {userBirthDate.years} years old
+        
+        <div className='user-life-card'>
+          <div className="user-life-card-title">
+            <div className="img-block">sdsd</div>
+            <div className="user-life-birthday">
+              <p>Your Life,</p>
+              <p>{`${birthMonth} ${birthDate} , ${birthYear}`}</p>
+            </div>
+            <div className="user-age">
+              {years} years
+            </div>
+          </div>
+          
         </div>
       )
     ) : null
   }
 
-      </div>
       
     </div>
   )

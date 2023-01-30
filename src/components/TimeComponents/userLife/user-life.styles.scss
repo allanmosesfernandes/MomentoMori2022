@@ -1,0 +1,25 @@
+.user-life-component {
+    color: black;
+    background-color: white;
+    input[type="date"] {
+        margin-left: 12px;
+        border-left: 2px solid blue;
+        padding-left: 10px;
+        font-family: "droid-sans-mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+}
+
+.user-date-container {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    border: 2px solid blue;
+    align-items: center;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
