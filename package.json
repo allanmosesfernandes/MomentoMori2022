@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "certbot": "^5.0.3",
     "chart.js": "^4.2.0",
     "firebase": "^9.15.0",
     "react": "^18.2.0",
@@ -22,6 +23,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.1",
     "sass": "^1.57.1",
+    "update": "^0.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -49,6 +51,6 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^12.7.2"
+    "netlify-cli": "^12.10.0"
   }
 }
