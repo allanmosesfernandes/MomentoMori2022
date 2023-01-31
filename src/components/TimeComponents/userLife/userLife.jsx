@@ -73,12 +73,13 @@ const UserLife = () => {
          onChange={userBirthInput}
          onClick={openDatePicker}
          max={dateValidation}
+         required
          />
 
         </div>
         {/* When user inputs his DOB display block */}
          {
-    Object.keys(userBirthDate).length !== 0 ? (
+        (Object.keys(userBirthDate).length !== 0) && (userBirthDate.years !== "NaN") ? (
        (
         
         <div className='user-life-card'>
@@ -86,12 +87,12 @@ const UserLife = () => {
              <img src={Skull} alt="user skull" className='user-life-skull'/>
               <div className="skully-text">
               <p>Your Life,</p>
-              <p>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
+              <p className='large-txt'>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
               </div>
             </div>
 
             <div className="user-age">
-              <p><strong>{years}</strong></p>
+              <p className='large-txt'>{years}</p>
               <p>
                 Years old
               </p>
@@ -99,13 +100,14 @@ const UserLife = () => {
 
             <div className="img-block">
               <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/>
-               <div className="skully-text">
-                <p><strong>{totaldays}</strong> Days </p> 
+               <div className="skully-text inline">
+                <p className='large-txt'>{totaldays} </p>
+                <p>Days </p> 
                </div>
             </div>
 
             <div className="user-age">
-              <p><strong>{totalMonths}</strong></p>
+              <p className='large-txt'>{totalMonths}</p>
               <p> Months </p>
             </div>
           </div>
