@@ -3,8 +3,10 @@ import { useState } from 'react';
 import './user-life.styles.scss';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSkull } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSkull } from '@fortawesome/free-solid-svg-icons';
+import Skull from '../../../assets/images/skull-white.svg';
+
 
 const UserLife = () => {
 
@@ -67,7 +69,6 @@ const UserLife = () => {
          onChange={userBirthInput}
          max={dateValidation}
          />
-        <FontAwesomeIcon icon={faSkull} />
 
         </div>
         {/* When user inputs his date display block */}
@@ -76,18 +77,20 @@ const UserLife = () => {
        (
         
         <div className='user-life-card'>
-          <div className="user-life-card-title">
-            <div className="img-block">sdsd</div>
-            <div className="user-life-birthday">
+            <div className="img-block">
+             <img src={Skull} alt="user skull" className='user-life-skull'/>
+              <div className="skully-text">
               <p>Your Life,</p>
-              <p>{`${CalendarMonths[birthMonth - 1]} ${birthDate} , ${birthYear}`}</p>
+              <p>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
+              </div>
+
             </div>
+
             <div className="user-age">
               {years} years
             </div>
           </div>
           
-        </div>
       )
     ) : null
   }
