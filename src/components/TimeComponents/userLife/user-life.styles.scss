@@ -1,7 +1,7 @@
 .user-life-component {
     color: black;
     background-color: white;
-
+    width: 80%;
     input[type="date"] {
         margin-left: 12px;
         border-left: 2px solid blue;
@@ -23,13 +23,16 @@
     font-family: "droid-sans-mono", monospace;
     font-weight: 400;
     font-style: normal;
+   
 }
 
 .user-life-card {
     font-family: "droid-sans-mono", monospace;
     font-weight: 400;
     font-style: normal;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -49,4 +52,12 @@
 
 .user-age {
     flex-basis: 130px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.hour-glass {
+    font-size: 2rem;
 }

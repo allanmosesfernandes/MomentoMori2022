@@ -4,13 +4,18 @@ import './user-life.styles.scss';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSkull } from '@fortawesome/free-solid-svg-icons';
+import { faHourglass } from '@fortawesome/free-solid-svg-icons';
 import Skull from '../../../assets/images/skull-white.svg';
-
 
 const UserLife = () => {
 
     const [userBirthDate, setUserBirthDate] = useState({});
+    const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
+
+    const openDatePicker = (event) => {
+    event.target.showPicker();
+};
+
     console.log(userBirthDate);
         const dateValidation = new Date().toISOString().split('T')[0]; 
 
@@ -39,12 +44,13 @@ const UserLife = () => {
           years: differenceInYears,
           months: Math.floor(differenceInMonths % 12),
           days: Math.floor(differenceInDays % 30.44),
+          totaldays: differenceInDays,
           birthYear: userYear,
           birthMonth: userMonth,
           birthDate: userDay
         })
     }
-    const { years, months, days,birthYear, birthMonth,birthDate } = userBirthDate;
+    const { years, months, days,totaldays, birthYear, birthMonth,birthDate } = userBirthDate;
       const CalendarMonths = [
         "January",
         "February",
@@ -67,6 +73,7 @@ const UserLife = () => {
          type="date" 
          placeholder='YYYY / MM / DD'
          onChange={userBirthInput}
+         onClick={openDatePicker}
          max={dateValidation}
          />
 
@@ -83,11 +90,25 @@ const UserLife = () => {
               <p>Your Life,</p>
               <p>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
               </div>
-
             </div>
 
             <div className="user-age">
-              {years} years
+              <p><strong>{years}</strong></p>
+              <p>
+                Years old
+              </p>
+            </div>
+
+            <div className="img-block">
+              <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/>
+               <div className="skully-text">
+                <p><strong>{totaldays}</strong> Days </p> 
+               </div>
+            </div>
+
+            <div className="user-age">
+              <p><strong>{months}</strong></p>
+              <p> Months </p>
             </div>
           </div>
           
