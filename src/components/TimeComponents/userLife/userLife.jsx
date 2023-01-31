@@ -12,7 +12,9 @@ const UserLife = () => {
     const [userBirthDate, setUserBirthDate] = useState({});
 
     const openDatePicker = (event) => {
-    event.target.showPicker();
+      const native = document.getElementById("native-date-picker");
+      native.showPicker();
+    // event.target.showPicker();
 };
 
     console.log(userBirthDate);
@@ -65,9 +67,10 @@ const UserLife = () => {
       ];
   return (
     <div className='quote-container user-life-component'>
-      <div className="user-date-container">
-        <span> BIRTHDAY</span>
+      <div className="user-date-container" onClick={openDatePicker}>
+        <span>ENTER YOUR DATE OF BIRTH</span>
         <input 
+        id="native-date-picker"
          type="date" 
          placeholder='YYYY / MM / DD'
          onChange={userBirthInput}
@@ -86,7 +89,7 @@ const UserLife = () => {
             <div className="img-block">
              <img src={Skull} alt="user skull" className='user-life-skull'/>
               <div className="skully-text">
-              <p>Your Life,</p>
+              <p className='pseudo-border'>Your Life,</p>
               <p className='large-txt'>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
               </div>
             </div>
@@ -99,7 +102,8 @@ const UserLife = () => {
             </div>
 
             <div className="img-block">
-              <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/>
+              <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
+              {/* <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/> */}
                <div className="skully-text inline">
                 <p className='large-txt'>{totaldays} </p>
                 <p>Days </p> 

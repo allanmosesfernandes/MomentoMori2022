@@ -7,6 +7,7 @@
     // background-image: url("../../../assets/images/bgs/ccchaos.svg");
     // background-size: cover;
     background-position: center;
+
     input[type="date"] {
         margin-left: 12px;
         border-left: 2px solid black;
@@ -69,15 +70,37 @@
 .hour-glass {
     font-size: 2rem;
 }
+
 .mid-txt {
     font-size: 1.5rem;
 }
-.large-txt{
+
+.large-txt {
     font-size: 2rem;
 }
+
+.pseudo-border::after {
+    content: "";
+
+}
+
 @media only screen and (max-width: 600px) {
 
     //code goes here
+    lottie-player {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    #native-date-picker {
+        display: block;
+        margin-left: 0;
+        border-left: 0;
+    }
+    .user-life-component {
+        width: 90%;
+    }
+
     .quote-container.user-life-component {
         display: flex;
         align-items: center;
@@ -100,9 +123,27 @@
     }
 
     .user-life-component p {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
+
     .user-life-skull.hour-glass {
         margin-bottom: 1.5rem;
     }
+
+    .user-date-container {
+        margin: 0;
+        flex-direction: column;
+        gap: 1rem;
+        border: 0;
+    }
+
+    .user-life-component input[type=date] {
+        font-size: 1.5rem;
+    }
+}
+
+
+lottie-player {
+    width: 100px;
+    height: 80px;
 }
