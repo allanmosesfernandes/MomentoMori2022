@@ -2,13 +2,17 @@
     color: black;
     background-color: white;
     width: 80%;
+    border-radius: 10px;
+    border: 7px solid #3AA34B;
+
     input[type="date"] {
         margin-left: 12px;
-        border-left: 2px solid blue;
+        border-left: 2px solid black;
         padding-left: 10px;
         font-family: "droid-sans-mono", monospace;
         font-weight: 400;
         font-style: normal;
+        font-size: 1rem;
 
     }
 }
@@ -18,12 +22,13 @@
     display: flex;
     justify-content: flex-start;
     padding: 0.5rem;
-    border: 2px solid blue;
+    border: 2px solid black;
     align-items: center;
     font-family: "droid-sans-mono", monospace;
     font-weight: 400;
     font-style: normal;
-   
+    width: fit-content;
+    border-radius: 5px;
 }
 
 .user-life-card {
@@ -60,4 +65,36 @@
 
 .hour-glass {
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    //code goes here
+    .quote-container.user-life-component {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .user-life-card {
+        display: flex;
+        flex-direction: column;
+
+        .img-block {
+            flex-direction: column;
+            text-align: center;
+            margin: 1rem 0;
+        }
+    }
+
+    .user-age {
+        flex-basis: 0;
+    }
+
+    .user-life-component p {
+        margin-bottom: 1rem;
+    }
+    .user-life-skull.hour-glass {
+        margin-bottom: 1.5rem;
+    }
 }

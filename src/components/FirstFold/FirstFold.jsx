@@ -9,8 +9,9 @@ const FirstFold = () => {
     <div>
         <QuoteDate />
         <TimeBound />
-        <Acknowledgement />
         <UserLife />
+        <Acknowledgement />
+       
     </div>
   )
 }

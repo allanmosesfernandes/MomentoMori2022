@@ -10,7 +10,6 @@ import Skull from '../../../assets/images/skull-white.svg';
 const UserLife = () => {
 
     const [userBirthDate, setUserBirthDate] = useState({});
-    const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
 
     const openDatePicker = (event) => {
     event.target.showPicker();
@@ -26,8 +25,6 @@ const UserLife = () => {
         let userDay = Number(userBirthDate.split("-")[2]);
         let userBirthTime = new Date(`${userYear},${userMonth},${userDay}`);
         let monthName = userBirthTime.toDateString().split(" ")[1];
-        console.log(monthName);
-
 
         //===Current Day ===//
         let currentDayinMilliSeconds = new Date();
@@ -37,7 +34,7 @@ const UserLife = () => {
         let differenceInHours = Math.floor(differenceInMinutes / 60);
         let differenceInDays = Math.floor(differenceInHours / 24);
         let differenceInMonths = Math.floor(differenceInDays / 30.44);
-        let differenceInYears = Math.floor(differenceInMonths / 12);
+        let differenceInYears = (differenceInMonths / 12).toFixed(2);
 
 
         setUserBirthDate({
@@ -45,12 +42,13 @@ const UserLife = () => {
           months: Math.floor(differenceInMonths % 12),
           days: Math.floor(differenceInDays % 30.44),
           totaldays: differenceInDays,
+          totalMonths: differenceInMonths,
           birthYear: userYear,
           birthMonth: userMonth,
           birthDate: userDay
         })
     }
-    const { years, months, days,totaldays, birthYear, birthMonth,birthDate } = userBirthDate;
+    const { years, months, days,totaldays,totalMonths, birthYear, birthMonth,birthDate } = userBirthDate;
       const CalendarMonths = [
         "January",
         "February",
@@ -78,7 +76,7 @@ const UserLife = () => {
          />
 
         </div>
-        {/* When user inputs his date display block */}
+        {/* When user inputs his DOB display block */}
          {
     Object.keys(userBirthDate).length !== 0 ? (
        (
@@ -107,7 +105,7 @@ const UserLife = () => {
             </div>
 
             <div className="user-age">
-              <p><strong>{months}</strong></p>
+              <p><strong>{totalMonths}</strong></p>
               <p> Months </p>
             </div>
           </div>
