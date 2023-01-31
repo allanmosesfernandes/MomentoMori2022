@@ -3,11 +3,14 @@ import { useState } from 'react';
 import './user-life.styles.scss';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSkull } from '@fortawesome/free-solid-svg-icons'
 
 const UserLife = () => {
 
     const [userBirthDate, setUserBirthDate] = useState({});
     console.log(userBirthDate);
+        const dateValidation = new Date().toISOString().split('T')[0]; 
 
     const userBirthInput = (event) => {
         let userBirthDate = event.target.value;
@@ -28,6 +31,7 @@ const UserLife = () => {
         let differenceInDays = Math.floor(differenceInHours / 24);
         let differenceInMonths = Math.floor(differenceInDays / 30.44);
         let differenceInYears = Math.floor(differenceInMonths / 12);
+
 
         setUserBirthDate({
           years: differenceInYears,
@@ -61,7 +65,10 @@ const UserLife = () => {
          type="date" 
          placeholder='YYYY / MM / DD'
          onChange={userBirthInput}
+         max={dateValidation}
          />
+        <FontAwesomeIcon icon={faSkull} />
+
         </div>
         {/* When user inputs his date display block */}
          {
