@@ -33,7 +33,7 @@ const QuoteDate = () => {
     <>
     <div className="quote-container first-fold">
         <div className='date-container'>
-            <h2>{`${monthName}, ${monthDate}`}</h2>
+            <h2>{`${monthName.toUpperCase()},  ${monthDate}`}</h2>
             <p>{title}</p>
         </div>
         <div className="quote-body">
