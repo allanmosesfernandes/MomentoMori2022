@@ -1,34 +1,34 @@
 import {React, useState, useEffect} from 'react'
 import './quoteStyles.scss';
-import sampleAPI from './sampleAPI.json'
+import { getQuotesAndDocuments } from '../../utils/firebase.utils';
+
+
 const today = new Date();
 const monthNumber = today.getMonth();
 const monthDate = today.getDate();
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const monthName = monthNames[monthNumber];
+const monthName = monthNames[monthNumber].toLowerCase();
+console.log(monthName);
+
 const QuoteDate = () => {
-    const [data, setData ] = useState(null);
-    
+  const [quotesData, setQuotesData ] = useState(null);
+
   useEffect(() => {
-    async function fetchData() {
-      const response = await fetch('https://api.npoint.io/0276e85a262fcefdbe7e');
-      const json = await response.json();
-      setData(json);
+
+    const getQuotesMap = async () => {
+      const quotesMap = await getQuotesAndDocuments();
+      setQuotesData(quotesMap);
     }
-    fetchData();
+
+    getQuotesMap();
   }, []);
 
-  if (!data) {
+  if (!quotesData) {
     return <span className="loader"></span>;
   }
 
-  let filterQuote = data.filter(quote => {
-    return quote.monthIndex === monthNumber && quote.date === monthDate;
-});
-
-let quoteOfTheDay = filterQuote[0];
-let {title, author, text, quote} = quoteOfTheDay;
-// const textBlock = text.replace("\n", "<br>")
+  const quoteOfTheDay = quotesData[monthName].filter(quote => quote.date === monthDate)[0];
+  const { title,quote,author,text } = quoteOfTheDay;
   return (
     <>
     <div className="quote-container first-fold">
@@ -44,7 +44,7 @@ let {title, author, text, quote} = quoteOfTheDay;
             </p>
         </div>
 
-    </div>
+    </div> 
 
     </>
 

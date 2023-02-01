@@ -69,7 +69,22 @@ export const addCollectionAndDocument = async(collectionName, objectsToAdd) => {
   console.log('done')
 }
 
+
+//== Fetching quotes from firestore ===//
+export const getQuotesAndDocuments = async () => {
+  const collectionRef = collection(db, "quotes");
+  const q = query(collectionRef);
+  const querySnapshot = await getDocs(q);
+
+  const quotesMap = querySnapshot.docs.reduce((acc, docSnapshot) => {
+    const {title, quotes} = docSnapshot.data();
+    acc[title.toLowerCase()] = quotes;
+    return acc; 
+  }, {})
+  return quotesMap
+}
 //========Firestore Database=========//
+
 // if doesnt exists dip
 
 
