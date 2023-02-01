@@ -560,3 +560,5 @@ const QUOTES_DATA = [
         }]
     }
 ]
+
+export default QUOTES_DATA

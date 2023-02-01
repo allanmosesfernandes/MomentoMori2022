@@ -14,7 +14,11 @@ import {
   getFirestore,
   doc,
   setDoc,
-  getDoc
+  getDoc,
+  collection, 
+  writeBatch,
+  query,
+  getDocs
 } from "firebase/firestore"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -48,12 +52,27 @@ export const auth = getAuth();
 // Initialize sign in with google popup
 
 export const signInWithGooglePopUp = () => signInWithPopup(auth, provider)
+export const db  = getFirestore();
 
+
+//=== Firebase Code to Add Quotes as a collection to Firestore database ===//
+export const addCollectionAndDocument = async(collectionName, objectsToAdd) => {
+  const batch = writeBatch(db);
+  const collectionRef = collection(db, collectionName);
+
+  objectsToAdd.forEach(object => {
+    const docRef = doc(collectionRef, object.title.toLowerCase());
+    batch.set(docRef, object)
+  })
+
+  await batch.commit();
+  console.log('done')
+}
 
 //========Firestore Database=========//
 // if doesnt exists dip
 
-export const db  = getFirestore();
+
 export const createUserDocFromAuth = async (userAuth, additionalInformation = {}) => {
 
   if (!userAuth) return;
