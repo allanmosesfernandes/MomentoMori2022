@@ -10,11 +10,10 @@ const FirstFold = () => {
   console.log(quotes);
   return (
     <div>
-        <QuoteDate /> 
-        <TimeBound />
-        <UserLife />
-        <Acknowledgement /> 
-       
+      <QuoteDate /> 
+      <TimeBound />
+      <UserLife />
+      <Acknowledgement /> 
     </div>
   )
 }

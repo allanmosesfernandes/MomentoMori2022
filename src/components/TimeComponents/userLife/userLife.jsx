@@ -6,51 +6,34 @@ import "react-datepicker/dist/react-datepicker.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHourglass } from '@fortawesome/free-solid-svg-icons';
 import Skull from '../../../assets/images/skull-white.svg';
+import AgeCalculator from '../iOsTest';
 
 const UserLife = () => {
 
-    const [userBirthDate, setUserBirthDate] = useState({});
 
+    const [age, setAge] = useState({
+    years: 0,
+    months: 0,
+    days: 0
+  });
+
+  function calculateAge(birthday) {
+    let ageDifMs = Date.now() - birthday.getTime();
+    let ageDate = new Date(ageDifMs);
+    setAge({
+      years: Math.abs(ageDate.getUTCFullYear() - 1970),
+      months: Math.abs(ageDate.getUTCMonth()),
+      days: Math.abs(ageDate.getUTCDate() - 1)
+    });
+  }
     const openDatePicker = (event) => {
       const native = document.getElementById("native-date-picker");
       native.showPicker();
     // event.target.showPicker();
 };
 
-    console.log(userBirthDate);
-        const dateValidation = new Date().toISOString().split('T')[0]; 
+    const { years, months, days} = age;
 
-    const userBirthInput = (event) => {
-        let userBirthDate = event.target.value;
-        let userYear = Number(userBirthDate.split("-")[0]);
-        let userMonth = Number(userBirthDate.split("-")[1]);
-        let userDay = Number(userBirthDate.split("-")[2]);
-        let userBirthTime = new Date(`${userYear},${userMonth},${userDay}`);
-        let monthName = userBirthTime.toDateString().split(" ")[1];
-
-        //===Current Day ===//
-        let currentDayinMilliSeconds = new Date();
-        let differenceInMilliSeconds = currentDayinMilliSeconds - userBirthTime;
-        let differenceInSeconds = Math.floor(differenceInMilliSeconds / 1000);
-        let differenceInMinutes = Math.floor(differenceInSeconds / 60);
-        let differenceInHours = Math.floor(differenceInMinutes / 60);
-        let differenceInDays = Math.floor(differenceInHours / 24);
-        let differenceInMonths = Math.floor(differenceInDays / 30.44);
-        let differenceInYears = (differenceInMonths / 12).toFixed(2);
-
-
-        setUserBirthDate({
-          years: differenceInYears,
-          months: Math.floor(differenceInMonths % 12),
-          days: Math.floor(differenceInDays % 30.44),
-          totaldays: differenceInDays,
-          totalMonths: differenceInMonths,
-          birthYear: userYear,
-          birthMonth: userMonth,
-          birthDate: userDay
-        })
-    }
-    const { years, months, days,totaldays,totalMonths, birthYear, birthMonth,birthDate } = userBirthDate;
       const CalendarMonths = [
         "January",
         "February",
@@ -71,31 +54,29 @@ const UserLife = () => {
         <span>ENTER YOUR DATE OF BIRTH</span>
         <input 
         id="native-date-picker"
-         type="date" 
-         placeholder='YYYY / MM / DD'
-         onChange={userBirthInput}
-         onClick={openDatePicker}
-         max={dateValidation}
-         required
+        type="date"
+        placeholder="YYYY / MM / DD"
+        onChange={e => calculateAge(new Date(e.target.value))}
+        required
          />
 
         </div>
-        {/* When user inputs his DOB display block */}
-         {
-        (Object.keys(userBirthDate).length !== 0) && (userBirthDate.years !== "NaN") ? (
-       (
+  
+
         
         <div className='user-life-card'>
             <div className="img-block">
              <img src={Skull} alt="user skull" className='user-life-skull'/>
               <div className="skully-text">
               <p className='pseudo-border'>Your Life,</p>
-              <p className='large-txt'>{`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`}</p>
+              <p className='large-txt'>
+                {/* {`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`} */}
+              </p>
               </div>
             </div>
 
             <div className="user-age">
-              <p className='large-txt'>{years}</p>
+              <p className='large-txt'>{ years }</p>
               <p>
                 Years old
               </p>
@@ -105,22 +86,16 @@ const UserLife = () => {
               <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
               {/* <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/> */}
                <div className="skully-text inline">
-                <p className='large-txt'>{totaldays} </p>
+                <p className='large-txt'>{days + months * 30 + years * 365} </p>
                 <p>Days </p> 
                </div>
             </div>
 
             <div className="user-age">
-              <p className='large-txt'>{totalMonths}</p>
+              <p className='large-txt'>{months + years * 12}</p>
               <p> Months </p>
             </div>
           </div>
-          
-      )
-    ) : null
-  }
-
-      
     </div>
   )
 }
