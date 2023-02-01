@@ -34,10 +34,11 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
     background-image: url(https://cdn.discordapp.com/ephemeral-attachments/1008571057562714113/1065032862136549376/grid_0.webp);
-    background-size: 80%;
+    background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+
 }
 
 small {
@@ -50,6 +51,8 @@ small {
     margin: 2rem 0;
     line-height: 1.5;
     font-size: 2rem;
+    min-height: 500px;
+    text-align: center;
     background: #00000078;
 
     a {

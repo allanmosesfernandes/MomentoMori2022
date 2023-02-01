@@ -11,9 +11,9 @@ const FirstFold = () => {
   return (
     <div>
         <QuoteDate /> 
-{/*         <TimeBound />
+        <TimeBound />
         <UserLife />
-        <Acknowledgement /> */}
+        <Acknowledgement /> 
        
     </div>
   )
