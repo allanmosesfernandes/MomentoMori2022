@@ -33,6 +33,7 @@ const UserLife = () => {
   const ageFromLocalStorage = window.localStorage.getItem('age');
   if (ageFromLocalStorage) {
     setAge(JSON.parse(ageFromLocalStorage));
+    console.log(setAge);
   }
   }, []);
   function calculateAge(birthday) {
@@ -43,6 +44,16 @@ const UserLife = () => {
     let userDay = birthday.getDate();
     let ageDifMs = Date.now() - birthday.getTime();
     let ageDate = new Date(ageDifMs);
+
+    const updatedAge = {
+    years: Math.abs(ageDate.getUTCFullYear() - 1970),
+    months: Math.abs(ageDate.getUTCMonth()),
+    days: Math.abs(ageDate.getUTCDate() - 1),
+    userYear,
+    userMonth: userMonth,
+    userDay: userDay,
+  };
+  
     setAge({
       years: Math.abs(ageDate.getUTCFullYear() - 1970),
       months: Math.abs(ageDate.getUTCMonth()),
@@ -51,7 +62,8 @@ const UserLife = () => {
       userMonth: userMonth,
       userDay: userDay,
     });
-    window.localStorage.setItem('age', JSON.stringify(age));
+    setAge(updatedAge);
+  window.localStorage.setItem('age', JSON.stringify(updatedAge));
   }
     const openDatePicker = (event) => {
       const native = document.getElementById("native-date-picker");
