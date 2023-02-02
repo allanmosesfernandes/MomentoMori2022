@@ -2,7 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './user-life.styles.scss';
 import Skull from '../../../assets/images/skull-white.svg';
-
+import Leafy from '../../../assets/images/symbols/Leaf.svg';
+import MonthVase from '../../../assets/images/symbols/month_vase.svg';
 const UserLife = () => {
 
       const CalendarMonths = [
@@ -99,13 +100,19 @@ const UserLife = () => {
 
               </div>
             </div>
-
-            <div className="user-age">
+            <div className="img-block">
+             <img src={Leafy} alt="user skull" className='user-life-skull'/>
+              <div className="skully-text">
+              <div className="user-age">
               <p className='large-txt'>{ years }</p>
               <p>
                 Years old
               </p>
             </div>
+              </div>
+            </div>
+
+
 
             <div className="img-block">
               <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
@@ -116,10 +123,17 @@ const UserLife = () => {
                </div>
             </div>
 
-            <div className="user-age">
-              <p className='large-txt'>{months + years * 12}</p>
-              <p> Months </p>
+            <div className="img-block">
+             <img src={MonthVase} alt="user skull" className='user-life-skull'/>
+              <div className="skully-text">
+                <div className="user-age">
+                  <p className='large-txt'>{months + years * 12}</p>
+                  <p> Months </p>
+              </div>
+
+              </div>
             </div>
+
           </div>
     </div>
   )
