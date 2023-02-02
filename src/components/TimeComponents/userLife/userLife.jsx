@@ -1,15 +1,10 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './user-life.styles.scss';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHourglass } from '@fortawesome/free-solid-svg-icons';
 import Skull from '../../../assets/images/skull-white.svg';
-import AgeCalculator from '../iOsTest';
 
 const UserLife = () => {
-  
+
       const CalendarMonths = [
         "January",
         "February",
@@ -31,12 +26,21 @@ const UserLife = () => {
     days: 0,
     userYear: 0,
     userMonth: 0,
+    userDay: 0,
   });
 
+  useEffect(() => {
+  const ageFromLocalStorage = window.localStorage.getItem('age');
+  if (ageFromLocalStorage) {
+    setAge(JSON.parse(ageFromLocalStorage));
+  }
+  }, []);
   function calculateAge(birthday) {
     let birthDayString = birthday.toISOString();
+    console.log(birthDayString);
     let userYear = birthDayString.split("-")[0];
     let userMonth = Number(birthDayString.split("-")[1]);
+    let userDay = birthday.getDate();
     let ageDifMs = Date.now() - birthday.getTime();
     let ageDate = new Date(ageDifMs);
     setAge({
@@ -44,8 +48,10 @@ const UserLife = () => {
       months: Math.abs(ageDate.getUTCMonth()),
       days: Math.abs(ageDate.getUTCDate() - 1),
       userYear,
-      userMonth: userMonth
+      userMonth: userMonth,
+      userDay: userDay,
     });
+    window.localStorage.setItem('age', JSON.stringify(age));
   }
     const openDatePicker = (event) => {
       const native = document.getElementById("native-date-picker");
@@ -53,7 +59,7 @@ const UserLife = () => {
     // event.target.showPicker();
 };
 
-    const { years, months, days,userMonth} = age;
+    const { years, months, days,userMonth, userDay} = age;
 
 
   return (
@@ -69,16 +75,14 @@ const UserLife = () => {
          />
 
         </div>
-  
 
-        
         <div className='user-life-card'>
             <div className="img-block">
              <img src={Skull} alt="user skull" className='user-life-skull'/>
               <div className="skully-text">
               <p className='pseudo-border'>Your Life,</p>
               <p className='large-txt'>
-                { userMonth === undefined || userMonth === 0 ? '????' : `${CalendarMonths[userMonth - 1 ]}, ${age.userYear}` }
+                { userMonth === undefined || userMonth === 0 ? '????' : `${CalendarMonths[userMonth - 1 ]} ${userDay}, ${age.userYear}` }
               </p>
 
               </div>
