@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.scss';
-import Skull from '../../assets/images/about.svg'
+import Skull from '../../assets/images/about.svg';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
@@ -18,8 +19,12 @@ const Footer = () => {
       <p>Created by <a href="https://allanfernandes.dev/" target="_blank">?</a></p>
       </div>
       </div>
-        <p className='copyright'>Copyright ©  {year} </p>
-
+        <div className='copyright'>
+          <Link className="copyright link" to="/features">Features</Link>
+          <p>Copyright ©  {year} </p>
+          
+        </div>
+        
     </footer>
   )
 }

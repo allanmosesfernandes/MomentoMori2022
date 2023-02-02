@@ -9,6 +9,7 @@ import About from './routes/About';
 import FirstFold from './components/FirstFold/FirstFold';
 import Auth from './routes/auth/auth';
 import Checkout from './routes/checkout/checkout';
+import Features from './components/Features/Features';
 const App = () => {
   return (
     
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='sign-in' element={<Auth />} />
       <Route path='shop' element={<Shop />} />
       <Route path='checkout' element={<Checkout />} />
+      <Route path='features' element={<Features />} />
     </Route>
    </Routes>
   )
