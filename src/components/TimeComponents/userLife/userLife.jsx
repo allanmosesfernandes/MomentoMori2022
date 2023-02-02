@@ -9,31 +9,7 @@ import Skull from '../../../assets/images/skull-white.svg';
 import AgeCalculator from '../iOsTest';
 
 const UserLife = () => {
-
-
-    const [age, setAge] = useState({
-    years: 0,
-    months: 0,
-    days: 0
-  });
-
-  function calculateAge(birthday) {
-    let ageDifMs = Date.now() - birthday.getTime();
-    let ageDate = new Date(ageDifMs);
-    setAge({
-      years: Math.abs(ageDate.getUTCFullYear() - 1970),
-      months: Math.abs(ageDate.getUTCMonth()),
-      days: Math.abs(ageDate.getUTCDate() - 1)
-    });
-  }
-    const openDatePicker = (event) => {
-      const native = document.getElementById("native-date-picker");
-      native.showPicker();
-    // event.target.showPicker();
-};
-
-    const { years, months, days} = age;
-
+  
       const CalendarMonths = [
         "January",
         "February",
@@ -48,6 +24,38 @@ const UserLife = () => {
         "November",
         "December"
       ];
+
+    const [age, setAge] = useState({
+    years: 0,
+    months: 0,
+    days: 0,
+    userYear: 0,
+    userMonth: 0,
+  });
+
+  function calculateAge(birthday) {
+    let birthDayString = birthday.toISOString();
+    let userYear = birthDayString.split("-")[0];
+    let userMonth = Number(birthDayString.split("-")[1]);
+    let ageDifMs = Date.now() - birthday.getTime();
+    let ageDate = new Date(ageDifMs);
+    setAge({
+      years: Math.abs(ageDate.getUTCFullYear() - 1970),
+      months: Math.abs(ageDate.getUTCMonth()),
+      days: Math.abs(ageDate.getUTCDate() - 1),
+      userYear,
+      userMonth: userMonth
+    });
+  }
+    const openDatePicker = (event) => {
+      const native = document.getElementById("native-date-picker");
+      native.showPicker();
+    // event.target.showPicker();
+};
+
+    const { years, months, days,userMonth} = age;
+
+
   return (
     <div className='quote-container user-life-component'>
       <div className="user-date-container" onClick={openDatePicker}>
@@ -70,8 +78,9 @@ const UserLife = () => {
               <div className="skully-text">
               <p className='pseudo-border'>Your Life,</p>
               <p className='large-txt'>
-                {/* {`${CalendarMonths[birthMonth - 1]} ${birthDate},${birthYear}`} */}
+                { userMonth === undefined || userMonth === 0 ? '????' : `${CalendarMonths[userMonth - 1 ]}, ${age.userYear}` }
               </p>
+
               </div>
             </div>
 
@@ -84,7 +93,7 @@ const UserLife = () => {
 
             <div className="img-block">
               <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
-              {/* <FontAwesomeIcon icon={faHourglass} className="user-life-skull hour-glass"/> */}
+
                <div className="skully-text inline">
                 <p className='large-txt'>{days + months * 30 + years * 365} </p>
                 <p>Days </p> 
