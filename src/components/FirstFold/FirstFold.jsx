@@ -4,13 +4,14 @@ import QuoteDate from '../quoteDate/quoteDate';
 import Acknowledgement from '../Acknowledgement/acknowledgement';
 import UserLife from '../TimeComponents/userLife/userLife';
 import quotes from "../../assets/quotes";
-
+import Symbolism from '../symbolism/symbolism';
 const FirstFold = () => {
 
   console.log(quotes);
   return (
     <div>
       <QuoteDate /> 
+      <Symbolism />
       <TimeBound />
       <UserLife />
       <Acknowledgement /> 
