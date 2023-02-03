@@ -10,6 +10,8 @@ import FirstFold from './components/FirstFold/FirstFold';
 import Auth from './routes/auth/auth';
 import Checkout from './routes/checkout/checkout';
 import Features from './components/Features/Features';
+import PageNotFound from './components/404/PageNotFound';
+
 const App = () => {
   return (
     
@@ -21,6 +23,7 @@ const App = () => {
       <Route path='shop' element={<Shop />} />
       <Route path='checkout' element={<Checkout />} />
       <Route path='features' element={<Features />} />
+      <Route path="*" element={<PageNotFound />} />
     </Route>
    </Routes>
   )

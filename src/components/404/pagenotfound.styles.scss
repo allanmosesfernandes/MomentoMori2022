@@ -1,0 +1,41 @@
+.page-not-found {
+    color: #50DE66;
+    padding: 3rem;
+    align-items: flex-start;
+
+    h2 {
+            font-family: "Cinzel", serif;
+            font-size: 3rem;
+            margin: 0;
+    }
+    p {
+        font-size: 2rem;
+    }
+    p , a {
+        font-family: "Cormorant Garamond", serif;
+
+    }
+    a {
+        color: inherit;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+
+.page-not-found {
+
+    h2 {
+            font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+}
+}

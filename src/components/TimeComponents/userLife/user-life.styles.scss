@@ -41,7 +41,7 @@
     font-style: normal;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
 }
 
@@ -98,7 +98,8 @@
         border-left: 0;
     }
     .user-life-component {
-        width: 90%;
+        width: 100%;
+        margin-bottom: 5rem;
     }
 
     .quote-container.user-life-component {

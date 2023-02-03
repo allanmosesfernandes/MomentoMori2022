@@ -100,6 +100,14 @@ const UserLife = () => {
 
               </div>
             </div>
+                        <div className="img-block">
+              <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
+
+               <div className="skully-text inline">
+                <p className='large-txt'>{days + months * 30 + years * 365} </p>
+                <p>Days </p> 
+               </div>
+            </div>
             <div className="img-block">
              <img src={Leafy} alt="user skull" className='user-life-skull'/>
               <div className="skully-text">
@@ -114,14 +122,7 @@ const UserLife = () => {
 
 
 
-            <div className="img-block">
-              <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
 
-               <div className="skully-text inline">
-                <p className='large-txt'>{days + months * 30 + years * 365} </p>
-                <p>Days </p> 
-               </div>
-            </div>
 
             <div className="img-block">
              <img src={MonthVase} alt="user skull" className='user-life-skull'/>
