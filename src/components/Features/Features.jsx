@@ -17,11 +17,11 @@ const Features = () => {
             </ul>
         </div>
         <div className="feature-suggestion-box">
-            <form id="user-suggestion" name="contact" method="post" data-netlify="true">
+            <form id="user-suggestion" name="contact" method="post" data-netlify="true" action='/features'>
               <input type="hidden" name="form-name" value="contact" />
 
                     <h4>Got a suggestion?</h4>
-                    <textarea id="suggestion" name="message" rows="4" cols="50" placeholder='Please share your valuable thoughts and ideas for features that you would like to see in the future. Your input will help us to better serve your needs and enhance your experience. '>
+                    <textarea required minlength="10" id="suggestion" name="message" rows="4" cols="50" placeholder='Please share your valuable thoughts and ideas for features that you would like to see in the future. Your input will help us to better serve your needs and enhance your experience. '>
                          
                     </textarea>
                 <button className="button-28" type="submit">SUBMIT</button>
