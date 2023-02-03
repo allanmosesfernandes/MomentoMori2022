@@ -12,7 +12,8 @@ abbr {
 }
 
 .month-block-container {
-  background-color: #178E96;
+  // background-color: #178E96;
+  background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
   border-radius: 25px;
   padding: 19px;
   display: grid;
@@ -88,7 +89,8 @@ abbr {
 .year-block-container {
   @extend .month-block-container;
   grid-template-columns: 1fr;
-  background-color: #E7814F;
+  // background-color: #E7814F;
+  background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
   text-align: left;
 }
 //--- Calendar Styles ---//
