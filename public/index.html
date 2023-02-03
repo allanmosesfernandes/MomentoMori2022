@@ -30,7 +30,17 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+
+  <div id="root">
+                <form id="user-suggestion" name="contact" method="post" data-netlify="true" netlify netlify-honeypot="bot-field" hidden>
+                  <h4>Got a suggestion?</h4>
+                  <textarea id="suggestion" name="message" rows="4" cols="50"
+                    placeholder='Please share your valuable thoughts and ideas for features that you would like to see in the future. Your input will help us to better serve your needs and enhance your experience. '>
+                
+                </textarea>
+
+                </form>
+  </div>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -16,12 +16,11 @@
     padding: 5rem;
     width: 100%;
     justify-content: center;
-    border: 5px solid #3AA34B;
 }
 
 .symbols-icons {
     img {
-        width: 100%;
+        max-width: 150px;
     }
 
     display: flex;
@@ -46,7 +45,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
         width: 100%;
-        padding: 3rem;
+        padding: 8rem 3rem;
         justify-content: center;
     }
 
