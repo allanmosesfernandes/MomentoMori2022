@@ -22,7 +22,7 @@ const Footer = () => {
         <div className='copyright'>
           <Link className="copyright link" to="/features">Features</Link>
           <p>Copyright ©  {year} </p>
-          
+          <p>v1</p>
         </div>
         
     </footer>

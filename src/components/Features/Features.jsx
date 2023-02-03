@@ -7,7 +7,7 @@ const Features = () => {
         <div className="date-container">
             <h3>Upcoming Features v2</h3>
         </div>
-I        <div className="features-list">
+        <div className="features-list">
             <ul>
                 <li className='underline'>Store user-life span in local storage.</li>
                 <li>Sign in using Google.</li>

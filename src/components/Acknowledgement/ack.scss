@@ -1,3 +1,21 @@
 .disclaimer-block {
     font-family: "Cormorant Garamond", serif;
 }
+
+.suggestion-box {
+    max-width: 300px;
+    border: 1px solid;
+    margin: auto;
+    padding: 1rem;
+    cursor: pointer;
+    a {
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+  .suggestion-box {
+    margin: 4rem auto 0 auto;
+  }
+}   
