@@ -10,6 +10,7 @@ import './header.scss';
 import CartIcon from '../cart-icon/cart-icon.component';
 import { signOutUser } from '../../utils/firebase.utils';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import { ReactSVG } from "react-svg";
 
 import { CartContext } from '../../context/CartContext';
 
@@ -22,7 +23,8 @@ const { currentUser } = useContext(UserContext);
     <nav>
         <div className="logo">
             <Link to="/">
-                <img className="skull-about" src={Skull} alt='website logo'/>
+{/*             <img className="skull-about" src={Skull} alt='website logo'/>  */}
+
             </Link>
         </div>
         <div className="nav-links">

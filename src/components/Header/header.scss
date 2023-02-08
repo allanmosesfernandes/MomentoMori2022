@@ -24,9 +24,16 @@ nav {
     width: 75px;
 }
 
-.skull-about {
+.logo {
     width: 100px;
+    background-image: url("../../assets/images/about.svg");
+    height: 100px;
+    background-size: contain;
 }
+#theme-switch:checked ~ #root > nav .logo{
+  background-image: url("../../assets/images/blacky.svg");
+}
+
 
 .login-key {
     width: 50px;

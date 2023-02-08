@@ -13,19 +13,7 @@
   --bg-color: var(--dark-bg);
 
 
-    /* Light mode */
-  --light-text: #222430;
-  --light-bg: #f7f7f7;
-  --light-theme: #d34a97;
-
-  /* Dark mode */
-  --dark-text: #f7f7f7;
-  --dark-bg: #222430;
-  --dark-theme: #bd93f9;
-  /* Default mode */
-  --text-color: var(--light-text);
-  --bg-color: var(--light-bg);
-  --theme-color: var(--light-theme);
+  
 }
 
 
@@ -33,6 +21,8 @@
 #theme-switch:checked ~ #root {
   --bg-color: var(--light-bg);
 }
+
+
 
 #root {
     background-color: var(--bg-color);
