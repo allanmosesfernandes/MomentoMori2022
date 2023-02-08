@@ -11,8 +11,9 @@
   --light-bg: #fff;
   --dark-bg: #000;
   --bg-color: var(--dark-bg);
-
-
+  --black-text: #000000;
+  --white-text: #ffffff;
+  --text-color: var(--white-text)
   
 }
 
@@ -20,6 +21,7 @@
 /* Switched mode */
 #theme-switch:checked ~ #root {
   --bg-color: var(--light-bg);
+  --text-color: var(--black-text);
 }
 
 
@@ -27,9 +29,8 @@
 #root {
     background-color: var(--bg-color);
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
+    color: var(--text-color);
 }
-
 
 
 *,

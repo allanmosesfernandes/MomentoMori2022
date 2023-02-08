@@ -1,7 +1,6 @@
 nav {
     display: flex;
     align-items: center;
-    color: #ffffff;
     align-items: center;
     font-family: "Cinzel", serif;
     font-size: 1.6rem;
@@ -30,6 +29,7 @@ nav {
     height: 100px;
     background-size: contain;
 }
+
 #theme-switch:checked ~ #root > nav .logo{
   background-image: url("../../assets/images/blacky.svg");
 }
@@ -56,7 +56,7 @@ nav {
 
     a {
         text-decoration: none;
-        color: #fff;
+        color: inherit;
     }
 }
 
