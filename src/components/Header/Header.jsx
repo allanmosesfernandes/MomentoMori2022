@@ -19,7 +19,7 @@ const { currentUser } = useContext(UserContext);
 
   return (
     <>
-        <nav>
+    <nav>
         <div className="logo">
             <Link to="/">
                 <img className="skull-about" src={Skull} alt='website logo'/>
