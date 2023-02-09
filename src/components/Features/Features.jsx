@@ -10,8 +10,9 @@ const Features = () => {
         <div className="features-list">
             <ul>
                 <li className='underline'>Store user-life span in local storage.</li>
+                <li className='underline'>Night Mode.</li>
                 <li>Sign in using Google.</li>
-                <li>Night Mode.</li>
+
                 <li>Bookmark your favorite quotes.</li>
                 <li>Share favorite quotes on social media.</li>
             </ul>
@@ -21,7 +22,7 @@ const Features = () => {
               <input type="hidden" name="form-name" value="contact" />
 
                     <h4>Got a suggestion?</h4>
-                    <textarea required minlength="10" id="suggestion" name="message" rows="10" cols="50" placeholder='Please share your valuable thoughts and ideas for features that you would like to see in the future. Your input will help us to better serve your needs and enhance your experience. '>
+                    <textarea required minLength="10" id="suggestion" name="message" rows="10" cols="50" placeholder='Please share your valuable thoughts and ideas for features that you would like to see in the future. Your input will help us to better serve your needs and enhance your experience. '>
                          
                     </textarea>
                 <button className="button-28" type="submit">SUBMIT</button>
