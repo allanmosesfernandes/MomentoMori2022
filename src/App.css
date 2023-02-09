@@ -13,8 +13,9 @@
   --bg-color: var(--dark-bg);
   --black-text: #000000;
   --white-text: #ffffff;
-  --text-color: var(--white-text)
-  
+  --text-color: var(--white-text);
+  --black-block: #00000078;
+  --block-color: var(--black-block);
 }
 
 
@@ -22,6 +23,7 @@
 #theme-switch:checked ~ #root {
   --bg-color: var(--light-bg);
   --text-color: var(--black-text);
+  --block-color: var(--light-bg)
 }
 
 

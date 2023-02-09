@@ -1,9 +1,8 @@
 .date-container {
-    border-top: 5px double white;
-    border-bottom: 5px double white;
+    border-top: 5px double var(--text-color);
+    border-bottom: 5px double var(--text-color);
     font-family: 'Cinzel', serif;
     text-align: center;
-    background: #00000078;
 
     p {
         font-size: 1.5rem;
@@ -14,10 +13,6 @@
         font-style: normal;
         font-size: 2rem;
     }
-}
-
-.quote-highlight {
-    background: #00000078;
 }
 
 .quote-container {
@@ -53,13 +48,15 @@ small {
     font-size: 2rem;
     min-height: 500px;
     text-align: center;
-    background: #00000078;
+    background: var(--block-color);
 
     a {
         color: inherit;
     }
 }
-
+.disclaimer-block.quote-subtext {
+    background: none;
+}
 @media only screen and (max-width: 600px) {
     .hide-mob-temp {
         display: none;

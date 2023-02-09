@@ -4,8 +4,7 @@
     width: 80%;
     border-radius: 10px;
     border: 7px solid #3AA34B;
-    // background-image: url("../../../assets/images/bgs/ccchaos.svg");
-    // background-size: cover;
+    background-size: cover;
     background-position: center;
 
     input[type="date"] {
@@ -110,6 +109,8 @@
         display: flex;
         align-items: center;
         padding: 1rem;
+        border-top: 5px double var(--text-color);
+        border-bottom: 5px double var(--text-color);
     }
 
     .user-life-card {
