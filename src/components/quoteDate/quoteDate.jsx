@@ -8,7 +8,6 @@ const monthNumber = today.getMonth();
 const monthDate = today.getDate();
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const monthName = monthNames[monthNumber].toLowerCase();
-console.log(monthName);
 
 const QuoteDate = () => {
   const [quotesData, setQuotesData ] = useState(null);

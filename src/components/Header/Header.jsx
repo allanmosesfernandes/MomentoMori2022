@@ -23,21 +23,23 @@ const fakeCheckbox = document.getElementById("fake");
 
 themeSwitch.addEventListener("change", function () {
   fakeCheckbox.checked = this.checked;
+  window.localStorage.setItem('themeSwitch', this.checked);
+
 });
 
 fakeCheckbox.addEventListener("change", function () {
   themeSwitch.checked = this.checked;
+  window.localStorage.setItem('themeSwitch', this.checked);
+
 });
 
   return (
     <>
     <nav>
-        <div className="logo">
+       
             <Link to="/">
-{/*             <img className="skull-about" src={Skull} alt='website logo'/>  */}
-
+                <div className="logo"></div>
             </Link>
-        </div>
         <div className="nav-links">
             <Link className='nav-link' to="about">
                 About

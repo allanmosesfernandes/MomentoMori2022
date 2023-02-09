@@ -4,6 +4,8 @@ import './user-life.styles.scss';
 import Skull from '../../../assets/images/skull-white.svg';
 import Leafy from '../../../assets/images/symbols/Leaf.svg';
 import MonthVase from '../../../assets/images/symbols/month_vase.svg';
+
+
 const UserLife = () => {
 
       const CalendarMonths = [
@@ -32,11 +34,22 @@ const UserLife = () => {
 
   useEffect(() => {
   const ageFromLocalStorage = window.localStorage.getItem('age');
+  const theme = window.localStorage.getItem("themeSwitch");
   if (ageFromLocalStorage) {
     setAge(JSON.parse(ageFromLocalStorage));
     console.log(setAge);
   }
+  if (theme) {
+    const fakeCheckbox = document.getElementById("fake");
+    const themeSwitch = document.getElementById("theme-switch");
+
+    fakeCheckbox.checked = theme;
+    themeSwitch.checked = theme;
+  }
+
   }, []);
+
+
   function calculateAge(birthday) {
     let birthDayString = birthday.toISOString();
     console.log(birthDayString);

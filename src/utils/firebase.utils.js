@@ -66,7 +66,6 @@ export const addCollectionAndDocument = async(collectionName, objectsToAdd) => {
   })
 
   await batch.commit();
-  console.log('done')
 }
 
 

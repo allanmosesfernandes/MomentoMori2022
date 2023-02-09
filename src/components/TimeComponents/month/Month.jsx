@@ -24,9 +24,7 @@ const CalendarMonths = [
   "November",
   "December"
 ];
-console.log(currentDate);
 const monthName = CalendarMonths[currentMonth];
-console.log(monthName)
 const todaysDate = currentDate.getDate();
 const totalDays = new Date(currentDate.getFullYear(), currentDate.getMonth()+1, 0).getDate();
 const MonthPercent = Math.floor((todaysDate * 100) / totalDays);
