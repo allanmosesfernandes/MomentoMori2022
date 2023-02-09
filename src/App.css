@@ -19,6 +19,14 @@
 }
 
 
+
+
+
+input#theme-switch {
+    display: none;
+}
+
+
 /* Switched mode */
 #theme-switch:checked ~ #root {
   --bg-color: var(--light-bg);
@@ -33,6 +41,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color);
 }
+
 
 
 *,

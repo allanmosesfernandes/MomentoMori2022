@@ -45,7 +45,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .footer-container {
-        
+
         display: flex;
         flex-direction: column;
 
@@ -63,8 +63,15 @@ footer {
     .copyright {
         font-size: 14px;
     }
-    
+
     .footer-right {
         margin-top: -25px;
     }
+}
+
+
+
+#theme-switch:checked~#root>*:last-child .footer-left {
+    background-image: url("../../assets/images/blacky.svg");
+
 }
