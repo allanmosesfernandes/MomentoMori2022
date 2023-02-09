@@ -9,7 +9,7 @@
 
     input[type="date"] {
         margin-left: 12px;
-        border-left: 2px solid black;
+        border-left: 2px solid var(--text-color) !important;
         padding-left: 10px;
         font-family: "droid-sans-mono", monospace;
         font-weight: 400;
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: flex-start;
     padding: 0.5rem;
-    border: 2px solid black;
+    border: 2px solid var(--text-color) !important;
     align-items: center;
     font-family: "droid-sans-mono", monospace;
     font-weight: 400;
@@ -103,6 +103,12 @@
         margin-bottom: 5rem;
         border: none;
         border-radius: 0;
+
+
+    input[type="date"] {
+        border-left: none !important;
+
+    }
     }
 
     .quote-container.user-life-component {
