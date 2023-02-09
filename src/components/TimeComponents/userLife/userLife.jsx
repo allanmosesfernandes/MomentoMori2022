@@ -35,17 +35,15 @@ const UserLife = () => {
   useEffect(() => {
   const ageFromLocalStorage = window.localStorage.getItem('age');
   const theme = window.localStorage.getItem("themeSwitch");
+
   if (ageFromLocalStorage) {
     setAge(JSON.parse(ageFromLocalStorage));
-    console.log(setAge);
   }
-  if (theme) {
     const fakeCheckbox = document.getElementById("fake");
     const themeSwitch = document.getElementById("theme-switch");
 
-    fakeCheckbox.checked = theme;
-    themeSwitch.checked = theme;
-  }
+  fakeCheckbox.checked = (theme === 'true');
+  themeSwitch.checked = (theme === 'true');
 
   }, []);
 
