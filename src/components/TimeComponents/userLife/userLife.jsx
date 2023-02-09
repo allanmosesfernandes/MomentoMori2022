@@ -83,7 +83,7 @@ const UserLife = () => {
     // event.target.showPicker();
 };
 
-    const { years, months, days,userMonth, userDay} = age;
+    const { years, months, days,userMonth, userDay, userYear} = age;
 
 
   return (
@@ -96,8 +96,8 @@ const UserLife = () => {
         placeholder="YYYY / MM / DD"
         onChange={e => calculateAge(new Date(e.target.value))}
         required
+        value={`${userYear}-${userMonth < 10 ? '0' + userMonth : userMonth}-${userDay < 10 ? '0' + userDay : userDay}`}
          />
-
         </div>
 
         <div className='user-life-card'>
