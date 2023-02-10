@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 import Skull from '../../assets/images/about.svg';
+import AF from "../../assets/AF-grey.svg";
 import { Link } from 'react-router-dom';
 const Footer = () => {
   const date = new Date();
@@ -15,7 +16,11 @@ const Footer = () => {
       </div>
       <div className="footer-right">
       
-      <p>Created by <a href="https://allanfernandes.dev/" target="_blank">???</a></p>
+      <p className='created__by'>Created by 
+        <a href="https://allanfernandes.dev/" target="_blank">
+          <img src={AF} alt="Allan Fernandes Logo" className="af__logo" title='Allan Fernandes'/>
+        </a>
+      </p>
       </div>
       </div>
         <div className='copyright'>

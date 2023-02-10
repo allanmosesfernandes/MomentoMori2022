@@ -67,6 +67,11 @@ footer {
     .footer-right {
         margin-top: -25px;
     }
+
+    .created__by {
+
+        align-items: center !important;
+    }
 }
 
 
@@ -74,4 +79,20 @@ footer {
 #theme-switch:checked~#root>*:last-child .footer-left {
     background-image: url("../../assets/images/blacky.svg");
 
+}
+
+.created__by {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    a {
+        border-bottom: none !important;
+    }
+
+    flex-direction: column;
+
+    .af__logo {
+        width: 50px;
+    }
 }
