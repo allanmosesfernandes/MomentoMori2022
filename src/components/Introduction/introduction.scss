@@ -1,0 +1,89 @@
+.quote-container.introduction {
+    font-family: "Cormorant Garamond", serif;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .quote-body {
+        background-image: none;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.Typewriter>.Typewriter__wrapper {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    //code goes here
+    .Typewriter>.Typewriter__wrapper {
+        font-size: 1.1rem;
+
+    }
+
+}
+
+
+.scroll-down {
+    border: 2px solid var(--body-neon);
+    border-radius: 51px;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+
+}
+
+.one,
+.two,
+.three {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    transform: rotate(-45deg);
+    margin: 5px;
+    animation: scrollButtom 1s infinite;
+}
+
+.one {
+    animation-delay: 0.1s;
+}
+
+.two {
+    animation-delay: 0.2s;
+}
+
+.three {
+    animation-delay: 0.3s;
+}
+
+@keyframes test {
+    0% {
+        background: red;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@keyframes scrollButtom {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

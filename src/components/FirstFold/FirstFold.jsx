@@ -5,16 +5,19 @@ import Acknowledgement from '../Acknowledgement/acknowledgement';
 import UserLife from '../TimeComponents/userLife/userLife';
 import quotes from "../../assets/quotes";
 import Symbolism from '../symbolism/symbolism';
+import Introduction from '../Introduction/Introduction';
+
 const FirstFold = () => {
 
 
   return (
   <>
+      <Introduction />
       <QuoteDate /> 
       <Symbolism />
       <TimeBound />
       <UserLife />
-      <Acknowledgement />   
+      <Acknowledgement /> 
   </>
 
 
