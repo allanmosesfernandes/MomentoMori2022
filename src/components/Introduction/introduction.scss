@@ -10,7 +10,22 @@
     }
 
     h1 {
+        display: inline-flex;
+        justify-content: center;
         font-size: 3rem;
+        position: relative;
+        &::after {
+            width: 200px;
+            height: 2px;
+            background: var(--body-neon);
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
     }
 }
 
@@ -29,8 +44,12 @@
 
     }
 
+    .quote-container.introduction {
+        h1 {
+            font-size: 2rem;
+        }
+    }
 }
-
 
 .scroll-down {
     border: 2px solid var(--body-neon);
