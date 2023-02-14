@@ -1,5 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+
 import "./introduction.scss";
 const Introduction = () => {
 
@@ -20,15 +21,15 @@ const Introduction = () => {
           pauseFor: 1000
         }}
       />
-
-      <div className="scroll-down">
+      <a href='#quoteOfDay'>
+              <div className="scroll-down">
         <span className="one"></span>
         <span className="two"></span>
         <span className="three"></span>
       </div>
+      </a>
 
     </div>
-
     </>
 
   )

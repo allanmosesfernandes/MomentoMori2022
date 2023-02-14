@@ -30,7 +30,7 @@ const QuoteDate = () => {
   const { title,quote,author,text } = quoteOfTheDay;
   return (
     <>
-    <div className="quote-container first-fold">
+    <div className="quote-container first-fold" id="quoteOfDay">
         <div className='date-container'>
             <h2>{`${monthName.toUpperCase()},  ${monthDate}`}</h2>
             <p>{title}</p>

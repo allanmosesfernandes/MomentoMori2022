@@ -31,6 +31,7 @@
 
 .Typewriter>.Typewriter__wrapper {
     font-family: "Cormorant Garamond", serif;
+    line-height: 1.5;
     font-size: 1.5rem;
 }
 
@@ -41,7 +42,7 @@
     //code goes here
     .Typewriter>.Typewriter__wrapper {
         font-size: 1.1rem;
-
+        line-height: 1.2;
     }
 
     .quote-container.introduction {
