@@ -28,7 +28,7 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
     <div className='year-block-container'>
     <p className='month__name progress'>{currentYear} Progress</p>
 
-    <div style={{ width: 200, height: 200}}>
+    <div className="arrow circular__donut__sizing">
         <CircularProgressbar 
             value={daysPassed} 
             maxValue={totalDays} 
@@ -38,15 +38,16 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
                 strokeLinecap: 'round',
                 textSize: '20px',
                 pathTransitionDuration: 0.5,
-                pathColor: "#3e98c7",
-                textColor: '#C1C1C1',
-                trailColor: '#f2f2f2'
+                pathColor: "#ff2b00",
+                textColor: '#fff',
+                trailColor: '#fff',
+                backgroundColor: '#3e98c7'
                 })}
         />
     </div>  
     <p className='today__time--container-hour'>
-          {daysPassed} days / {totalDays} days
-          <span className='middle-dot'>.</span> Passed
+          {daysPassed}  / {totalDays} days
+          <span className='middle-dot'>.</span> 
     </p>
     {/* <p className='month__name'>
           {yearPercent}<span className='no-stylist'> %</span>

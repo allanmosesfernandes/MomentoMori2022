@@ -12,7 +12,8 @@ abbr {
   color: #000;
 }
 
-.month-block-container {
+.month-block-container,
+.today__time--container {
   // background-color: #178E96;
   //background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
   border: 2px solid white;
@@ -22,7 +23,8 @@ abbr {
   font-family: "droid-sans-mono", monospace;
   font-weight: 400;
   font-style: normal;
-
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .month__name {
@@ -96,6 +98,10 @@ abbr {
 }
 //--- Calendar Styles ---//
 
+.circular__donut__sizing {
+  width: 200px;
+  height: 200px;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -104,7 +110,10 @@ abbr {
     grid-template-columns: 1fr;
     margin: 5rem 1rem;
   }
-
+.circular__donut__sizing {
+  width: 100px;
+  height: 100px;
+}
   .month-block-container {
     grid-template-columns: 1fr;
     padding: 30px 19px;

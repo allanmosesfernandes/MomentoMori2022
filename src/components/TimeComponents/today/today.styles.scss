@@ -1,17 +1,17 @@
-.today__time--container {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    // background-color: #017CFF;
-    //background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
-    border: 1px solid #fff;
+// .today__time--container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: baseline;
+//     // background-color: #017CFF;
+//     //background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+//     border: 1px solid #fff;
     
-    padding: 19px;
-    font-family: "droid-sans-mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-}
+//     padding: 19px;
+//     font-family: "droid-sans-mono", monospace;
+//     font-weight: 400;
+//     font-style: normal;
+//     text-align: left;
+// }
 
 .no-stylist {
     font-size: 1.5rem;
@@ -23,11 +23,14 @@
     font-weight: 400;
     font-style: normal;
     margin: 1rem 0;
+    text-align: left;
 }
 
 .today__time--container-hour {
     font-size: 1.5rem;
     margin-bottom: 0;
+    text-align: left;
+
 }
 
 @media only screen and (max-width: 600px) {

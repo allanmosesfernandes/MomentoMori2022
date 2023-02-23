@@ -34,7 +34,7 @@ const Month = () => {
     <div className='month-block-container'>
       <div className="month-block-left">
       <p className="month__name">{monthName}</p>
-        <div style={{ width: 200, height: 200 }}>
+        <div className='circular__donut__sizing'>
          <CircularProgressbar 
             value={todaysDate} 
             text={`${MonthPercent}%`}
@@ -53,11 +53,11 @@ const Month = () => {
         </div>
 
         <p className='today__time--container-hour'>
-          {todaysDate}/{totalDays} . Passed
+          {todaysDate} / {totalDays} days.
         </p>
-        <p className='month__name'>
+        {/* <p className='month__name'>
           {MonthPercent}<span className='no-stylist'> %</span>
-        </p>
+        </p> */}
 
       </div>
         {/* <div className="month-block-right">

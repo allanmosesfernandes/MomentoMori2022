@@ -14,10 +14,11 @@ const percentage = Math.floor((currentHour * 100) / 24);
 
 return (
     <div className='today__time--container'>
-      
-        <div className="arrow" style={{ width: 200, height: 200 }}>
+              <p className='today__time--container-header'>Today</p>
+
+        <div className="arrow circular__donut__sizing">
          <CircularProgressbar 
-          
+            text={`${percentage}%`}
             value={currentHour} 
             maxValue={24} 
             strokeWidth={15}
@@ -29,7 +30,7 @@ return (
                 strokeLinecap: "round",
 
                 // Text size
-                textSize: '16px',
+                textSize: '20px',
 
                 // How long animation takes to go from one percentage to another, in seconds
                 pathTransitionDuration: 0.5,
@@ -47,8 +48,8 @@ return (
         />
         </div>
 
-        <p className='today__time--container-hour'>{ `${currentHour} / 24 h Passed`} </p>
-        <p className='today__time--container-header '>{percentage}&nbsp;<span className='no-stylist'>%</span></p>
+        <p className='today__time--container-hour'>{ `${currentHour} / 24 hours`} </p>
+        {/* <p className='today__time--container-header '>{percentage}&nbsp;<span className='no-stylist'>%</span></p> */}
     </div>
   )
 }
