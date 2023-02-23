@@ -557,7 +557,179 @@ const QUOTES_DATA = [
             "quote": "An important place to begin in philosophy is this: a clear perception of one’s own ruling\nprinciple",
             "text": "Philosophy is intimidating. Where does one start? With books? With lectures? With the sale of your\nworldly possessions?\nNone of these things. Epictetus is saying that one becomes a philosopher when they begin to exercise\ntheir guiding reason and start to question the emotions and beliefs and even language that others take for\ngranted. It is thought that an animal has self-awareness when it is able to fully recognize itself in a mirror.\nPerhaps we could say that we begin our journey into philosophy when we become aware of the ability to\nanalyze our own minds.\nCan you start with that step today? When you do, you’ll find that from it we really come alive, that we\nlive lives—to paraphrase Socrates—that are actually worth living",
             "author": "EPICTETUS, DISCOURSES, 1.26.15"
-        }]
+        },
+    {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 2,
+    "title": "ACCURATE SELF-ASSESSMENT",
+    "quote": "Above all, it is necessary for a person to have a true self-estimate, for we commonly think we\ncan do more than we really can.",
+    "text": "Most people resist the idea of a true self-estimate, probably because they fear it might mean\ndowngrading some of their beliefs about who they are and what they’re capable of. As Goethe’s\nmaxim goes, it is a great failing “to see yourself as more than you are.” How could you really be\nconsidered self-aware if you refuse to consider your weaknesses?\nDon’t fear self-assessment because you’re worried you might have to admit some things about\nyourself. The second half of Goethe’s maxim is important too. He states that it is equally damaging to\n“value yourself at less than your true worth.” Is it not equally common to be surprised at how well we’re\nable to handle a previously feared scenario? The way that we’re able to put aside the grief for a loved\none and care for others—though we always thought we’d be wrecked if something were to happen to our\nparents or a sibling. The way we’re able to rise to the occasion in a stressful situation or a life-changing\nopportunity.\nWe underestimate our capabilities just as much and just as dangerously as we overestimate other\nabilities. Cultivate the ability to judge yourself accurately and honestly. Look inward to discern what\nyou’re capable of and what it will take to unlock that potential.",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 5.2"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 3,
+    "title": "(DIS)INTEGRATION",
+    "quote": "These things don’t go together. You must be a unified human being, either good or bad. You must\ndiligently work either on your own reasoning or on things out of your control—take great care\nwith the inside and not what’s outside, which is to say, stand with the philosopher, or else with\nthe mob!",
+    "text": "We’re all complicated people. We have multiple sides to ourselves—conflicting wants, desires, and\nfears. The outside world is no less confusing and contradictory. If we’re not careful, all these\nforces—pushing and pulling—will eventually tear us apart. We can’t live as both Jekyll and Hyde. Not\nfor long, anyway.\nWe have a choice: to stand with the philosopher and focus strenuously on the inside, or to behave like\na leader of a mob, becoming whatever the crowd needs at a given moment.\nIf we do not focus on our internal integration—on self-awareness—we risk external disintegration.",
+    "author": "EPICTETUS, DISCOURSES, 3.15.13"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 4,
+    "title": "AWARENESS IS FREEDOM",
+    "quote": "The person is free who lives as they wish, neither compelled, nor hindered, nor limited—whose\nchoices aren’t hampered, whose desires succeed, and who don’t fall into what repels them. Who\nwishes to live in deception—tripped up, mistaken, undisciplined, complaining, in a rut? No one.\nThese are base people who don’t live as they wish; and so, no base person is free.",
+    "text": "It is sad to consider how much time many people spend in the course of a day doing things they “have” to do—not necessary obligations like work or family, but the obligations we needlessly accept out of vanity or ignorance. Consider the actions we take in order to impress other people or the lengths we’ll go to fulfill urges or sate desires we don’t even question. In one of his famous letters, Seneca observes how often powerful people are slaves to their money, to their positions, to their mistresses, even—as was legal in Rome—to their slaves. “No slavery is more disgraceful,” he quipped, “than one which is self\u0002imposed.” We see this slavery all the time—a codependent person who can’t help but clean up after a dysfunctional friend, a boss who micromanages employees and sweats every penny. The countless causes, events, and get-togethers we’re too busy to attend but agree to anyway. Take an inventory of your obligations from time to time. How many of these are self-imposed? How many of them are truly necessary? Are you as free as you think?",
+    "author": "EPICTETUS, DISCOURSES, 4.1.1–3a"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 5,
+    "title": "CUTTING BACK ON THE COSTLY",
+    "quote": "So, concerning the things we pursue, and for which we vigorously exert ourselves, we owe this\nconsideration—either there is nothing useful in them, or most aren’t useful. Some of them are\nsuperfluous, while others aren’t worth that much. But we don’t discern this and see them as free,\nwhen they cost us dearly.",
+    "text": "Of Seneca’s many letters, this is probably one of the most important—and one of the least understood.\nHe’s making a point that goes unheard in a society of ever-bigger houses and ever more possessions:\nthat there’s a hidden cost to all that accumulating. And the sooner we’re aware of it, the better.\nRemember: even what we get for free has a cost, if only in what we pay to store it—in our garages\nand in our minds. As you walk past your possessions today, ask yourself: Do I need this? Is it\nsuperfluous? What’s this actually worth? What is it costing me?\nYou might be surprised by the answers and how much we’ve been paying without even knowing it",
+    "author": "SENECA, MORAL LETTERS, 42.6"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 6,
+    "title": "DON’T TELL YOURSELF STORIES",
+    "quote": "In public avoid talking often and excessively about your accomplishments and dangers, for\nhowever much you enjoy recounting your dangers, it’s not so pleasant for others to hear about\nyour affairs.",
+    "text": "Modern philosopher Nassim Taleb has warned of the “narrative fallacy”—the tendency to assemble\nunrelated events of the past into stories. These stories, however gratifying to create, are inherently\nmisleading. They lead to a sense of cohesion and certainty that isn’t real.\nIf that’s too heady, remember that as Epictetus points out, there is another reason not to tell stories\nabout your past. It’s boring, annoying, and self-absorbed. It might make you feel good to dominate the\nconversation and make it all about you, but how do you think it is for everyone else? Do you think people\nare really enjoying the highlights of your high school football days? Is this really the time for another\nexaggerated tale of your sexual prowess?\nTry your best not to create this fantasy bubble—live in what’s real. Listen and connect with people,\ndon’t perform for them.",
+    "author": "EPICTETUS, ENCHIRIDION, 33.14"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 7,
+    "title": "DON’T TRUST THE SENSES",
+    "quote": "Heraclitus called self-deception an awful disease and eyesight a lying sense.",
+    "text": "Self-awareness is the ability to objectively evaluate the self. It’s the ability to question our own\ninstincts, patterns, and assumptions. Oiêsis, self-deception or arrogant and unchallenged opinion,\nrequires that we hold all our opinions up to hard scrutiny; even our eyes deceive us.\nOn the one hand, that’s alarming. I can’t even trust my own senses?! Sure, you could think about it that\nway. Or you could take it another way: because our senses are often wrong, our emotions overly alarmed,\nour projections overly optimistic, we’re better off not rushing into conclusions about anything. We can\ntake a beat with everything we do and become aware of everything that’s going on so we can make the\nright decision",
+    "author": "DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 9.7"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 8,
+    "title": "DON’T UNINTENTIONALLY HAND OVER YOUR FREEDOM",
+    "quote": "If a person gave away your body to some passerby, you’d be furious. Yet you hand over your\nmind to anyone who comes along, so they may abuse you, leaving it disturbed and troubled—\nhave you no shame in that?",
+    "text": "Instinctively, we protect our physical selves. We don’t let people touch us, push us around, control\nwhere we go. But when it comes to the mind, we’re less disciplined. We hand it over willingly to\nsocial media, to television, to what other people are doing, thinking, or saying. We sit down to work and\nthe next thing you know, we’re browsing the Internet. We sit down with our families, but within minutes\nwe have our phones out. We sit down peacefully in a park, but instead of looking inward, we’re judging\npeople as they pass by.\nWe don’t even know that we’re doing this. We don’t realize how much waste is in it, how inefficient\nand distracted it makes us. And what’s worse—no one is making this happen. It’s totally self-inflicted.\nTo the Stoics, this is an abomination. They know that the world can control our bodies—we can be\nthrown in jail or be tossed about by the weather. But the mind? That’s ours. We must protect it. Maintain\ncontrol over your mind and perceptions, they’d say. It’s your most prized possession.",
+    "author": "EPICTETUS, ENCHIRIDION, 28"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 9,
+    "title": "FIND THE RIGHT SCENE",
+    "quote": "Above all, keep a close watch on this—that you are never so tied to your former acquaintances\nand friends that you are pulled down to their level. If you don’t, you’ll be ruined. . . . You must\nchoose whether to be loved by these friends and remain the same person, or to become a better\nperson at the cost of those friends . . . if you try to have it both ways you will neither make\nprogress nor keep what you once had",
+    "text": "Jim Rohn’s widely quoted line is: “You are the average of the five people you spend the most time\nwith.” James Altucher advises young writers and entrepreneurs to find their “scene”—a group of peers\nwho push them to be better. Your father might have given you a warning when he saw you spending time\nwith some bad kids: “Remember, you become like your friends.” One of Goethe’s maxims captures it\nbetter: “Tell me with whom you consort and I will tell you who you are.”\nConsciously consider whom you allow into your life—not like some snobby elitist but like someone\nwho is trying to cultivate the best life possible. Ask yourself about the people you meet and spend time\nwith: Are they making me better? Do they encourage me to push forward and hold me accountable? Or\ndo they drag me down to their level? Now, with this in mind, ask the most important question: Should I\nspend more or less time with these folks?\nThe second part of Goethe’s quote tells us the stakes of this choice: “If I know how you spend your\ntime,” he said, “then I know what might become of you.”",
+    "author": "EPICTETUS, DISCOURSES, 4.2.1; 4–5"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 10,
+    "title": "FIND YOURSELF A CATO",
+    "quote": "We can remove most sins if we have a witness standing by as we are about to go wrong. The\nsoul should have someone it can respect, by whose example it can make its inner sanctum more\ninviolable. Happy is the person who can improve others, not only when present, but even when\nin their thoughts!",
+    "text": "Cato the Younger, a Roman politician best known for his self-discipline and for his heroic defense of\nthe Republic against Julius Caesar, appears constantly throughout Stoic literature—which is\ninteresting because he didn’t write anything down. He taught no classes. He gave no interviews. His bold\nand brave example is what made him such a commonly cited and quoted philosopher.\nSeneca tells us that we should each have our own Cato—a great and noble person we can allow into\nour minds and use to guide our actions, even when they’re not physically present. The economist Adam\nSmith had a similar concept, which he called the indifferent spectator. It doesn’t have to be an actual\nperson, just someone who, like Seneca said, can stand witness to our behavior. Someone who can quietly\nadmonish us if we are considering doing something lazy, dishonest, or selfish.\nAnd if we do it right, and live our lives in such a way, perhaps we can serve as someone else’s Cato\nor indifferent spectator when they need it.",
+    "author": "SENECA, MORAL LETTERS, 11.9"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 11,
+    "title": "LIVING WITHOUT RESTRICTION",
+    "quote": "The unrestricted person, who has in hand what they will in all events, is free. But anyone who\ncan be restricted, coerced, or pushed into something against what they will is a slave.",
+    "text": "Take a look at some of the most powerful, rich, and famous people in the world. Ignore the trappings\nof their success and what they’re able to buy. Look instead at what they’re forced to trade in return—\nlook at what success has cost them.\nMostly? Freedom. Their work demands they wear a suit. Their success depends on attending certain\nparties, kissing up to people they don’t like. It will require—inevitably—realizing they are unable to say\nwhat they actually think. Worse, it demands that they become a different type of person or do bad things.\nSure, it might pay well—but they haven’t truly examined the transaction. As Seneca put it, “Slavery\nresides under marble and gold.” Too many successful people are prisoners in jails of their own making. Is\nthat what you want? Is that what you’re working hard toward? Let’s hope not.",
+    "author": "EPICTETUS, DISCOURSES, 4.1.128b–129a"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 12,
+    "title": "SEEING THINGS AS THE PERSON AT FAULT DOES",
+    "quote": "Whenever someone has done wrong by you, immediately consider what notion of good or evil\nthey had in doing it. For when you see that, you’ll feel compassion, instead of astonishment or\nrage. For you may yourself have the same notions of good and evil, or similar ones, in which\ncase you’ll make an allowance for what they’ve done. But if you no longer hold the same\nnotions, you’ll be more readily gracious for their error.",
+    "text": "Socrates, perhaps the wisest person to ever live, used to say that “nobody does wrong willingly.”\nMeaning that no one is wrong on purpose either. Nobody thinks they’re wrong, even when they are.\nThey think they’re right, they’re just mistaken. Otherwise, they wouldn’t think it anymore!\nCould it be that the slights you’ve experienced or the harm that others have done to you was not\ninflicted intentionally? What if they simply thought they were doing the right thing—for them, even for\nyou? It’s like the memorial for Confederate soldiers at Arlington (obviously a cause that was wrongly\nfought for by people doing wrong), which states, in part, that the Confederate soldiers served “in simple\nobedience to duty, as they understood it.” Again—they understood wrongly, but it was their genuine\nunderstanding, just as Lincoln was genuine when he ended his famous Cooper Union speech by saying,\n“Let us, to the end, dare to do our duty as we understand it.”\nHow much more tolerant and understanding would you be today if you could see the actions of other\npeople as attempts to do the right thing? Whether you agree or not, how radically would this lens change\nyour perspective on otherwise offensive or belligerent actions?",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.26"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 13,
+    "title": "ONE DAYIT WILL ALL MAKE SENSE",
+    "quote": "Whenever you find yourself blaming providence, turn it around in your mind and you will see\nthat what has happened is in keeping with reason.",
+    "text": "Part of the reason we fight against the things that happen is that we’re so focused on our plan that we\nforget that there might be a bigger plan we don’t know about. Is it not the case that plenty of times\nsomething we thought was a disaster turned out to be, with the passage of time, a lucky break? We also\nforget that we’re not the only people who matter and that our loss might be someone else’s gain.\nThis sense of being wronged is a simple awareness problem. We need to remember that all things are\nguided by reason—but that it is a vast and universal reason that we cannot always see. That the surprise\nhurricane was the result of a butterfly flapping its wings a hemisphere away or that misfortune we have\nexperienced is simply the prelude to a pleasant and enviable future.",
+    "author": "EPICTETUS, DISCOURSES, 3.17.1"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 14,
+    "title": "SELF-DECEPTION IS OUR ENEMY",
+    "quote": "Zeno would also say that nothing is more hostile to a firm grasp on knowledge than self deception.",
+    "text": "Self-deception, delusions of grandeur—these aren’t just annoying personality traits. Ego is more than\njust off-putting and obnoxious. Instead, it’s the sworn enemy of our ability to learn and grow.\nAs Epictetus put it, “It is impossible for a person to begin to learn what he thinks he already knows.”\nToday, we will be unable to improve, unable to learn, unable to earn the respect of others if we think\nwe’re already perfect, a genius admired far and wide. In this sense, ego and self-deception are the\nenemies of the things we wish to have because we delude ourselves into believing that we already\npossess them.\nSo we must meet ego with the hostility and contempt that it insidiously deploys against us—to keep it\naway, if only for twenty-four hours at a time.",
+    "author": "LIVES OF THE EMINENT PHILOSOPHERS, 7.23"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 15,
+    "title": "THE PRESENT IS ALL WE POSSESS",
+    "quote": "Were you to live three thousand years, or even a countless multiple of that, keep in mind that no\none ever loses a life other than the one they are living, and no one ever lives a life other than the\none they are losing. The longest and the shortest life, then, amount to the same, for the present\nmoment lasts the same for all and is all anyone possesses. No one can lose either the past or the\nfuture, for how can someone be deprived of what’s not theirs?",
+    "text": "Today, notice how often you look for more. That is, wanting the past to be more than what it was\n(different, better, still here, etc.) or wanting the future to unfold exactly as you expect (with hardly a\nthought as to how that might affect other people).\nWhen you do this, you’re neglecting the present moment. Talk about ungrateful! There’s a saying—\nattributed to Bil Keane, the cartoonist—worth remembering: “Yesterday’s the past, tomorrow’s the future,\nbut today is a gift. That’s why it’s called the present.” This present is in our possession—but it has an\nexpiration date, a quickly approaching one. If you enjoy all of it, it will be enough. It can last a whole\nlifetime",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 2.14"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 16,
+    "title": "THAT SACRED PART OF YOU",
+    "quote": "Hold sacred your capacity for understanding. For in it is all, that our ruling principle won’t\nallow anything to enter that is either inconsistent with nature or with the constitution of a logical\ncreature. It’s what demands due diligence, care for others, and obedience to God.",
+    "text": "The fact that you can think, the fact that you can read this book, the fact that you are able to reason in\nand out of situations—all of this is what gives you the ability to improve your circumstances and\nbecome better. It’s important to appreciate this ability, because it’s a genuine ability. Not everyone is so\nlucky.\nSeriously—what you take for granted, others wouldn’t even think to dream of.\nTake a little time today to remember that you’re blessed with the capacity to use logic and reason to\nnavigate situations and circumstances. This gives you unthinkable power to alter your circumstances and\nthe circumstances of others. And remember that with power comes responsibility.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 3.9"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 17,
+    "title": "THE BEAUTY OF CHOICE",
+    "quote": "You are not your body and hair-style, but your capacity for choosing well. If your choices are\nbeautiful, so too will you be.",
+    "text": "It’s that line in the movie Fight Club: “You are not your job, you’re not how much money you have in\nthe bank. You are not the car you drive. You’re not the contents of your wallet.” Obviously our friend\nEpictetus never saw that movie or read the book—but apparently the consumerism of the 1990s existed in\nancient Rome too.\nIt’s easy to confuse the image we present to the world for who we actually are, especially when media\nmessaging deliberately blurs that distinction.\nYou might look beautiful today, but if that was the result of vain obsession in the mirror this morning,\nthe Stoics would ask, are you actually beautiful? A body built from hard work is admirable. A body built\nto impress gym rats is not.\nThat’s what the Stoics urge us to consider. Not how things appear, but what effort, activity, and\nchoices they are a result of.",
+    "author": "EPICTETUS, DISCOURSES, 3.1.39b–40a"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 18,
+    "title": "IMPOSSIBLE WITHOUT YOUR CONSENT",
+    "quote": "Today I escaped from the crush of circumstances, or better put, I threw them out, for the crush\nwasn’t from outside me but in my own assumptions.",
+    "text": "In tough days we might say, “My work is overwhelming,” or “My boss is really frustrating.” If only\nwe could understand that this is impossible. Someone can’t frustrate you, work can’t overwhelm\nyou—these are external objects, and they have no access to your mind. Those emotions you feel, as real\nas they are, come from the inside, not the outside.\nThe Stoics use the word hypolêpsis, which means “taking up”—of perceptions, thoughts, and\njudgments by our mind. What we assume, what we willingly generate in our mind, that’s on us. We can’t\nblame other people for making us feel stressed or frustrated any more than we can blame them for our\njealousy. The cause is within us. They’re just the target.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 9.13"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 19,
+    "title": "TIMELESS WISDOM",
+    "quote": "For there are two rules to keep at the ready—that there is nothing good or bad outside my own\nreasoned choice, and that we shouldn’t try to lead events but to follow them.",
+    "text": "In the mid-twentieth century, there was an Indian Jesuit priest named Anthony de Mello. Born in\nBombay when it was still under British control, de Mello was an amalgam of many different cultures\nand perspectives: East, West; he even trained as a psychotherapist. It’s interesting when one sees timeless\nwisdom develop across schools, across epochs and ideas. Here is a quote from de Mello’s book, The\nWay to Love, that sounds almost exactly like Epictetus:“The cause of my irritation is not in this person but in me.”\nRemember, each individual has a choice. You are always the one in control. The cause of irritation—\nor our notion that something is bad—that comes from us, from our labels or our expectations. Just as\neasily, we can change those labels; we can change our entitlement and decide to accept and love what’s\nhappening around us. And this wisdom has been repeated and independently discovered in every century\nand every country since time began",
+    "author": "EPICTETUS, DISCOURSES, 3.10.18"
+  },
+  {
+    "month": "March",
+    "monthIndex": 2,
+    "date": 20,
+    "title": "READY AND AT HOME",
+    "quote": "I may wish to be free from torture, but if the time comes for me to endure it, I’ll wish to bear it\ncourageously with bravery and honor. Wouldn’t I prefer not to fall into war? But if war does\nbefall me, I’ll wish to carry nobly the wounds, starvation, and other necessities of war. Neither\nam I so crazy as to desire illness, but if I must suffer illness, I’ll wish to do nothing rash or\ndishonorable. The point is not to wish for these adversities, but for the virtue that makes\nadversities bearable.",
+    "text": "President James Garfield was a great man—raised in humble circumstances, self-educated, and\neventually a Civil War hero—whose presidency was cut short by an assassin’s bullet. In his brief\ntime in office, he faced a bitterly divided country as well as a bitterly and internally divided Republican\nParty. During one fight, which challenged the very authority of his office, he stood firm, telling an adviser:\n“Of course I deprecate war, but if it is brought to my door the bringer will find me at home.”\nThat’s what Seneca is saying here. We’d be crazy to want to face difficulty in life. But we’d be\nequally crazy to pretend that it isn’t going to happen. Which is why when it knocks on our door—as it\nvery well may this morning—let’s make sure we’re prepared to answer. Not the way we are when a\nsurprise visitor comes late at night, but the way we are when we’re waiting for an important guest:\ndressed, in the right head space, ready to go",
+    "author": "SENECA, MORAL LETTERS, 67.4"
+  },
+    ]
     }
 ]
 
