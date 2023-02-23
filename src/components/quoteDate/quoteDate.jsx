@@ -10,7 +10,6 @@ const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'Jul
 const monthName = monthNames[monthNumber];
 const QuoteDate = () => {
   const [quotesData, setQuotesData ] = useState(null);
-
   /* 
   
   Commenting this bit below out because we're fetching internally
@@ -30,9 +29,8 @@ const QuoteDate = () => {
   if (!quotesData) {
     return <span className="loader"></span>;
   }
-    const quoteOfTheDay = quotesData.filter(quote => quote.title === monthName)[0].quotes.filter(quote => quote.date === monthDate);
-
-    const { title,quote,author,text } = quoteOfTheDay;
+    const quoteOfTheDay = quotesData.filter(quote => quote.title === monthName)[0].quotes.filter(quote => quote.date == monthDate);
+     const { title,quote,author,text } = quoteOfTheDay[0];
   return (
     <>
     
@@ -43,7 +41,7 @@ const QuoteDate = () => {
               <p>{title}</p>
           </div>
           <div className="quote-body">
-              <p className='quote-highlight'>"{quote}"</p>
+              <p className='quote-highlight'>{quote}</p>
               <small>- {author}</small>
               <p className='quote-subtext'>
                   {text}
