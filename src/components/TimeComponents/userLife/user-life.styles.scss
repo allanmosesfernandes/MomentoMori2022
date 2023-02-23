@@ -1,20 +1,21 @@
 .user-life-component {
     color: black;
     background-color: white;
-    width: 80%;
-    border-radius: 10px;
-    border: 7px solid #3AA34B;
     background-size: cover;
     background-position: center;
 
     input[type="date"] {
         margin-left: 12px;
-        border-left: 2px solid ;
+        border-left: 2px solid;
         padding-left: 10px;
-        font-family: "droid-sans-mono", monospace;
+        font-family: neue-bold, monospace;
         font-weight: 400;
         font-style: normal;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+        border: 2px solid var(--bg-color);
+        border-radius: 50px;
 
     }
 }
@@ -23,15 +24,21 @@
     background-color: white;
     display: flex;
     justify-content: flex-start;
-    padding: 0.5rem;
-    border: 2px solid ;
+    border: 2px solid;
     align-items: center;
-    font-family: "droid-sans-mono", monospace;
+    font-family: neue-bold, monospace;
     font-weight: 400;
     font-style: normal;
     width: fit-content;
     border-radius: 5px;
     margin: 2rem;
+    width: 80%;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 0px;
+    border-width: 3px;
+    font-size: 2rem;
 }
 
 .user-life-card {
@@ -85,7 +92,29 @@
 }
 
 @media only screen and (max-width: 800px) {
+.user-life-component {
+    color: black;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
 
+    input[type="date"] {
+        margin-left: 0;
+        border-left: 0;
+        padding-left: 0;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border: 1px solid var(--bg-color);
+        border-radius: 50px;
+
+    }
+}
+
+    .user-date-container {
+        font-size: 1.2rem;
+    }
     //code goes here
     lottie-player {
         width: 100px !important;
@@ -105,10 +134,10 @@
         border-radius: 0;
 
 
-    input[type="date"] {
-        border-left: none !important;
+        input[type="date"] {
+            border-left: none !important;
 
-    }
+        }
     }
 
     .quote-container.user-life-component {

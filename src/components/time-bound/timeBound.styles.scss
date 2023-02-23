@@ -33,7 +33,7 @@ abbr {
   font-style: normal;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: neue-bold;
+  font-family: neue-bold, monospace;
 
 }
 
@@ -156,6 +156,6 @@ abbr {
 .user-date-container {
   background-color: white;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   padding: 1rem;
 }

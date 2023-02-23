@@ -89,7 +89,7 @@ const UserLife = () => {
   return (
     <div className='quote-container user-life-component'>
       <div className="user-date-container" onClick={openDatePicker}>
-        <span>ENTER YOUR DATE OF BIRTH</span>
+        <p>ENTER YOUR DATE OF BIRTH</p>
         <input 
         id="native-date-picker"
         type="date"
@@ -111,7 +111,7 @@ const UserLife = () => {
 
               </div>
             </div>
-                        <div className="img-block">
+            <div className="img-block">
               <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
 
                <div className="skully-text inline">
