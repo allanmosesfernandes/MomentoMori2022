@@ -46,7 +46,7 @@ const Month = () => {
                 pathTransitionDuration: 0.5,
                 pathColor: "#ff2b00",
                 textColor: '#fff',
-                trailColor: '#fff',
+                trailColor: '#ff2b00',
                 backgroundColor: '#3e98c7'
         })}
         />

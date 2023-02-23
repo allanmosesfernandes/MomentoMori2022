@@ -40,8 +40,7 @@ return (
 
                 // Colors
                 pathColor: "#ff2b00",
-                textColor: '#fff',
-                trailColor: '#fff',
+                trailColor: '#9e9e9e',
                 backgroundColor: '#3e98c7'
         })}
         

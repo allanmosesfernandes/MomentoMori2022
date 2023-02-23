@@ -23,7 +23,8 @@ abbr {
 .today__time--container {
   // background-color: #178E96;
   //background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
-  border: 2px solid white;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
   padding: 19px;
   display: grid;
   grid-template-columns: 1fr;
@@ -32,7 +33,7 @@ abbr {
   font-style: normal;
   justify-content: flex-start;
   align-items: flex-start;
-    font-family: neue-bold;
+  font-family: neue-bold;
 
 }
 
