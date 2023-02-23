@@ -33,7 +33,7 @@ const Month = () => {
   return (
     <div className='month-block-container'>
       <div className="month-block-left">
-        <div style={{ width: 100, height: 100 }}>
+        <div style={{ width: 200, height: 200 }}>
          <CircularProgressbar 
             value={todaysDate} 
             maxValue={totalDays} 
@@ -57,9 +57,9 @@ const Month = () => {
         </p>
 
       </div>
-        <div className="month-block-right">
+        {/* <div className="month-block-right">
           <Calendar />
-        </div>
+        </div> */}
        
     </div>
   )
