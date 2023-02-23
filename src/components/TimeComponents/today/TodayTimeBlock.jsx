@@ -14,7 +14,7 @@ const percentage = Math.floor((currentHour * 100) / 24);
 
 return (
     <div className='today__time--container'>
-              <p className='today__time--container-header'>This moment</p>
+              <p className='today__time--container-header'>Today</p>
 
         <div className="arrow circular__donut__sizing">
          <CircularProgressbar 

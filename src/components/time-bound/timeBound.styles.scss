@@ -23,7 +23,7 @@ abbr {
 .today__time--container {
   // background-color: #178E96;
   //background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
-  border: 2px solid var(--text-color);
+  border: 3px solid var(--text-color);
   color: var(--text-color);
   padding: 19px;
   display: grid;
@@ -39,13 +39,14 @@ abbr {
 
 .month__name {
   font-size: 2rem;
+  text-align: center;
 }
 
 .month-block-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
+  text-align: center;
 }
 
 .month-block-right {
@@ -111,6 +112,7 @@ abbr {
 .circular__donut__sizing {
   width: 200px;
   height: 200px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 800px) {

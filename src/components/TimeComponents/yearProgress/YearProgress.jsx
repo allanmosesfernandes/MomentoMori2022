@@ -40,7 +40,7 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
                 pathTransitionDuration: 0.5,
                 pathColor: "#ff2b00",
                 textColor: '#fff',
-                trailColor: '#ff2b00',
+                trailColor: '#9e9e9e',
                 backgroundColor: '#3e98c7'
                 })}
         />

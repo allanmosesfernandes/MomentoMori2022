@@ -12,7 +12,9 @@
     h1 {
         display: inline-flex;
         justify-content: center;
-        font-size: 3rem;
+        font-size: 4rem;
+        font-family: 'gothic';
+        letter-spacing: 2px;
         position: relative;
         &::after {
             width: 200px;

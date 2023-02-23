@@ -44,7 +44,6 @@ const QuoteDate = () => {
               <p className='quote-highlight'>
                 {quote}
                 </p>
-              {console.log(quote)}
               <small>- {author}</small>
               <p className='quote-subtext'>
                 <span className='quote-capitalize'>{text.charAt(0)}</span>
