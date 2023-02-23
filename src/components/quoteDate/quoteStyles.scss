@@ -91,6 +91,20 @@ small {
 }
 }
 
-// .quote-subtext {
-//   white-space: pre-line;
-// }
+.quote-capitalize {
+    font-size: 2rem;
+    line-height: 0;
+}
+
+
+
+@font-face {
+  font-family: gothic;
+  src: url("../../assets/fonts/gothic.ttf");
+}
+
+.quote-capitalize {
+    font-family: gothic;
+    font-size: 3rem;
+    line-height: 0;
+}

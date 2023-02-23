@@ -41,10 +41,14 @@ const QuoteDate = () => {
               <p>{title}</p>
           </div>
           <div className="quote-body">
-              <p className='quote-highlight'>{quote}</p>
+              <p className='quote-highlight'>
+                {quote}
+                </p>
+              {console.log(quote)}
               <small>- {author}</small>
               <p className='quote-subtext'>
-                  {text}
+                <span className='quote-capitalize'>{text.charAt(0)}</span>
+                  {text.slice(1)}
               </p>
           </div>
 
