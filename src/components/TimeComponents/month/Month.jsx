@@ -33,22 +33,25 @@ const Month = () => {
   return (
     <div className='month-block-container'>
       <div className="month-block-left">
+      <p className="month__name">{monthName}</p>
         <div style={{ width: 200, height: 200 }}>
          <CircularProgressbar 
             value={todaysDate} 
+            text={`${MonthPercent}%`}
             maxValue={totalDays} 
             strokeWidth={15}
             styles={buildStyles({
                 strokeLinecap: 'round',
-                textSize: '16px',
+                textSize: '20px',
                 pathTransitionDuration: 0.5,
-                pathColor: "#fff",
-                textColor: '#C1C1C1',
-                trailColor: '#45A4AB',
+                pathColor: "#ff2b00",
+                textColor: '#fff',
+                trailColor: '#fff',
+                backgroundColor: '#3e98c7'
         })}
         />
         </div>
-        <p className="month__name">{monthName}</p>
+
         <p className='today__time--container-hour'>
           {todaysDate}/{totalDays} . Passed
         </p>
