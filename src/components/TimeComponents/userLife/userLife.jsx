@@ -98,7 +98,7 @@ const UserLife = () => {
         required
         value={`${userYear}-${userMonth < 10 ? '0' + userMonth : userMonth}-${userDay < 10 ? '0' + userDay : userDay}`}
          />
-        <p>*Based on the average lifespan of 75 years</p>
+        <p>*Based on the <a href="https://ourworldindata.org/life-expectancy">average lifespan </a>of 75 years</p>
         </div>
 
         <div className='user-life-card'>
