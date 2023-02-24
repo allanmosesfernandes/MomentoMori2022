@@ -188,6 +188,10 @@
 
     .user-life-component p {
         margin-bottom: 0.5rem;
+
+        a {
+            color: inherit;
+        }
     }
 
     .user-life-skull.hour-glass {
@@ -200,7 +204,7 @@
         gap: 1rem;
         border: 0;
         width: 100%;
-
+        padding: 1rem;
     }
 
     .user-life-component input[type=date] {
