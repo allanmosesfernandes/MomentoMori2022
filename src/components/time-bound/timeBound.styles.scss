@@ -114,6 +114,14 @@ abbr {
   height: 200px;
   margin: auto;
 }
+.circular__donut__sizing__mini {
+  width: 150px;
+  height: 150px;
+
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #000 !important;
+}
+}
 
 @media only screen and (max-width: 800px) {
 

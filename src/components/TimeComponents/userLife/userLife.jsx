@@ -35,6 +35,7 @@ const UserLife = () => {
     userYear: 0,
     userMonth: 0,
     userDay: 0,
+    userLifeLeft: 0
   });
 
   useEffect(() => {
@@ -61,6 +62,7 @@ const UserLife = () => {
     let userDay = birthday.getDate();
     let ageDifMs = Date.now() - birthday.getTime();
     let ageDate = new Date(ageDifMs);
+    let userLifeLeft = 0;
 
     const updatedAge = {
     years: Math.abs(ageDate.getUTCFullYear() - 1970),
@@ -69,16 +71,18 @@ const UserLife = () => {
     userYear,
     userMonth: userMonth,
     userDay: userDay,
+    lifeLeft: Math.abs(ageDate.getUTCFullYear() - 1970) - 80,
   };
   
-    setAge({
-      years: Math.abs(ageDate.getUTCFullYear() - 1970),
-      months: Math.abs(ageDate.getUTCMonth()),
-      days: Math.abs(ageDate.getUTCDate() - 1),
-      userYear,
-      userMonth: userMonth,
-      userDay: userDay,
-    });
+    // setAge({
+    //   years: Math.abs(ageDate.getUTCFullYear() - 1970),
+    //   months: Math.abs(ageDate.getUTCMonth()),
+    //   days: Math.abs(ageDate.getUTCDate() - 1),
+    //   userYear,
+    //   userMonth: userMonth,
+    //   userDay: userDay,
+    //   lifeLeft: Math.abs(ageDate.getUTCFullYear() - 1970) - 80,
+    // });
     setAge(updatedAge);
   window.localStorage.setItem('age', JSON.stringify(updatedAge));
   }
@@ -88,8 +92,8 @@ const UserLife = () => {
     // event.target.showPicker();
 };
 
-    const { years, months, days,userMonth, userDay, userYear} = age;
-
+    const { years, months, days,userMonth, userDay, userYear, lifeLeft} = age;
+  
 
   return (
     <div className='quote-container user-life-component'>
@@ -123,6 +127,37 @@ const UserLife = () => {
                 <p className='large-txt'>{days + months * 30 + years * 365} </p>
                 <p>Days </p> 
                </div> */}
+                       <div className="arrow circular__donut__sizing__mini">
+         <CircularProgressbar 
+            text={`${(years * 100)/80}%`}
+            value={years} 
+            maxValue={80} 
+            strokeWidth={15}
+            styles={buildStyles({
+                // Rotation of path and trail, in number of turns (0-1)
+                rotation: 0,
+
+                // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                strokeLinecap: "round",
+
+                // Text size
+                textSize: '20px',
+
+                // How long animation takes to go from one percentage to another, in seconds
+                pathTransitionDuration: 0.5,
+
+                // Can specify path transition in more detail, or remove it entirely
+                // pathTransition: 'none',
+
+                // Colors
+                pathColor: "#ff2b00",
+                trailColor: '#9e9e9e',
+                backgroundColor: '#3e98c7',
+                textColor: '#000000',
+        })}
+        
+        />
+        </div>
             </div>
             <div className="img-block">
              <img src={Leafy} alt="user skull" className='user-life-skull'/>
