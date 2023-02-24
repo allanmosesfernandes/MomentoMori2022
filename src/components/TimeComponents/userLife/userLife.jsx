@@ -108,20 +108,15 @@ const UserLife = () => {
               <p className='large-txt'>
                 { userMonth === undefined || userMonth === 0 ? '????' : `${CalendarMonths[userMonth - 1 ]} ${userDay}, ${age.userYear}` }
               </p>
-              <p className='pseudo-border'>Your Life,</p>
+              <p className='pseudo-border'>Your Life.</p>
 
               </div>
             </div>
             <div className="img-block">
-              {/* <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
 
-               <div className="skully-text inline">
-                <p className='large-txt'>{days + months * 30 + years * 365} </p>
-                <p>Days </p> 
-               </div> */}
         <div className="arrow circular__donut__sizing__mini">
          <CircularProgressbar 
-            text={`${((years * 100)/75).toFixed(2)}%`}
+            text={`${((years * 100)/75).toFixed(1)}%`}
             value={years} 
             maxValue={75} 
             strokeWidth={15}
