@@ -4,7 +4,12 @@ import './user-life.styles.scss';
 import Skull from '../../../assets/images/skull-white.svg';
 import Leafy from '../../../assets/images/symbols/Leaf.svg';
 import MonthVase from '../../../assets/images/symbols/month_vase.svg';
-
+import {
+  CircularProgressbar,
+  CircularProgressbarWithChildren,
+  buildStyles
+} from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const UserLife = () => {
 
@@ -112,12 +117,12 @@ const UserLife = () => {
               </div>
             </div>
             <div className="img-block">
-              <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
+              {/* <lottie-player className="lottie-animation" src="https://assets10.lottiefiles.com/packages/lf20_kw3ernmh.json"  background="transparent"  speed="0.5"  loop  autoplay></lottie-player>
 
                <div className="skully-text inline">
                 <p className='large-txt'>{days + months * 30 + years * 365} </p>
                 <p>Days </p> 
-               </div>
+               </div> */}
             </div>
             <div className="img-block">
              <img src={Leafy} alt="user skull" className='user-life-skull'/>
