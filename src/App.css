@@ -158,3 +158,23 @@ summary,
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
   stroke: transparent;
 }
+
+
+.mobile__only {
+  display: none;
+}
+
+.hide__on__mobile {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+ .mobile__only {
+  display: block;
+}
+
+.hide__on__mobile {
+  display: none;
+}
+
+}
