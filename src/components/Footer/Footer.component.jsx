@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 import Skull from '../../assets/images/about.svg';
-import AF from "../../assets/AF-grey.svg";
+import AF from "../../assets/images/sale.png";
 import { Link } from 'react-router-dom';
 const Footer = () => {
   const date = new Date();

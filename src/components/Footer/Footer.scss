@@ -83,16 +83,44 @@ footer {
 
 .created__by {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0 1rem 0;
 
     a {
-        border-bottom: none !important;
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        border-bottom: none;
     }
 
-    flex-direction: column;
-
+    img {
+          animation: spin 10s linear infinite;
+    }
     .af__logo {
         width: 50px;
+    }
+}
+
+
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
