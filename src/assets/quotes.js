@@ -1,4 +1,5 @@
-const QUOTES_DATA = [{
+const QUOTES_DATA = [
+  {
     title: "January",
     quotes: [{
         "month": "January",
@@ -919,8 +920,470 @@ const QUOTES_DATA = [{
         "quote": "It isn’t events themselves that disturb people, but only their judgments about them.",
         "text": "The samurai swordsman Musashi made a distinction between our “perceiving eye” and our “observing\neye.” The observing eye sees what is. The perceiving eye sees what things supposedly mean. Which\none do you think causes us the most anguish?\nAn event is inanimate. It’s objective. It simply is what it is. That’s what our observing eye sees.\nThis will ruin me. How could this have happened? Ugh! It’s so-and-so’s fault. That’s our perceiving\neye at work. Bringing disturbance with it and then blaming it on the event.",
         "author": "EPICTETUS, ENCHIRIDION, 5"
-      }
+      },
+       {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 11,
+    "title": "IF YOU WANT TO LEARN, BE HUMBLE",
+    "quote": "Throw out your conceited opinions, for it is impossible for a person to begin to learn what he\nthinks he already knows.",
+    "text": "Of all the Stoics, Epictetus is the closest one to a true teacher. He had a school. He hosted classes. In\nfact, his wisdom is passed down to us through a student who took really good lecture notes. One of\nthe things that frustrated Epictetus about philosophy students—and has frustrated all college professors\nsince time began—is how students claim to want to be taught but really secretly believe they already\nknow everything.\nThe reality is that we’re all guilty of thinking we know it all, and we’d all learn more if we could set\nthat attitude aside. As smart or successful as we may be, there is always someone who is smarter, more\nsuccessful, and wiser than us. Emerson put it well: “Every man I meet is my master in some point, and in\nthat I learn of him.”\nIf you want to learn, if you want to improve your life, seeking out teachers, philosophers, and great\nbooks is a good start. But this approach will only be effective if you’re humble and ready to let go of\nopinions you already have.",
+    "author": "EPICTETUS, DISCOURSES, 2.17.1"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 12,
+    "title": "REJECT TANTALIZING GIFTS",
+    "quote": "Atreus: Who would reject the flood of fortune’s gifts?\nThyestes: Anyone who has experienced how easily they flow back.",
+    "text": "Thyestes is one of Seneca’s darkest and most disturbing plays. Even two thousand years later it\nremains a classic of the revenge genre. Without spoiling it, the quote above comes from the scene in\nwhich Atreus is attempting to lure his hated brother Thyestes into a cruel trap by offering him tempting\nand generous gifts. At first, Thyestes declines, to the complete bafflement of his enemy.\nWe are typically surprised when someone turns down an expensive gift or a position of honor or\nsuccess. General William T. Sherman emphatically rejected offers to run for president of the United\nStates, saying at one point: “I will not accept if nominated and will not serve if elected.” If his friend\nUlysses S. Grant had made such a “Shermanesque statement” (as such rejections are now known), Grant\ncertainly would have preserved his own legacy from the disastrous turn of events it suffered.\nDespite his initial misgivings, Thyestes is ultimately tempted and persuaded to accept “fortune’s\ngifts,” . . . which turned out to be a ruse hiding devastating tragedy. Not every opportunity is fraught with\ndanger, but the play was intended to remind us that our attraction toward what is new and shiny can lead\nus into serious trouble",
+    "author": "SENECA, THYESTES, 536"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 13,
+    "title": "LESS IS MORE",
+    "quote": "Don’t act grudgingly, selfishly, without due diligence, or to be a contrarian. Don’t overdress\nyour thought in fine language. Don’t be a person of too many words and too many deeds. . . . Be\ncheerful, not wanting outside help or the relief others might bring. A person needs to stand on\ntheir own, not be propped up.",
+    "text": "In most areas of life, the saying “Less is more” stands true. For instance, the writers we admire tend to\nbe masters of economy and brevity. What they leave out is just as important—sometimes more\nimportant—than what they leave in. There is a poem by Philip Levine titled “He Would Never Use One\nWord Where None Would Do.” And from Hamlet, the best of all—the retort from Queen Gertrude after a\nlong, rhetorical speech from Polonius: “More matter with less art,” she tells him. Get to the point!\nImagine the emperor of Rome, with his captive audience and unlimited power, telling himself not to be\na person of “too many words and too many deeds.” Let that be a reminder the next time you feel self\u0002indulgent or a little full of yourself, the next time you feel like impressing people",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 3.5"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 14,
+    "title": "BECOMING AN EXPERT IN WHAT MATTERS",
+    "quote": "Believe me, it’s better to produce the balance-sheet of your own life than that of the grain\nmarket.",
+    "text": "The things that some people manage to be experts in: fantasy sports, celebrity trivia, derivatives and\ncommodities markets, thirteenth-century hygiene habits of the clergy.\nWe can get very good at what we’re paid to do, or adept at a hobby we wish we could be paid to do.\nYet our own lives, habits, and tendencies might be a mystery to us.\nSeneca was writing this important reminder to his father-in-law, who, as it happened, was for a time\nin charge of Rome’s granary. But then his position was revoked for political purposes. Who really cares,\nSeneca was saying, now you can focus that energy on your inner life.\nAt the end of your time on this planet, what expertise is going to be more valuable—your\nunderstanding of matters of living and dying, or your knowledge of the ’87 Bears? Which will help your\nchildren more—your insight into happiness and meaning, or that you followed breaking political news\nevery day for thirty years?",
+    "author": "SENECA, ON THE BREVITY OF LIFE, 18.3b"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 15,
+    "title": "PAY YOUR TAXES",
+    "quote": "Nothing will ever befall me that I will receive with gloom or a bad disposition. I will pay my\ntaxes gladly. Now, all the things which cause complaint or dread are like the taxes of life—\nthings from which, my dear Lucilius, you should never hope for exemption or seek escape.",
+    "text": "As your income taxes come due, you might be like many people—complaining at what you have to\nfork over to the government. Forty percent of everything I make goes to these people? And for\nwhat?!\nFirst off, taxes go to a lot of programs and services you almost certainly take for granted. Second, you\nthink you’re so special? People have been complaining about their taxes for thousands of years, and now\nthey’re dead. Get over it. Third, this is a good problem to have. Far better than, say, making so little there\nis nothing left to pay the government or living in an anarchy and having to pay for every basic service in a\nstruggle against nature.\nBut more important, income taxes are not the only taxes you pay in life. They are just the financial\nform. Everything we do has a toll attached to it. Waiting around is a tax on traveling. Rumors and gossip\nare the taxes that come from acquiring a public persona. Disagreements and occasional frustration are\ntaxes placed on even the happiest of relationships. Theft is a tax on abundance and having things that other\npeople want. Stress and problems are tariffs that come attached to success. And on and on and on.\nThere are many forms of taxes in life. You can argue with them, you can go to great—but ultimately\nfutile—lengths to evade them, or you can simply pay them and enjoy the fruits of what you get to keep.",
+    "author": "SENECA, MORAL LETTERS, 96.2"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 16,
+    "title": "OBSERVE CAUSE AND EFFECT",
+    "quote": "Pay close attention in conversation to what is being said, and to what follows from any action. In\nthe action, immediately look for the target, in words, listen closely to what’s being signaled.",
+    "text": "Through the work of the psychologist Albert Ellis, Stoicism has reached millions of people through\nwhat’s known as cognitive-behavioral therapy (CBT). As a form of a therapy, CBT helps patients\nidentify destructive patterns in their thoughts and behavior so they can, over time, direct and influence\nthem in a more positive direction.\nOf course, Marcus Aurelius had no formal training in psychology, but his words here are as important\nas any doctor’s. He’s asking you to become an observer of your own thoughts and the actions those\nthoughts provoke. Where do they come from? What biases do they contain? Are they constructive or\ndestructive? Do they cause you to make mistakes or engage in behavior you later regret? Look for\npatterns; find where cause meets effect.\nOnly when this is done can negative behavior patterns be broken; only then can real life improvements\nbe made.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.4"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 17,
+    "title": "NO HARM, NO FOUL",
+    "quote": "Do away with the opinion I am harmed, and the harm is cast away too. Do away with being\nharmed, and harm disappears.",
+    "text": "A word can have multiple meanings. One usage can be harsh and another might be completely innocent.\nThe same word can mean a cruel slur or a pile of sticks. In the same way, something said sarcastically\ndiffers drastically from something that was pointed and mean.\nThe interpretation of a remark or a word has an immense amount of power. It’s the difference between\na laugh and hurt feelings. The difference between a fight breaking out and two people connecting.\nThis is why it is so important to control the biases and lenses we bring to our interactions. When you\nhear or see something, which interpretation do you jump to? What is your default interpretation of\nsomeone else’s intentions?\nIf being upset or hurt is something you’d like to experience less often, then make sure your\ninterpretations of others’ words make that possible. Choose the right inference from someone’s actions or\nfrom external events, and it’s a lot more likely that you’ll have the right response.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 4.7"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 18,
+    "title": "OPINIONS ARE LIKE . . .",
+    "quote": "What is bad luck? Opinion. What are conflict, dispute, blame, accusation, irreverence, and\nfrivolity? They are all opinions, and more than that, they are opinions that lie outside of our own\nreasoned choice, presented as if they were good or evil. Let a person shift their opinions only to\nwhat belongs in the field of their own choice, and I guarantee that person will have peace of\nmind, whatever is happening around them.",
+    "text": "Opinions. Everyone’s got one.\nThink about all the opinions you have: about whether today’s weather is convenient, about what\nliberals and conservatives believe, about whether so-and-so’s remark is rude or not, about whether\nyou’re successful (or not), and on and on. We’re constantly looking at the world around us and putting our\nopinion on top of it. And our opinion is often shaped by dogma (religious or cultural), entitlements,\nexpectations, and in some cases, ignorance.\nNo wonder we feel upset and angry so often! But what if we let these opinions go? Let’s try weeding\n(ekkoptein; cutting or knocking out) them out of our lives so that things simply are. Not good or bad, not\ncolored with opinion or judgment. Just are.",
+    "author": "EPICTETUS, DISCOURSES, 3.3.18b–19"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 19,
+    "title": "OUR SPHERE OF IMPULSES",
+    "quote": "Epictetus says we must discover the missing art of assent and pay special attention to the sphere\nof our impulses—that they are subject to reservation, to the common good, and that they are in\nproportion to actual worth.",
+    "text": "Here we have the emperor, the most powerful man in the world, quoting in his diary the wisdom of a\nformer slave (and from what we know, Marcus might have had direct notes from Epictetus’s lectures\nvia one of his former students). That wisdom was ultimately about surrender and serving the common\ngood—about the limits of our power and the importance of checking our impulses—something every\nperson in authority needs to hear.\nPower and powerlessness seem so rarely to enter the same orbit—but when they do it can change the\nworld. Think about President Abraham Lincoln meeting with, corresponding with, and learning from\nFrederick Douglass, another former slave of considerable wisdom and insight.\nIn any case, all those men lived by the principles expressed here: that in our lives—whether we’re\nexperiencing great power or powerlessness—it’s critical to leave room for what may happen and keep\nthe common good and the actual worth of things front and center. And, above all, be willing to learn from\nanyone and everyone, regardless of their station in life.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.37"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 20,
+    "title": "REAL GOOD IS SIMPLE",
+    "quote": "Here’s a way to think about what the masses regard as being ‘good’ things. If you would first\nstart by setting your mind upon things that are unquestionably good—wisdom, self-control,\njustice, courage—with this preconception you’ll no longer be able to listen to the popular\nrefrain that there are too many good things to experience in a lifetime.",
+    "text": "Is it that controversial to say that there are the things that people value (and pressure you to value as\nwell)—and there are the things that are actually good? Or to question whether wealth and fame are all\nthey are cracked up to be? As Seneca observed in one of his plays:\n“If only the hearts of the wealthy were opened to all!\nHow great the fears high fortune stirs up within them.”\nFor centuries, people have assumed that wealth would be a wonderful cure-all for their unhappiness\nor problems. Why else would they have worked so hard for it? But when people actually acquired the\nmoney and status they craved, they discovered it wasn’t quite what they had hoped. The same is true of so\nmany things we covet without really thinking.\nOn the other hand, the “good” that the Stoics advocate is simpler and more straightforward: wisdom,\nself-control, justice, courage. No one who achieves these quiet virtues experiences buyer’s remorse.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 5.12"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 21,
+    "title": "DON’T LET YOUR ATTENTION SLIDE",
+    "quote": "When you let your attention slide for a bit, don’t think you will get back a grip on it whenever\nyou wish—instead, bear in mind that because of today’s mistake everything that follows will be\nnecessarily worse. . . . Is it possible to be free from error? Not by any means, but it is possible\nto be a person always stretching to avoid error. For we must be content to at least escape a few\nmistakes by never letting our attention slide.",
+    "text": "Winifred Gallagher, in her book Rapt, quotes David Meyer, a cognitive scientist at the University of\nMichigan: “Einstein didn’t invent the theory of relativity while he was multitasking at the Swiss\npatent office.” It came after, when he really had time to focus and study. Attention matters—and in an era\nin which our attention is being fought for by every new app, website, article, book, tweet, and post, its\nvalue has only gone up.\nPart of what Epictetus is saying here is that attention is a habit, and that letting your attention slip and\nwander builds bad habits and enables mistakes.\nYou’ll never complete all your tasks if you allow yourself to be distracted with every tiny interruption.\nYour attention is one of your most critical resources. Don’t squander it!",
+    "author": "EPICTETUS, DISCOURSES, 4.12.1; 19"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 22,
+    "title": "THE MARKS OF A RATIONAL PERSON",
+    "quote": "These are the characteristics of the rational soul: self-awareness, self-examination, and self-determination. It reaps its own harvest. . . . It succeeds in its own purpose...",
+    "text": "To be rational today, we have to do just three things:\nFirst, we must look inward.\nNext, we must examine ourselves critically.\nFinally, we must make our own decisions—uninhibited by biases or popular notions.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.1–2"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 23,
+    "title": "THE MIND IS ALL YOURS",
+    "quote": "You have been formed of three parts—body, breath, and mind. Of these, the first two are yours\ninsofar as they are only in your care. The third alone is truly yours.",
+    "text": "The body can be ravaged by disease or injured or disabled in a sudden accident. It can be imprisoned\nor subjected to torture. The breath can suddenly cease because our time has come, or because\nsomeone has taken it from us. Breathing can grow labored because of exertion or illness as well. But up\nuntil the very end, our mind is ours.\nIt’s not that the other two parts of life that Marcus mentions—our body and our breath—don’t matter.\nThey’re just less “ours” than our mind. You wouldn’t spend much time fixing up a house that you rent,\nwould you? Our mind is ours—free and clear. Let’s make sure we treat it right.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 12.33"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 24,
+    "title": "A PRODUCTIVE USE FOR CONTEMPT",
+    "quote": "Just as when meat or other foods are set before us we think, this is a dead fish, a dead bird or\npig; and also, this fine wine is only the juice of a bunch of grapes, this purple-edged robe just\nsheep’s wool dyed in a bit of blood from a shellfish; or of sex, that it is only rubbing private\nparts together followed by a spasmic discharge—in the same way our impressions grab actual\nevents and permeate them, so we see them as they really are.",
+    "text": "There is one Stoic exercise that might well be described as contemptuous expressions. Stoics use an\nalmost cynical language as a way to dismantle some of the fanciest or most coveted parts of life.\nMarcus’s joke about sex—why would he say something like that? Well, if you take a second to consider\nsex in such an absurd light, you may be less likely to do something shameful or embarrassing in the pursuit\nof it. It’s a counterbalance to the natural bias we have toward something that feels really good.\nWe can apply this same way of thinking to a lot of things that people prize. Consider that envy inducing photo you see on social media—imagine the person painstakingly staging it. What about that job\npromotion that means so much? Look at the lives of other so-called successful people. Still think it holds\nmagical power? Money, which we want more of and are reluctant to part with—consider how covered in\nbacteria and filth it is. That beautiful, perfect person you’re admiring from afar? Remember that if they’re\nsingle, other people must have dumped them at some point. There must be something wrong with them.\nThis exercise won’t turn you into a cynic. But it will provide some much-needed objectivity",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6.13"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 25,
+    "title": "THERE’S NOTHING WRONG WITH BEING WRONG",
+    "quote": "If anyone can prove and show to me that I think and act in error, I will gladly change it—for I\nseek the truth, by which no one has ever been harmed. The one who is harmed is the one who\nabides in deceit and ignorance.",
+    "text": "Someone once attempted to argue with the philosopher Cicero by quoting something he had said or\nwritten. This person claimed Cicero was saying one thing now but had believed something different\nin the past. His response: “I live from one day to the next! If something strikes me as probable, I say it;\nand that is how, unlike everyone else, I remain a free agent.”\nNo one should be ashamed at changing his mind—that’s what the mind is for. “A foolish consistency is\nthe hobgoblin of little minds,” Emerson said, “adored by little statesmen and philosophers and divines.”\nThat’s why we go to such lengths to learn and expose ourselves to wisdom. It would be embarrassing if\nwe didn’t end up finding out if we were wrong in the past.\nRemember: you’re a free agent. When someone points out a legitimate flaw in your belief or in your\nactions, they’re not criticizing you. They’re presenting a better alternative. Accept it!",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6.21"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 26,
+    "title": "THINGS HAPPEN IN TRAINING",
+    "quote": "When your sparring partner scratches or head-butts you, you don’t then make a show of it, or\nprotest, or view him with suspicion or as plotting against you. And yet you keep an eye on him,\nnot as an enemy or with suspicion, but with a healthy avoidance. You should act this way with\nall things in life. We should give a pass to many things with our fellow trainees. For, as I’ve\nsaid, it’s possible to avoid without suspicion or hate.",
+    "text": "By seeing each day and each situation as a kind of training exercise, the stakes suddenly become a lot\nlower. The way you interpret your own mistakes and the mistakes of others is suddenly a lot more\ngenerous. It’s certainly a more resilient attitude than going around acting like the stakes of every encounter\nput the championship on the line.\nWhen you catch an elbow or an unfair blow today, shake off the pain and remind yourself: I’m\nlearning. My sparring partner is learning too. This is practice for both of us—that’s all. I know a bit\nmore about him or her, and from my reaction, they’re going to learn a little bit more about me too.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6.20"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 27,
+    "title": "TURN IT INSIDE OUT",
+    "quote": "Turn it inside out and see what it is like—what it becomes like when old, sick, or prostituting\nitself. How short-lived the praiser and praised, the one who remembers and the remembered.\nRemembered in some corner of these parts, and even there not in the same way by all, or even\nby one. And the whole earth is but a mere speck.",
+    "text": "Stoicism is about looking at things from every angle—and certain situations are easier to understand\nfrom different perspectives. In potentially negative situations, the objective, even superficial gaze\nmight actually be superior. That view might let us see things clearly without diving too much into what\nthey might represent or what might have caused them. In other situations, particularly those that involve\nsomething impressive or praiseworthy, another approach, like that of contemptuous expressions, is\nhelpful. By examining situations from the inside out, we can be less daunted by them, less likely to be\nswayed by them.\nDig into your fear of death or obscurity, and what will you find? Turn some fancy ceremony inside out\nand you’ll find—what?",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.21"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 28,
+    "title": "WANTS MAKE YOU A SERVANT",
+    "quote": "“Tantalus: The highest power is—\nThyestes: No power, if you desire nothing.”",
+    "text": "In the modern world, our interactions with tyranny are a bit more voluntary than they were in ancient\ntimes. We put up with our controlling boss, though we could probably get a different job if we wanted.\nWe change how we dress or refrain from saying what we actually think? Because we want to fit in with\nsome cool group. We put up with cruel critics or customers? Because we want their approval. In these\ncases, their power exists because of our wants. You change that, and you’re free.\nThe late fashion photographer Bill Cunningham occasionally declined to invoice magazines for his\nwork. When a young upstart asked him why that was, Cunningham’s response was epic: “If you don’t take\nmoney, they can’t tell you what to do, kid.”\nRemember: taking the money, wanting the money—proverbially or literally—makes you a servant to\nthe people who have it. Indifference to it, as Seneca put it, turns the highest power into no power, at least\nas far as your life is concerned.",
+    "author": "SENECA, THYESTES, 440"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 29,
+    "title": "WASHING AWAY THE DUST OF LIFE",
+    "quote": "Watch the stars in their courses and imagine yourself running alongside them. Think constantly on\nthe changes of the elements into each other, for such thoughts wash away the dust of earthly life.",
+    "text": "It is almost impossible to stare up at the stars and not feel something. As cosmologist Neil deGrasse\nTyson has explained, the cosmos fills us with complicated emotions. On the one hand, we feel an\ninfinitesimal smallness in comparison to the vast universe; on the other, an extreme connectedness to this\nlarger whole.\nObviously, given that we’re in our bodies every day, it’s tempting to think that’s the most important\nthing in the world. But we counteract that bias by looking at nature—at things much bigger than us. A line\nfrom Seneca, which has since become a proverb, expresses Marcus’s insight well: Mundus ipse est\ningens deorum omnium templum (The world itself is a huge temple of all the gods).\nLooking at the beautiful expanse of the sky is an antidote to the nagging pettiness of earthly concerns.\nAnd it is good and sobering to lose yourself in that as often as you can.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.47"
+  },
+  {
+    "month": "April",
+    "monthIndex": 3,
+    "date": 30,
+    "title": "WHAT IS IN KEEPING WITH YOUR CHARACTER?",
+    "quote": "Just as what is considered rational or irrational differs for each person, in the same way what is\ngood or evil and useful or useless differs for each person. This is why we need education, so\nthat we might learn how to adjust our preconceived notions of the rational and irrational in\nharmony with nature. In sorting this out, we don’t simply rely on our estimate of the value of\nexternal things, but also apply the rule of what is in keeping with one’s character.",
+    "text": "It is easy to get wrapped up in our own opinions of things. It’s as if we’re adhering to invisible scripts\n—following instructions or patterns we don’t even understand. The more you question these scripts and\nthe more you subject them to the rigorous test of your education, the more you’ll be your own compass.\nYou’ll have convictions and thoughts that are your own and belong to no one else.\nCharacter is a powerful defense in a world that would love to be able to seduce you, buy you, tempt\nyou, and change you. If you know what you believe and why you believe it, you’ll avoid poisonous\nrelationships, toxic jobs, fair-weather friends, and any number of ills that afflict people who haven’t\nthought through their deepest concerns. That’s your education. That’s why you do this work.",
+    "author": "EPICTETUS, DISCOURSES, 1.2.5–7"
+  }
     ]
+  },
+  {
+    title: "May",
+    quotes: [{
+    "month": "May",
+    "monthIndex": 4,
+    "date": 1,
+    "title": "MAKE CHARACTER YOUR LOUDEST STATEMENT",
+    "quote": "For philosophy doesn’t consist in outward display, but in taking heed to what is needed and\nbeing mindful of it.",
+    "text": "The monk dresses in his robes. A priest puts on his collar. A banker wears an expensive suit and\ncarries a briefcase. A Stoic has no uniform and resembles no stereotype. They are not identifiable by\nlook or by sight or by sound.\nThe only way to recognize them? By their character.",
+    "author": "MUSONIUSRUFUS, LECTURES, 16.75.15–16"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 2,
+    "title": "BE THE PERSON YOU WANT TO BE",
+    "quote": "First tell yourself what kind of person you want to be, then do what you have to do. For in nearly\nevery pursuit we see this to be the case. Those in athletic pursuit first choose the sport they\nwant, and then do that work.",
+    "text": "An archer is highly unlikely to hit a target she did not aim for. The same goes for you, whatever your\ntarget. You are certain to miss the target if you don’t bother to draw back and fire. Our perceptions\nand principles guide us in the selection of what we want—but ultimately our actions determine whether\nwe get there or not.\nSo yes, spend some time—real, uninterrupted time—thinking about what’s important to you, what your\npriorities are. Then, work toward that and forsake all the others. It’s not enough to wish and hope. One\nmust act—and act right.",
+    "author": "EPICTETUS, DISCOURSES, 3.23.1–2a"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 3,
+    "title": "SHOW, NOT TELL, WHAT YOU KNOW",
+    "quote": "Those who receive the bare theories immediately want to spew them, as an upset stomach does\nits food. First digest your theories and you won’t throw them up. Otherwise they will be raw,\nspoiled, and not nourishing. After you’ve digested them, show us the changes in your reasoned\nchoices, just like the shoulders of gymnasts display their diet and training, and as the craft of\nartisans show in what they’ve learned.",
+    "text": "Many of the Stoic aphorisms are simple to remember and even sound smart when quoted. But that’s\nnot what philosophy is really about. The goal is to turn these words into works. As Musonius Rufus\nput it, the justification for philosophy is when “one brings together sound teaching with sound conduct.”\nToday, or anytime, when you catch yourself wanting to condescendingly drop some knowledge that\nyou have, grab it and ask: Would I be better saying words or letting my actions and choices illustrate\nthat knowledge for me?",
+    "author": "EPICTETUS, DISCOURSES, 3.21.1–3"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 4,
+    "title": "WHAT’S TRULY IMPRESSIVE",
+    "quote": "How much better is it to be known for doing well by many than for living extravagantly? How\nmuch more worthy than spending on sticks and stones is it to spend on people?",
+    "text": "Think of all you know about the lifestyles of the rich and the famous. That so-and-so bought a home for\nso many millions. That so-and-so travels with their own barber. That so-and-so owns a pet tiger or\nan elephant.\nThe exact same gossip and notoriety was popular in Roman times. Certain Romans were known for\nthe thousands of sesterces they spent on their koi ponds. Others were notorious for orgiastic parties and\nsumptuous feasts. The works of Roman poets such as Juvenal and Martial abound with tidbits about these\ntypes.\nThe conspicuously wealthy earn and ultimately get what they want out of spending: their reputation.\nBut what an empty one! Is it really that impressive to spend, spend, spend? Given the funds, who wouldn’t\nbe able to do that?\nMarcus Aurelius courageously sold off some of the imperial furnishings to pay down war debts. More\nrecently, José Mujica, the former president of Uruguay, stood out for giving 90 percent of his presidential\nsalary to charity and driving a twenty-five-year-old car. Who can do stuff like that? Not everyone. So\nwho’s the more impressive?",
+    "author": "MUSONIUSRUFUS, LECTURES, 19.91.26–28"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 5,
+    "title": "YOU ARE THE PROJECT",
+    "quote": "The raw material for the work of a good and excellent person is their own guiding reason, the\nbody is that of the doctor and the physical trainer, and the farm the farmer’s.",
+    "text": "Professionals don’t have to justify spending time training or practicing their work. It’s what they do,\nand practice is how they get good at it. The raw materials vary from career to career, just as the\nlocations and duration vary depending on the person and the profession. But the one constant is the\nworking of those materials, the gradual improvements and proficiency.\nAccording to the Stoics, your mind is the asset that must be worked on most—and understood best.",
+    "author": "EPICTETUS, DISCOURSES, 3.3.1"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 6,
+    "title": "RIGHTEOUSNESS IS BEAUTIFUL",
+    "quote": "Then what makes a beautiful human being? Isn’t it the presence of human excellence? Young\nfriend, if you wish to be beautiful, then work diligently at human excellence. And what is that?\nObserve those whom you praise without prejudice. The just or the unjust? The just. The even\u0002tempered or the undisciplined? The even-tempered. The self-controlled or the uncontrolled?\nThe self-controlled. In making yourself that kind of person, you will become beautiful—but to\nthe extent you ignore these qualities, you’ll be ugly, even if you use every trick in the book to\nappear beautiful.",
+    "text": "Contemporary notions of beauty are ridiculous. Our standards for what’s attractive are incredibly un\u0002Stoic in that we prize and extol things people have almost no control over—high cheekbones,\ncomplexion, height, piercing eyes.\nIs it really beautiful to win the genetic lottery? Or should beauty be contingent on the choices, actions,\nand attributes we develop? An even keel, a sense of justice, a commitment to duty. These are beautiful\ntraits—and they go much deeper than appearances.\nToday, you can choose to be without prejudice, to act with justice, to keep an even keel, to be in\ncontrol of yourself—even when that means dedication and sacrifice. If that’s not beautiful, what is?",
+    "author": "EPICTETUS, DISCOURSES, 3.1.6b–9"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 7,
+    "title": "HOW TO HAVE A GOOD DAY",
+    "quote": "God laid down this law, saying: if you want some good, get it from yourself.",
+    "text": "Here is how to guarantee you have a good day: do good things.\nAny other source of joy is outside your control or is nonrenewable. But this one is all you, all the\ntime, and unending. It is the ultimate form of self-reliance.",
+    "author": "EPICTETUS, DISCOURSES, 1.29.4"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 8,
+    "title": "GOOD AND EVIL? LOOK AT YOUR CHOICES",
+    "quote": "Where is Good? In our reasoned choices. Where is Evil? In our reasoned choices. Where is that\nwhich is neither Good nor Evil? In the things outside of our own reasoned choice.",
+    "text": "Today, as things happen and you find yourself wondering what they all mean—as you find yourself\ncontemplating various decisions, remember: the right thing to do always comes from our reasoned\nchoice. Not whether something is rewarded. Not whether something will succeed, but whether it is the\nright choice.\nEpictetus’s dictum helps us cut through all this with clarity and confidence. Is something good or bad?\nIs this right or wrong?\nIgnore everything else. Focus only on your choices.",
+    "author": "EPICTETUS, DISCOURSES, 2.16.1"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 9,
+    "title": "CARPE DIEM",
+    "quote": "Let us therefore set out whole-heartedly, leaving aside our many distractions and exert ourselves\nin this single purpose, before we realize too late the swift and unstoppable flight of time and are\nleft behind. As each day arises, welcome it as the very best day of all, and make it your own\npossession. We must seize what flees.",
+    "text": "You will only get one shot at today. You have only twenty-four hours with which to take it. And then it\nis gone and lost forever. Will you fully inhabit all of today? Will you call out, “I’ve got this,” and do\nyour very best to be your very best?\nWhat will you manage to make of today before it slips from your fingers and becomes the past? When\nsomeone asks you what you did yesterday, do you really want the answer to be “nothing”?",
+    "author": "SENECA, MORAL LETTERS, 108.27b–28a"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 10,
+    "title": "DON’T BE INSPIRED, BE INSPIRATIONAL",
+    "quote": "Let us also produce some bold act of our own—and join the ranks of the most emulated.",
+    "text": "It was common in Greek and Roman times, just as it is now, for politicians to pander to their audience.\nThey would lavish effusive praise on the crowd, on their country, on inspiring military victories of the\npast. How many times have you heard a political candidate say, “This is the greatest country in the history\nof the world”? As orator Demosthenes pointed out, we’ll gladly sit for hours to hear a speaker who stands\nin front of some famous or sacred landmark, “praising [our] ancestors, describing their exploits and\nenumerating their trophies.”\nBut what does this flattery accomplish? Nothing. Worse, the admiration of shiny accolades distracts us\nfrom their true purpose. Also, as Demosthenes explains, it betrays the very ancestors who inspire us. He\nconcluded his speech to the Athenian people with words that Seneca would later echo and still resounds\ncenturies later. “Reflect, then,” he said, “that your ancestors set up those trophies, not that you may gaze at\nthem in wonder, but that you may also imitate the virtues of the men who set them up.”\nThe same goes for the quotes in this book and for other inspiring words you might hear. Don’t just\nadmire them. Use them. Follow their example.",
+    "author": "SENECA, MORAL LETTERS, 98.13b"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 11,
+    "title": "GUILT IS WORSE THAN JAIL",
+    "quote": "The greatest portion of peace of mind is doing nothing wrong. Those who lack self-control live\ndisoriented and disturbed lives.",
+    "text": "Consider the fugitives who willingly turn themselves in after years on the run. Why would they do\nthat? They were free, one step ahead of the law, but they gave up! Because the guilt and the stress of\nthe fugitive life eventually gets worse than the prospect of lost freedom—in fact, it was its own kind of\nprison.\nIt’s the same reason why, as a child, you might have confessed to a lie to completely unsuspecting\nparents. It’s the reason why one partner might voluntarily admit to a crushing infidelity—even though the\nother partner had no idea. “Why are you telling me this?!” the betrayed shouts as she walks out the door.\n“Because things have been going so well and I couldn’t take it anymore!”\nThere are immense costs of doing wrong, not only to society, but to the perpetrator. Look at the lives\nof most people who reject ethics and discipline, and the chaos and misery that so often follows. This\npunishment is almost always as bad or worse than whatever society metes out.\nThis is why so many petty criminals confess or voluntarily surrender. They don’t always stick to it, but\nat the lowest moment, they finally realize: this is no way to live. They want the peace of mind that comes\nwith doing right. And so do you.",
+    "author": "SENECA, MORAL LETTERS, 105.7"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 12,
+    "title": "KINDNESS IS ALWAYS THE RIGHT RESPONSE",
+    "quote": "Kindness is invincible, but only when it’s sincere, with no hypocrisy or faking. For what can\neven the most malicious person do if you keep showing kindness and, if given the chance, you\ngently point out where they went wrong—right as they are trying to harm you?",
+    "text": "What if the next time you were treated meanly, you didn’t just restrain yourself from fighting back—\nwhat if you responded with unmitigated kindness? What if you could “love your enemies, do good\nto those who hate you”? What kind of effect do you think that would have?\nThe Bible says that when you can do something nice and caring to a hateful enemy, it is like “heap[ing]\nburning coals on his head.” The expected reaction to hatred is more hatred. When someone says\nsomething pointed or mean today, they expect you to respond in kind—not with kindness. When that\ndoesn’t happen, they are embarrassed. It’s a shock to their system—it makes them and you better.\nMost rudeness, meanness, and cruelty are a mask for deep-seated weakness. Kindness in these\nsituations is only possible for people of great strength. You have that strength. Use it.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.18.5.9a"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 13,
+    "title": "FUELING THE HABIT BONFIRE",
+    "quote": "Every habit and capability is confirmed and grows in its corresponding actions, walking by\nwalking, and running by running . . . therefore, if you want to do something make a habit of it, if\nyou don’t want to do that, don’t, but make a habit of something else instead. The same principle\nis at work in our state of mind. When you get angry, you’ve not only experienced that evil, but\nyou’ve also reinforced a bad habit, adding fuel to the fire.",
+    "text": "We are what we repeatedly do,” Aristotle said, “therefore, excellence is not an act but a habit.”\nThe Stoics add to that that we are a product of our thoughts (“Such as are your habitual\nthoughts, such also will be the character of your mind,” Marcus Aurelius put it).\nThink about your activities of the last week as well as what you have planned for today and the week\nthat follows. The person you’d like to be, or the person you see yourself as—how closely do your actions\nactually correspond to him or her? Which fire are you fueling? Which person are you becoming?",
+    "author": "EPICTETUS, DISCOURSES, 2.18.1–5"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 14,
+    "title": "OUR WELL-BEING LIES IN OUR ACTIONS",
+    "quote": "Those obsessed with glory attach their well-being to the regard of others, those who love\npleasure tie it to feelings, but the one with true understanding seeks it only in their own\nactions. . . . Think on the character of the people one wishes to please, the possessions one\nmeans to gain, and the tactics one employs to such ends. How quickly time erases such things,\nand how many will yet be wiped away.",
+    "text": "If your happiness is dependent on accomplishing certain goals, what happens if fate intervenes? What if\nyou’re snubbed? If outside events interrupt? What if you do achieve everything but find that nobody is\nimpressed? That’s the problem with letting your happiness be determined by things you can’t control. It’s\nan insane risk.\nIf an actor focuses on the public reception to a project—whether critics like it or whether it’s a hit,\nthey will be constantly disappointed and hurt. But if they love their performance—and put everything they\nhave into making it the best that they’re capable of—they will always find satisfaction in their job. Like\nthem, we should take pleasure from our actions—in taking the right actions—rather than the results that\ncome from them.\nOur ambition should not be to win, then, but to play with our full effort. Our intention is not to be\nthanked or recognized, but to help and to do what we think is right. Our focus is not on what happens to us\nbut on how we respond. In this, we will always find contentment and resilience.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6:51, 59"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 15,
+    "title": "COUNT YOUR BLESSINGS",
+    "quote": "Don’t set your mind on things you don’t possess as if they were yours, but count the blessings\nyou actually possess and think how much you would desire them if they weren’t already yours.\nBut watch yourself, that you don’t value these things to the point of being troubled if you should\nlose them.",
+    "text": "We regularly covet what other people have. We desperately try to keep up with the Joneses, all the\nwhile the Joneses are miserable trying to keep up with us.\nIt would be funny if it weren’t so sad. So today, stop trying to get what other people have. Fight your\nurge to gather and hoard. That’s not the right way to live and act. Appreciate and take advantage of what\nyou already do have, and let that attitude guide your actions.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.27"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 16,
+    "title": "THE CHAIN METHOD",
+    "quote": "If you don’t wish to be a hot-head, don’t feed your habit. Try as a first step to remain calm and\ncount the days you haven’t been angry. I used to be angry every day, now every other day, then\nevery third or fourth . . . if you make it as far as 30 days, thank God! For habit is first weakened\nand then obliterated. When you can say ‘I didn’t lose my temper today, or the next day, or for\nthree or four months, but kept my cool under provocation,’ you will know you are in better\nhealth.",
+    "text": "The comedian Jerry Seinfeld once gave a young comic named Brad Isaac some advice about how to\nwrite and create material. Keep a calendar, he told him, and each day that you write jokes, put an X.\nSoon enough, you get a chain going—and then your job is to simply not break the chain. Success becomes\na matter of momentum. Once you get a little, it’s easier to keep it going.\nWhereas Seinfeld used the chain method to build a positive habit, Epictetus was saying that it can also\nbe used to eliminate a negative one. It’s not all that different than taking sobriety “one day at a time.” Start\nwith one day doing whatever it is, be it managing your temper or wandering eyes or procrastination. Then\ndo the same the following day and the day after that. Build a chain and then work not to break it. Don’t\nruin your streak.",
+    "author": "EPICTETUS, DISCOURSES, 2.18.11b–14"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 17,
+    "title": "THE STOIC IS A WORK IN PROGRESS",
+    "quote": "Show me someone sick and happy, in danger and happy, dying and happy, exiled and happy,\ndisgraced and happy. Show me! By God, how much I’d like to see a Stoic. But since you can’t\nshow me someone that perfectly formed, at least show me someone actively forming themselves\nso, inclined in this way. . . . Show me!",
+    "text": "Instead of seeing philosophy as an end to which one aspires, see it as something one applies. Not\noccasionally, but over the course of a life—making incremental progress along the way. Sustained\nexecution, not shapeless epiphanies.\nEpictetus loved to shake his students out of their smug satisfaction with their own progress. He wanted\nto remind them—and now you—of the constant work and serious training needed every day if we are ever\nto approach that perfect form.\nIt’s important for us to remember in our own journey to self-improvement: one never arrives. The sage\n—the perfect Stoic who behaves perfectly in every situation—is an ideal, not an end.",
+    "author": "EPICTETUS, DISCOURSES, 2.19.24–25a, 28"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 18,
+    "title": "HOW YOU DO ANYTHING IS HOW YOU DO EVERYTHING",
+    "quote": "Pay attention to what’s in front of you—the principle, the task, or what’s being portrayed.",
+    "text": "It's fun to think about the future. It’s easy to ruminate on the past. It’s harder to put that energy into\nwhat’s in front of us right at this moment—especially if it’s something we don’t want to do. We think:\nThis is just a job; it isn’t who I am. It doesn’t matter. But it does matter. Who knows—it might be the last\nthing you ever do. Here lies Dave, buried alive under a mountain of unfinished business.\nThere is an old saying: “How you do anything is how you do everything.” It’s true. How you handle\ntoday is how you’ll handle every day. How you handle this minute is how you’ll handle every minute.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.22"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 19,
+    "title": "LEARN, PRACTICE, TRAIN",
+    "quote": "That’s why the philosophers warn us not to be satisfied with mere learning, but to add practice\nand then training. For as time passes we forget what we learned and end up doing the opposite,\nand hold opinions the opposite of what we should.",
+    "text": "Very few people can simply watch an instructional video or hear something explained and then know,\nbackward and forward, how to do it. Most of us actually have to do something several times in\norder to truly learn. One of the hallmarks of the martial arts, military training, and athletic training of\nalmost any kind is the hours upon hours upon hours of monotonous practice. An athlete at the highest level\nwill train for years to perform movements that can last mere seconds—or less. The two-minute drill, how\nto escape from a chokehold, the perfect jumper. Simply knowing isn’t enough. It must be absorbed into the\nmuscles and the body. It must become part of us. Or we risk losing it the second that we experience stress\nor difficulty.\nIt is true with philosophical principles as well. You can’t just hear something once and expect to rely\non it when the world is crashing down around us. Remember, Marcus Aurelius wasn’t writing his\nmeditations for other people. He was actively meditating for himself. Even as a successful, wise, and\nexperienced man, he was until the last days of his life practicing and training himself to do the right thing.\nLike a black belt, he was still showing up to the dojo every day to roll; like a professional athlete, he still\nshowed up to practice each week—even though others probably thought it was unnecessary.",
+    "author": "EPICTETUS, DISCOURSES, 2.9.13–14"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 20,
+    "title": "QUALITY OVER QUANTITY",
+    "quote": "What’s the point of having countless books and libraries, whose titles could hardly be read\nthrough in a lifetime. The learner is not taught, but burdened by the sheer volume, and it’s better\nto plant the seeds of a few authors than to be scattered about by many",
+    "text": "There is no prize for having read the most books before you die. Even if you were the most dedicated\nreader in the world—a book a day, even—your collection would probably never be bigger than a\nsmall branch library. You’ll never even come close to matching what’s stored in the servers at Google\nBooks or keep up with the hundreds of thousands of new titles published on Amazon each year.\nWhat if, when it came to your reading and learning, you prioritized quality over quantity? What if you\nread the few great books deeply instead of briefly skimming all the new books? Your shelves might be\nemptier, but your brain and your life would be fuller.",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 9.4"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 21,
+    "title": "WHAT KIND OF BOXER ARE YOU?",
+    "quote": "But what is philosophy? Doesn’t it simply mean preparing ourselves for what may come? Don’t\nyou understand that really amounts to saying that if I would so prepare myself to endure, then let\nanything happen that will? Otherwise, it would be like the boxer exiting the ring because he took\nsome punches. Actually, you can leave the boxing ring without consequence, but what advantage\nwould come from abandoning the pursuit of wisdom? So, what should each of us say to every\ntrial we face? This is what I’ve trained for, for this my discipline!",
+    "text": "The Stoics loved to use boxing and wrestling metaphors the way we use baseball and football\nanalogies today. This is probably because the sport of pankration—literally, “all strength,” but a\npurer form of mixed martial arts than one sees today—in the UFC was integral to boyhood and manhood\nin Greece and Rome. (In fact, recent analysis has found instances of “cauliflower ear,” a common\ngrappling injury, on Greek statues.) The Stoics refer to fighting because it’s what they knew.\nSeneca writes that unbruised prosperity is weak and easy to defeat in the ring, but “a man who has\nbeen at constant feud with misfortunes acquires a skin calloused by suffering.” This man, he says, fights\nall the way to the ground and never gives up.\nThat’s what Epictetus means too. What kind of boxer are you if you leave because you get hit? That’s\nthe nature of the sport! Is that going to stop you from continuing?",
+    "author": "EPICTETUS, DISCOURSES, 3.10.6–7"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 22,
+    "title": "TODAY IS THE DAY",
+    "quote": "I don’t complain about the lack of time . . . what little I have will go far enough. Today—this\nday—will achieve what no tomorrow will fail to speak about. I will lay siege to the gods and\nshake up the world.",
+    "text": "We almost always know what the right thing is. We know we should not get upset, that we shouldn’t\ntake this personally, that we should walk to the health food store instead of swinging by the drive\u0002through, that we need to sit down and focus for an hour. The tougher part is deciding to do it in a given\nmoment.\nWhat stops us? The author Steven Pressfield calls this force The Resistance. As he put it in The War\nof Art, “We don’t tell ourselves, ‘I’m never going to write my symphony.’ Instead we say, ‘I’m going to\nwrite my symphony; I’m just going to start tomorrow.’”\nToday, not tomorrow, is the day that we can start to be good.",
+    "author": "SENECA, MEDEA, 423–425"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 23,
+    "title": "SHOW ME HOW TO LIVE",
+    "quote": "Show me that the good life doesn’t consist in its length, but in its use, and that it is possible—no,\nentirely too common—for a person who has had a long life to have lived too little.",
+    "text": "There’s no need to show Seneca. Show yourself. That no matter how many years you’re ultimately\ngiven, your life can be clearly and earnestly said to have been a long and full one. We all know\nsomeone like that—someone we lost too early but even now think, If I could do half of what they did, I’ll\nconsider my life well lived.\nThe best way to get there is by focusing on what is here right now, on the task you have at hand—big\nor small. As he says, by pouring ourselves fully and intentionally into the present, it “gentle[s] the passing\nof time’s precipitous flight.",
+    "author": "SENECA, MORAL LETTERS, 49.10b"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 24,
+    "title": "MAKING YOUR OWN GOOD FORTUNE",
+    "quote": "You say, good fortune used to meet you at every corner. But the fortunate person is the one who\ngives themselves a good fortune. And good fortunes are a well-tuned soul, good impulses and\ngood actions.",
+    "text": "What is the more productive notion of good luck? One that is defined by totally random factors\noutside your control, or a matter of probability that can be increased—though not guaranteed—by\nthe right decisions and the right preparation? Obviously, the latter. This is why successful yet mysteriously\n“lucky” people seem to gravitate toward it.\nAccording to the wonderful site Quote Investigator, versions of this idea date back at least to the\nsixteenth century in the proverb “Diligence is the mother of good luck.” In the 1920s, Coleman Cox put a\nmodern spin on it by saying, “I am a great believer in luck. The harder I work, the more of it I seem to\nhave.” (That saying has been incorrectly attributed to Thomas Jefferson, who said nothing of the kind.)\nToday, we say, “Luck is where hard work meets opportunity.” Or is it typically flipped?\nToday, you can hope that good fortune and good luck magically come your way. Or you can prepare\nyourself to get lucky by focusing on doing the right thing at the right time—and, ironically, render luck\nmostly unnecessary in the process.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 5.36"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 25,
+    "title": "WHERE TO FIND JOY",
+    "quote": "Joy for human beings lies in proper human work. And proper human work consists in: acts of\nkindness to other human beings, disdain for the stirrings of the senses, identifying trustworthy\nimpressions, and contemplating the natural order and all that happens in keeping with it.",
+    "text": "When dog trainers are brought in to work with a dysfunctional or unhappy dog, they usually start with\none question: “Do you take it for walks?” They ask because dogs were bred to do certain tasks—\nto do work—and when deprived of this essential part of their nature, they suffer and act out. This is true\nno matter how spoiled and nice their life might be.\nThe same is true for humans. When you hear the Stoics brush aside certain emotions or material\nluxuries, it’s not because they don’t enjoy them. It’s not because the Stoic life is one bereft of happiness or\nfun. The Stoics simply mean to help us find our essence—to experience the joy of our proper human work.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.26"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 26,
+    "title": "STOP CARING WHAT PEOPLE THINK",
+    "quote": "I’m constantly amazed by how easily we love ourselves above all others, yet we put more stock\nin the opinions of others than in our own estimation of self. . . . How much credence we give to\nthe opinions our peers have of us and how little to our very own!",
+    "text": "How quickly we can disregard our own feelings about something and adopt someone else’s. We think\na shirt looks good at the store but will view it with shame and scorn if our spouse or a coworker\nmakes an offhand remark. We can be immensely happy with our own lives—until we find out that\nsomeone we don’t even like has more. Or worse and more precariously, we don’t feel good about our\naccomplishments or talents until some third party validates them.\nLike most Stoic exercises, this one attempts to teach us that although we control our own opinions, we\ndon’t control what other people think—about us least of all. For this reason, putting ourselves at the\nmercy of those opinions and trying to gain the approval of others are a dangerous endeavor.\nDon’t spend much time thinking about what other people think. Think about what you think. Think\ninstead about the results, about the impact, about whether it is the right thing to do.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 12.4"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 27,
+    "title": "SWEAT THE SMALL STUFF",
+    "quote": "Well-being is realized by small steps, but is truly no small thing.",
+    "text": "The famous biographer Diogenes Laertius attributes this quote to Zeno but admits that it might have\nalso been said by Socrates, meaning that it may be a quote of a quote of a quote. But does it really\nmatter? Truth is truth.\nIn this case, the truth is one we know well: the little things add up. Someone is a good person not\nbecause they say they are, but because they take good actions. One does not magically get one’s act\ntogether—it is a matter of many individual choices. It’s a matter of getting up at the right time, making\nyour bed, resisting shortcuts, investing in yourself, doing your work. And make no mistake: while the\nindividual action is small, its cumulative impact is not.\nThink about all the small choices that will roll themselves out in front of you today. Do you know\nwhich are the right way and which are the easy way? Choose the right way, and watch as all these little\nthings add up toward transformation.",
+    "author": "LIVES OF THE EMINENT PHILOSOPHERS, 7.1.26"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 28,
+    "title": "THE FIRST TWO THINGS BEFORE ACTING",
+    "quote": "The first thing to do—don’t get worked up. For everything happens according to the nature of all\nthings, and in a short time you’ll be nobody and nowhere, even as the great emperors Hadrian\nand Augustus are now. The next thing to do—consider carefully the task at hand for what it is,\nwhile remembering that your purpose is to be a good human being. Get straight to doing what\nnature requires of you, and speak as you see most just and fitting—with kindness, modesty, and\nsincerity",
+    "text": "Imagine, for a second, what Marcus’s life as an emperor must have been like. He would preside over\nthe Senate. He would lead the troops in battle, direct the grand strategy of the army as its highest\ncommander. He would also hear appeals—from citizens, from lawyers, from foreign governments. In\nother words, like most people in power, he was called on to make decisions: all day, every day, decision\nafter decision.\nHis formula for decision making is a battle-tested method for doing and acting right—literally. Which\nis why we ought to try to use it ourselves.\nFirst, don’t get upset—because that will color your decision negatively and make it harder than it\nneeds to be.\nSecond, remember the purpose and principles you value most. Running potential actions through this\nfilter will eliminate the bad choices and highlight the right ones.\nDon’t get upset.\nDo the right thing.\nThat’s it.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.5"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 29,
+    "title": "WORK IS THERAPY",
+    "quote": "Work nourishes noble minds.",
+    "text": "You know that feeling you get when you haven’t been to the gym in a few days? A bit doughy.\nIrritable. Claustrophobic. Uncertain. Others get a similar feeling when they’ve been on vacation for\ntoo long or right after they first retire. The mind and the body are there to be used—they begin to turn on\nthemselves when not put to some productive end.\nIt’s sad to think that this kind of frustration is an everyday reality for a lot of people. They leave so\nmuch of their potential unfulfilled because they have jobs where they don’t really do much or because they\nhave too much time on their hands. Worse is when we try to push these feelings away by buying things,\ngoing out, fighting, creating drama—indulging in the empty calories of existence instead of finding the real\nnourishment.\nThe solution is simple and, thankfully, always right at hand. Get out there and work.",
+    "author": "SENECA, MORAL LETTERS, 31.5"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 30,
+    "title": "WORKING HARD OR HARDLYWORKING?",
+    "quote": "I can’t call a person a hard worker just because I hear they read and write, even if working at it\nall night. Until I know what a person is working for, I can’t deem them industrious. . . . I can if\nthe end they work for is their own ruling principle, having it be and remain in constant harmony\nwith Nature.",
+    "text": "What are the chances that the busiest person you know is actually the most productive? We tend to\nassociate busyness with goodness and believe that spending many hours at work should be\nrewarded.\nInstead, evaluate what you are doing, why you are doing it, and where accomplishing it will take you.\nIf you don’t have a good answer, then stop.",
+    "author": "EPICTETUS, DISCOURSES, 4.4.41; 43"
+  },
+  {
+    "month": "May",
+    "monthIndex": 4,
+    "date": 31,
+    "title": "WE HAVE BUT ONE OBLIGATION",
+    "quote": "What is your vocation? To be a good person.",
+    "text": "The Stoics believed, above all else, that our job on this earth is to be a good human being. It is a basic\nduty, yet we are experts at coming up with excuses for avoiding it.\nTo quote Belichick again: “Do your job.”",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.5"
+  }]
   }
 ]
 
