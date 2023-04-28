@@ -1,4 +1,5 @@
 .button-container {
+  display: none;
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -52,6 +53,7 @@
   right: 150px;
   top: 23px;
   z-index: 2;
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
