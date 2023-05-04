@@ -44,6 +44,9 @@ fakeCheckbox.addEventListener("change", function () {
             <Link className='nav-link' to="about">
                 About
             </Link>
+            <Link className='nav-link' to="sign-in">
+                Sign In
+            </Link>
 {/*             <Link className='nav-link' to="shop">
                Shop
             </Link>

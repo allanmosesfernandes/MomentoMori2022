@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "certbot": "^5.0.3",
     "chart.js": "^4.2.0",
+    "eslint": "^8.39.0",
     "firebase": "^9.15.0",
     "react": "^18.2.0",
     "react-calendar": "^4.0.0",
