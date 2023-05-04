@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       </div>
         <div className='copyright'>
-          <Link className="copyright link" to="/features">Features</Link>
+          {/* <Link className="copyright link" to="/features">Features</Link> */}
           <p>Copyright ©  {year} </p>
           <p>version 1.3</p>
         </div>
