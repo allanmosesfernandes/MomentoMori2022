@@ -9,9 +9,11 @@ import {
 import "react-circular-progressbar/dist/styles.css";
 const TodayTimeBlock = () => {
 
-const currentHour = new Date().getHours();
-const percentage = Math.floor((currentHour * 100) / 24);
-
+const currentTime = new Date();
+const currentHour = currentTime.getHours();
+const currentMinute = currentTime.getMinutes();
+const percentage = ((currentHour * 60 + currentMinute) / 24 / 60 * 100).toFixed(1);
+console.log(percentage);
 return (
     <div className='today__time--container'>
     <p className='today__time--container-header'>Today</p>
@@ -30,7 +32,7 @@ return (
                 strokeLinecap: "round",
 
                 // Text size
-                textSize: '20px',
+                textSize: '18px',
 
                 // How long animation takes to go from one percentage to another, in seconds
                 pathTransitionDuration: 0.5,
