@@ -16,7 +16,6 @@ const FirstFold = () => {
       <QuoteDate /> 
       <TimeBound />
       <Symbolism />
-      <UserLife />
       <Acknowledgement /> 
   </>
 

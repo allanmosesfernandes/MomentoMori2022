@@ -27,6 +27,8 @@ export const auth = getAuth();
 
 const provider = new GoogleAuthProvider({
   prompt: "select_account",
-})
+});
+
+// Add the 'user.birthday.read' scope to request the user's birthdate
 
 export const signInWithGooglePopup = () => signInWithPopup(auth, provider);
