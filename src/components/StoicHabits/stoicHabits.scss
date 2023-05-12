@@ -2,11 +2,10 @@
 
 .stoic-habits {
     padding: 0 3rem;
-    margin: 3rem;
     background-color: white;
     color: black;
     border-radius: 40px;
-    margin: auto;
+    margin: 3rem auto;
 
     h2,
     h5 {
@@ -109,7 +108,7 @@
     .habit-blocks-container {
         flex-direction: column;
         gap: 0.5rem;
-
+        padding: 1rem 0;
         h4 {
             width: 100%;
             margin-top: 1.2rem;
@@ -117,17 +116,21 @@
             font-size: 1.5rem;
         }
 
+        p {
+            font-size: 1rem;
+        }
+
         .habit-number {
             position: absolute;
             left: 0;
-            top: 2px;
+            top: 15px;
             width: 20px;
         }
     }
 
     .stoic-habits {
         padding: 0 1rem;
-
+        margin: 1rem auto;
         width: 95%;
 
         h2,
