@@ -1,0 +1,113 @@
+.stoic-habits {
+    padding: 0 3rem;
+    margin: 3rem;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    margin: auto;
+
+    h2,
+    h5 {
+        font-family: "Cinzel", serif;
+        font-size: 5rem;
+        width: 20%;
+        line-height: 1;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    h5 {
+        font-size: 2rem;
+        text-align: right;
+        width: 100%;
+    }
+}
+
+.stoic-habits-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fire-glowing {
+    animation: blink 3s ease-in-out infinite;
+    width: 50px;
+    margin-left: auto;
+}
+
+.img0 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-end;
+    height: 100;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+.habit-blocks-container {
+    border-top: 3px #000 dashed;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    h4 {
+        font-size: 2.3rem;
+        width: 40%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    //code goes here
+    .stoic-habits {
+        padding: 0 1rem;
+
+        width: 95%;
+
+        h2,
+        h5 {
+            font-size: 2rem;
+        }
+
+        h5 {
+            font-size: 1rem;
+            text-align: right;
+            width: 100%;
+        }
+
+        .img0 {
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            align-items: flex-end;
+            justify-content: space-evenly;
+        }
+
+        .fire-glowing {
+            width: 30px;
+        }
+
+    }
+}

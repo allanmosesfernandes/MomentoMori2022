@@ -6,7 +6,7 @@ import UserLife from '../TimeComponents/userLife/userLife';
 import quotes from "../../assets/quotes";
 import Symbolism from '../symbolism/symbolism';
 import Introduction from '../Introduction/Introduction';
-
+import StoicHabits from '../StoicHabits/stoicHabits';
 const FirstFold = () => {
 
 
@@ -15,6 +15,7 @@ const FirstFold = () => {
       <Introduction />
       <QuoteDate /> 
       <TimeBound />
+      <StoicHabits />
       <Symbolism />
       <Acknowledgement /> 
   </>
