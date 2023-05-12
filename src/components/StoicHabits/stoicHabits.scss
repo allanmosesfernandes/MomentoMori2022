@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
 .stoic-habits {
     padding: 0 3rem;
     margin: 3rem;
@@ -45,10 +47,18 @@
 }
 
 .habit-blocks-container {
+    position: relative;
     border-top: 3px #000 dashed;
     display: flex;
     gap: 3rem;
     align-items: center;
+
+    .habit-number {
+        position: absolute;
+        left: 0;
+        top: 6%;
+        width: 30px;
+    }
 
     h4 {
         font-size: 2.3rem;
@@ -56,12 +66,23 @@
         text-align: left;
         text-transform: uppercase;
     }
-    
+
     p {
         font-size: 1.2rem;
         text-align: left;
     }
 
+}
+
+.habit-quote {
+    display: block;
+    font-style: italic;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    margin: 1rem 0;
+    font-size: 1rem;
+    width: 75%;
+    font-family: 'Source Serif Pro', serif;
 }
 
 @keyframes blink {
@@ -78,9 +99,32 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     //code goes here
+    .habit-quote {
+        width: 90%;
+    }
+
+    .habit-blocks-container {
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h4 {
+            width: 100%;
+            margin-top: 1.2rem;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+        }
+
+        .habit-number {
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 20px;
+        }
+    }
+
     .stoic-habits {
         padding: 0 1rem;
 
