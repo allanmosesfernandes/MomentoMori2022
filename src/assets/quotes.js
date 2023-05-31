@@ -1383,7 +1383,282 @@ const QUOTES_DATA = [
     "quote": "What is your vocation? To be a good person.",
     "text": "The Stoics believed, above all else, that our job on this earth is to be a good human being. It is a basic\nduty, yet we are experts at coming up with excuses for avoiding it.\nTo quote Belichick again: “Do your job.”",
     "author": "MARCUS AURELIUS, MEDITATIONS, 11.5"
-  }]
+  },
+]
+  },
+  {
+    title: "June",
+    quotes: [{
+    "month": "June",
+    "monthIndex": 5,
+    "date": 1,
+    "title": "ALWAYS HAVE A MENTAL REVERSE CLAUSE",
+    "quote": "Indeed, no one can thwart the purposes of your mind—for they can’t be touched by fire, steel,\ntyranny, slander, or anything.",
+    "text": "Obstacles are a part of life—things happen, stuff gets in our way, situations go awry. But nothing can\nstop the Stoic mind when it’s operating properly, because in every course of action, it has retained\n“a reverse clause.”\nWhat’s that? It’s a backup option. If a friend betrays us, our reverse clause is to learn from how this\nhappened and how to forgive this person’s mistake. If we’re thrown in prison, our reverse clause is that\nwe can refuse to be broken by this change of events and try to be of service to our fellow prisoners. When\na technical glitch erases our work, our reverse clause is that we can start fresh and do it better this time.\nOur progress can be impeded or disrupted, but the mind can always be changed—it retains the power to\nredirect the path.\nPart of this is remembering the usual course of things—Murphy’s Law states that “if anything can go\nwrong, it will.” So we keep this reverse clause handy because we know we’re probably going to have to\nuse it. No one can thwart that",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.41"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 2,
+    "title": "PLATO’S VIEW",
+    "quote": "How beautifully Plato put it. Whenever you want to talk about people, it’s best to take a bird’s eye view and see everything all at once—of gatherings, armies, farms, weddings and divorces,\nbirths and deaths, noisy courtrooms or silent spaces, every foreign people, holidays, memorials,\nmarkets—all blended together and arranged in a pairing of opposites.",
+    "text": "There is a beautiful dialogue called “Icaromenippus, an Aerial Expedition” by the poet Lucian in\nwhich the narrator is given the ability to fly and sees the world from above. Turning his eyes\nearthward, he sees how comically small even the richest people, the biggest estates, and entire empires\nlook from above. All their battles and concerns were made petty in perspective.\nIn ancient times, this exercise was only theoretical—the highest anyone could get was the top of a\nmountain or a building a few stories tall. But as technology has progressed, humans have been able to\nactually take that bird’s-eye view—and greater.\nEdgar Mitchell, an astronaut, was one of the first people to see the earth from outer space. As he later\nrecounted:\n“In outer space you develop an instant global consciousness, a people orientation, an intense\ndissatisfaction with the state of the world, and a compulsion to do something about it. From out\nthere on the moon, international politics look so petty. You want to grab a politician by the scruff\nof the neck and drag him a quarter of a million miles out and say, ‘Look at that, you son of a\nbitch.’”\nMany a problem can be solved with the perspective of Plato’s view. Use it.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.48"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 3,
+    "title": "IT IS WELL TO BE FLEXIBLE",
+    "quote": "He can’t serve in the military? Let him seek public office. Must he live in the private sector? Let\nhim be a spokesperson. Is he condemned to silence? Let him aid his fellow citizens by silent\npublic witness. Is it dangerous to enter the Forum? Let him display himself, in private homes, at\npublic events and gatherings, as a good associate, faithful friend, and moderate tablemate. Has\nhe lost the duties of a citizen? Let him exercise those of a human being",
+    "text": "Shortly before his death, as victory in the Civil War was finally within his grasp, Lincoln told a story\nto an audience of generals and admirals about a man who had approached him for a high-ranking\ngovernment appointment. First, the man asked if he might be made a foreign minister. Upon being turned\ndown, the man asked for a more modest position. Upon being turned down again, he asked for a job as a\nlow-level customs officer. Finding he could not get even that, he finally just asked Lincoln for an old pair\nof trousers. “Ah,” Lincoln laughed as he concluded the story, “it is well to be humble.”\nThis story embodies the flexibility and determination of Stoicism. If we can’t do this, then perhaps we\ncan try that. And if we can’t do that, then perhaps we can try some other thing. And if that thing is\nimpossible, there is always another. Even if that final thing is just being a good human being—we always\nhave some opportunity to practice our philosophy, to make some contribution.S",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 4.3"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 4,
+    "title": "THIS IS WHAT WE’RE HERE FOR",
+    "quote": "Why then are we offended? Why do we complain? This is what we’re here for",
+    "text": "No one said life was easy. No one said it would be fair.\nDon’t forget, though, that you come from a long, unbroken line of ancestors who survived\nunimaginable adversity, difficulty, and struggle. It’s their genes and their blood that run through your body\nright now. Without them, you wouldn’t be here.\nYou’re an heir to an impressive tradition—and as their viable offspring, you’re capable of what they\nare capable of. You’re meant for this. Bred for it.\nJust something to keep in mind if things get tough.",
+    "author": "SENECA, ON PROVIDENCE, 5.7b–8"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 5,
+    "title": "BLOW YOUR OWN NOSE",
+    "quote": "We cry to God Almighty, how can we escape this agony? Fool, don’t you have hands? Or could\nit be God forgot to give you a pair? Sit and pray your nose doesn’t run! Or, rather just wipe your\nnose and stop seeking a scapegoat.",
+    "text": "The world is unfair. The game is rigged. So-and-so has it out for you. Maybe these theories are true,\nbut practically speaking—for the right here and now—what good are they to you? That government\nreport or that sympathetic news article isn’t going to pay the bills or rehab your broken leg or find that\nbridge loan you need. Succumbing to the self-pity and “woe is me” narrative accomplishes nothing—\nnothing except sapping you of the energy and motivation you need to do something about your problem.\nWe have a choice: Do we focus on the ways we have been wronged, or do we use what we’ve been\ngiven and get to work? Will we wait for someone to save us, or will we listen to Marcus Aurelius’s\nempowering call to “get active in your own rescue—if you care for yourself at all—and do it while you\ncan.” That’s better than just blowing your own nose (which is a step forward in itself).",
+    "author": "EPICTETUS, DISCOURSES, 2.16.13"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 6,
+    "title": "WHEN TO STICK AND WHEN TO QUIT",
+    "quote": "Think of those who, not by fault of inconsistency but by lack of effort, are too unstable to live as\nthey wish, but only live as they have begun.",
+    "text": "In The Dip, Seth Godin draws an interesting analogy from the three types of people you see in line at the\nsupermarket. One gets in a short line and sticks to it no matter how slow it is or how much faster the\nothers seem to be going. Another changes lines repeatedly based on whatever he thinks might save a few\nseconds. And a third switches only once—when it’s clear her line is delayed and there is a clear\nalternative—and then continues with her day. He’s urging you to ask: Which type are you?\nSeneca is also advising us to be this third type. Just because you’ve begun down one path doesn’t\nmean you’re committed to it forever, especially if that path turns out to be flawed or impeded. At that\nsame time, this is not an excuse to be flighty or incessantly noncommittal. It takes courage to decide to do\nthings differently and to make a change, as well as discipline and awareness to know that the notion of\n“Oh, but this looks even better” is a temptation that cannot be endlessly indulged either.",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 2.6b"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 7,
+    "title": "FINDING THE RIGHT MENTORS",
+    "quote": "We like to say that we don’t get to choose our parents, that they were given by chance—yet we\ncan truly choose whose children we’d like to be.",
+    "text": "We are fortunate enough that some of the greatest men and women in history have recorded their\nwisdom (and folly) in books and journals. Many others have had their lives chronicled by a careful\nbiographer—from Plutarch to Boswell to Robert Caro. The literature available at your average library\namounts to millions of pages and thousands of years of knowledge, insight, and experience.\nMaybe your parents were poor role models, or you lacked a great mentor. Yet if we choose to, we can\neasily access the wisdom of those who came before us—those whom we aspire to be like.\nWe not only owe it to ourselves to seek out this hard-won knowledge, we owe it to the people who\ntook the time to record their experiences to try to carry on the traditions and follow their examples—to be\nthe promising children of these noble parents.",
+    "author": "SENECA, ON THE BREVITY OF LIFE, 15.3a"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 8,
+    "title": "BRICK BY BORING BRICK",
+    "quote": "You must build up your life action by action, and be content if each one achieves its goal as far\nas possible—and no one can keep you from this. But there will be some external obstacle!\nPerhaps, but no obstacle to acting with justice, self-control, and wisdom. But what if some other\narea of my action is thwarted? Well, gladly accept the obstacle for what it is and shift your\nattention to what is given, and another action will immediately take its place, one that better fits\nthe life you are building.",
+    "text": "Elite athletes in collegiate and professional sports increasingly follow a philosophy known as “The\nProcess.” It’s a philosophy created by University of Alabama coach Nick Saban, who taught his\nplayers to ignore the big picture—important games, winning championships, the opponent’s enormous\nlead—and focus instead on doing the absolutely smallest things well—practicing with full effort, finishing\na specific play, converting on a single possession. A season lasts months, a game lasts hours, catching up\nmight be four touchdowns away, but a single play is only a few seconds. And games and seasons are\nconstituted by seconds.\nIf teams follow The Process, they tend to win. They overcome obstacles and eventually make their\nway to the top without ever having focused on the obstacles directly. If you follow The Process in your\nlife—assembling the right actions in the right order, one right after another—you too will do well. Not\nonly that, you will be better equipped to make quick work of the obstacles along that path. You’ll be too\nbusy putting one foot in front of the next to even notice the obstacles were there.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.32"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 9,
+    "title": "SOLVE PROBLEMS EARLY",
+    "quote": "There is no vice which lacks a defense, none that at the outset isn’t modest and easily intervened\n—but after this the trouble spreads widely. If you allow it to get started you won’t be able to\ncontrol when it stops. Every emotion is at first weak. Later it rouses itself and gathers strength\nas it moves along—it’s easier to slow it down than to supplant it.",
+    "text": "Rivers,” Publilius Syrus reminds us with an epigram, “are easiest to cross at their source.” That’s\nwhat Seneca means too. The raging waters and deadly currents of bad habits, ill discipline,\nchaos, and dysfunction—somewhere they began as no more than just a slight trickle. Somewhere they are\na placid lake or pond, even a bubbling underground spring.\nWhich would you rather do—nearly drown in a dangerous crossing in a few weeks or cross now\nwhile it’s still easy? It’s up to you.",
+    "author": "SENECA, MORAL LETTERS, 106.2b–3a"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 10,
+    "title": "YOU CAN DO IT",
+    "quote": "If you find something very difficult to achieve yourself, don’t imagine it impossible—for\nanything possible and proper for another person can be achieved as easily by you.",
+    "text": "There are two kinds of people in this world. The first looks at others who have accomplished things\nand thinks: Why them? Why not me? The other looks at those same people and thinks: If they can do\nit, why can’t I?\nOne is zero-sum and jealous (if you win, I lose). The other is non-zero-sum (there’s plenty to go\naround) and sees the success of others as an inspiration. Which attitude will propel you onward and\nupward? Which will drive you to bitterness and despair?\nWho will you be?",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 6.19"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 11,
+    "title": "JUST DON’T MAKE THINGS WORSE",
+    "quote": "How much more harmful are the consequences of anger and grief than the circumstances that\naroused them in us!",
+    "text": "The first rule of holes, goes the adage, is that “if you find yourself in a hole, stop digging.” This might\nbe the most violated piece of commonsense wisdom in the world. Because what most of us do when\nsomething happens, goes wrong, or is inflicted on us is make it worse—first, by getting angry or feeling\naggrieved, and next, by flailing around before we have much in the way of a plan.\nToday, give yourself the most simple and doable of tasks: just don’t make stuff worse. Whatever\nhappens, don’t add angry or negative emotions to the equation. Don’t react for the sake of reacting. Leave\nit as it is. Stop digging. Then plan your way out.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.18.8"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 12,
+    "title": "A TRAINED MIND IS BETTER THAN ANY SCRIPT",
+    "quote": "In this way you must understand how laughable it is to say, ‘Tell me what to do!’ What advice\ncould I possibly give? No, a far better request is, ‘Train my mind to adapt to any\ncircumstance.’ . . . In this way, if circumstances take you off script . . . you won’t be desperate\nfor a new prompting.",
+    "text": "It would be nice if someone could show us exactly what to do in every situation. Indeed, this is what we\nspend a good portion of our lives doing: preparing for this, studying for that. Saving for or anticipating\nsome arbitrary point in the future. But plans, as the boxer Mike Tyson pointed out, last only until you’re\npunched in the face.\nStoics do not seek to have the answer for every question or a plan for every contingency. Yet they’re\nalso not worried. Why? Because they have confidence that they’ll be able to adapt and change with the\ncircumstances. Instead of looking for instruction, they cultivate skills like creativity, independence, selfconfidence, ingenuity, and the ability to problem solve. In this way, they are resilient instead of rigid. We\ncan practice the same.\nToday, we will focus on the strategic rather than the tactical. We’ll remind ourselves that it’s better to\nbe taught than simply given, and better to be flexible than stick to a script.",
+    "author": "EPICTETUS, DISCOURSES, 2.2.20b–1; 24b–25a"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 13,
+    "title": "LIFE IS A BATTLEFIELD",
+    "quote": "Don’t you know life is like a military campaign? One must serve on watch, another in\nreconnaissance, another on the front line. . . . So it is for us—each person’s life is a kind of\nbattle, and a long and varied one too. You must keep watch like a soldier and do everything\ncommanded. . . . You have been stationed in a key post, not some lowly place, and not for a\nshort time but for life.",
+    "text": "The writer Robert Greene often uses the phrase “As in war, so in life.” It’s an aphorism worth keeping\nclose, because our life is a battle both literally and figuratively. As a species, we fight to survive on\na planet indifferent to our survival. As individuals, we fight to survive among a species whose population\nnumbers in the billions. Even inside our own bodies, diverse bacteria battle it out. Vivere est militare.\n(To live is to fight.)\nToday, you’ll be fighting for your goal, fighting against impulses, fighting to be the person you want to\nbe. So what are the attributes necessary to win these many wars?\nDiscipline\nFortitude\nCourage\nClearheadedness\nSelflessness\nSacrifice\nAnd which attributes lose wars?\nCowardice\nRashness\nDisorganization\nOverconfidence\nWeakness\nSelfishness\nAs in war, so these attributes matter in daily life.",
+    "author": "EPICTETUS, DISCOURSES, 3.24.31–36"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 14,
+    "title": "TRY THE OTHER HANDLE",
+    "quote": "Every event has two handles—one by which it can be carried, and one by which it can’t. If your\nbrother does you wrong, don’t grab it by his wronging, because this is the handle incapable of\nlifting it. Instead, use the other—that he is your brother, that you were raised together, and then\nyou will have hold of the handle that carries.",
+    "text": "The famous journalist William Seabrook suffered from such debilitating alcoholism that in 1933 he\ncommitted himself to an insane asylum, which was then the only place to get treatment for addiction.\nIn his memoir, Asylum, he tells the story of the struggle to turn his life around inside the facility. At first,\nhe stuck to his addict way of thinking—and as a result, he was an outsider, constantly getting in trouble\nand rebelling against the staff. He made almost no progress and was on the verge of being asked to leave.\nThen one day this very quote from Epictetus—about everything having two handles—occurred to him.\n“I took hold now by the other handle,” he related later, “and carried on.” He actually began to have a\ngood time there. He focused on his recovery with real enthusiasm. “I suddenly found it wonderful,\nstrange, and beautiful, to be sober. . . . It was as if a veil, or scum, or film had been stripped from all\nthings visual and auditory.” It’s an experience shared by many addicts when they finally stop doing things\ntheir way and actually open themselves to the perspectives and wisdom and lessons of those who have\ngone before them.\nThere is no promise that trying things this way—of grabbing the different handle—will have such\nmomentous results for you. But why continue to lift by the handle that hasn’t worked?",
+    "author": "EPICTETUS, ENCHIRIDION, 43"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 15,
+    "title": "LISTENING ACCOMPLISHES MORE THAN SPEAKING",
+    "quote": "To the youngster talking nonsense Zeno said, ‘The reason why we have two ears and only one\nmouth is so we might listen more and talk less",
+    "text": "Why do the wise have so few problems compared with the rest of us? There are a few simple\nreasons.\nFirst, the wise seem to manage expectations as much as possible. They rarely expect what isn’t\npossible in the first place.\nSecond, the wise always consider both the best and worst case scenarios. They don’t just think about\nwhat they wish to happen, but also what very realistically can happen if things were to suddenly turn.\nThird, the wise act with a reverse clause—meaning that they not only consider what might go wrong,\nbut they are prepared for that to be exactly what they want to happen—it is an opportunity for excellence\nand virtue.\nAnd if you follow it today, you too will find that nothing surprises you or happens contrary to your\nexpectations.",
+    "author": "DIOGENES LAERTIUS, LIVES OF EMINENT PHILOSOPHERS, 7.1.23"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 16,
+    "title": "NO SHAME IN NEEDING HELP",
+    "quote": "Don’t be ashamed of needing help. You have a duty to fulfill just like a soldier on the wall of\nbattle. So what if you are injured and can’t climb up without another soldier’s help?",
+    "text": "No one ever said you were born with all the tools you’d need to solve every problem you’d face in\nlife. In fact, as a newborn you were practically helpless. Someone helped you then, and you came to\nunderstand that you could ask for that help. It was how you knew you were loved.\nWell, you are still loved. You can ask anyone for help. You don’t have to face everything on your own.\nIf you need help, comrade, just ask.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 7.7"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 17,
+    "title": "OFFENSE OR DEFENSE?",
+    "quote": "Fortune doesn’t have the long reach we suppose, she can only lay siege to those who hold her\ntight. So, let’s step back from her as much as possible.",
+    "text": "Machiavelli, who supposedly admired Seneca, says in The Prince that “fortune is a woman, and it is\nnecessary, in order to keep her down, to beat her and struggle with her.” Even for the sixteenth\ncentury, it’s pretty horrifying imagery. But for a ruthless and endlessly ambitious ruler, it was par for the\ncourse. Is that the nasty lifestyle you’re after?\nNow compare that view with Seneca’s. Not only is he saying that the more you struggle with fortune,\nthe more vulnerable you are to it, but he’s also saying that the better path to security is in the “impregnable\nwall” of philosophy. “Philosophy,” he says, helps us tame the “mad frenzy of our greed and tamps down\nthe fury of our fears.”\nIn sports or war, the metaphor here would be the choice between a strategy of endless, exhausting\noffense and a strategy of resilient, flexible defense. Which will you play? What kind of person are you?\nOnly you can answer that question. But you would be remiss not to consider the ultimate end of most\nof the princes in Machiavelli’s book—and how few of them died happily in bed, surrounded by their\nloved ones.",
+    "author": "SENECA, MORAL LETTERS, 82.5b–6"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 18,
+    "title": "PREPARED AND ACTIVE",
+    "quote": "Let Fate find us prepared and active. Here is the great soul—the one who surrenders to Fate.\nThe opposite is the weak and degenerate one, who struggles with and has a poor regard for the\norder of the world, and seeks to correct the faults of the gods rather than their own.",
+    "text": "Whatever happens today, let it find us prepared and active: ready for problems, ready for difficulties,\nready for people to behave in disappointing or confusing ways, ready to accept and make it work\nfor us. Let’s not wish we could turn back time or remake the universe according to our preference. Not\nwhen it would be far better and far easier to remake ourselves.",
+    "author": "SENECA, MORAL LETTERS, 107.12"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 19,
+    "title": "STAY FOCUSED ON THE PRESENT",
+    "quote": "Don’t let your reflection on the whole sweep of life crush you. Don’t fill your mind with all the\nbad things that might still happen. Stay focused on the present situation and ask yourself why it’s\nso unbearable and can’t be survived.",
+    "text": "When you look back at some of the most impressive, even scary, things that you’ve done or endured,\nhow were they possible? How were you able to see past the danger or the poor odds? As Marcus\ndescribed, you were too busy with the details to let the whole sweep of the situation crush you. In fact,\nyou probably didn’t even think about it at the time.\nA character in Chuck Palahniuk’s novel Lullaby says, “The trick to forgetting the big picture is to look\nat everything close up.” Sometimes grasping the big picture is important, and the Stoics have helped us\nwith that before. A lot of times, though, it’s counterproductive and overwhelming to be thinking of\neverything that lies ahead. So by focusing exclusively on the present, we’re able to avoid or remove those\nintimidating or negative thoughts from our frame of view.\nA man walking a tightrope tries not to think about how high up he is. An undefeated team tries not to\nthink about their perfect winning streak. Like us, they’re better off putting one foot in front of the other and\nconsidering everything else to be extraneous.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.36"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 20,
+    "title": "CALM IS CONTAGIOUS",
+    "quote": "If then it’s not that the things you pursue or avoid are coming at you, but rather that you in a sense\nare seeking them out, at least try to keep your judgment of them steady, and they too will remain\ncalm and you won’t be seen chasing after or fleeing from them.",
+    "text": "There is a maxim that Navy SEALs pass from officer to officer, man to man. In the midst of chaos,\neven in the fog of war, their battle-tested advice is this: “Calm is contagious.”\nEspecially when that calm is coming from the man or woman in charge. If the men begin to lose their\nwits, if the group is unsure of what to do next, it’s the leader’s job to do one thing: instill calm—not by\nforce but by example.\nThat’s who you want to be, whatever your line of work: the casual, relaxed person in every situation\nwho tells everyone else to take a breath and not to worry. Because you’ve got this. Don’t be the agitator,\nthe paranoid, the worrier, or the irrational. Be the calm, not the liability.\nIt will catch on.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 11.11"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 21,
+    "title": "TAKE A WALK",
+    "quote": "We should take wandering outdoor walks, so that the mind might be nourished and refreshed by\nthe open air and deep breathing.",
+    "text": "In a notoriously loud city like Rome, it was impossible to get much peace and quiet. The noises of\nwagons, the shouting of vendors, the hammering of a blacksmith—all filled the streets with piercing\nviolence (to say nothing of the putrid smells of a city with poor sewage and sanitation). So philosophers\nwent on a lot of walks—to get where they needed to go, to clear their heads, to get fresh air.\nThroughout the ages, philosophers, writers, poets, and thinkers have found that walking offers an\nadditional benefit—time and space for better work. As Nietzsche would later say: “It is only ideas gained\nfrom walking that have any worth.”\nToday, make sure you take a walk. And in the future, when you get stressed or overwhelmed, take a\nwalk. When you have a tough problem to solve or a decision to make, take a walk. When you want to be\ncreative, take a walk. When you need to get some air, take a walk. When you have a phone call to make,\ntake a walk. When you need some exercise, take a long walk. When you have a meeting or a friend over,\ntake a walk together.\nNourish yourself and your mind and solve your problems along the way",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 17.8"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 22,
+    "title": "THE DEFINITION OF INSANITY",
+    "quote": "If you are defeated once and tell yourself you will overcome, but carry on as before, know in the\nend you’ll be so ill and weakened that eventually you won’t even notice your mistake and will\nbegin to rationalize your behavior.",
+    "text": "It’s been said that the definition of insanity is trying the same thing over and over again but expecting a\ndifferent result. Yet that’s exactly what most people do. They tell themselves: Today, I won’t get angry.\nToday, I won’t gorge myself. But they don’t actually do anything differently. They try the same routine and\nhope it will work this time. Hope is not a strategy!\nFailure is a part of life we have little choice over. Learning from failure, on the other hand, is\noptional. We have to choose to learn. We must consciously opt to do things differently—to tweak and\nchange until we actually get the result we’re after. But that’s hard.\nSticking with the same unsuccessful pattern is easy. It doesn’t take any thought or any additional effort,\nwhich is probably why most people do it.",
+    "author": "EPICTETUS, DISCOURSES, 2.18.31"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 23,
+    "title": "THE LONG WAY AROUND",
+    "quote": "You could enjoy this very moment all the things you are praying to reach by taking the long way\naround—if you’d stop depriving yourself of them.",
+    "text": "Ask most people what they’re working toward and you’ll get an answer like: “I’m trying to become a\n[insert profession].” Or they’ll tell you they’re trying to get appointed to some impressive committee\nor position, become a millionaire, get discovered, become famous, whatever. Now you ask a couple more\nquestions, such as “Why are you doing that?” or “What are you hoping it will be like when you get it?”\nand you find at the very core of it, people want freedom, they want happiness, and they want the respect of\ntheir peers.\nA Stoic looks at all this and shakes his head at the immense effort and expense we put into chasing\nthings that are simple and straightforward to acquire. It’s as if we prefer to spend years building a\ncomplicated Rube Goldberg machine instead of just reaching out and picking up what we want. It’s like\nlooking all over for your sunglasses and then realizing they were on your head the whole time.\nFreedom? That’s easy. It’s in your choices.\nHappiness? That’s easy. It’s in your choices.\nRespect of your peers? That too is in the choices you make.\nAnd all of that is right in front of you. No need to take the long way to get there.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 12.1"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 24,
+    "title": "THE TRULY EDUCATED AREN’T QUARRELSOME",
+    "quote": "The beautiful and good person neither fights with anyone nor, as much as they are able, permits\nothers to fight . . . this is the meaning of getting an education—learning what is your own affair\nand what is not. If a person carries themselves so, where is there any room for fighting?",
+    "text": "Socrates famously traveled around Athens, approaching the people he disagreed with most, and\nengaging them in long discussions. In these discussions—or what record we have of them—there are\nmany examples of his conversation mates getting exasperated, upset, or aggravated by his many questions.\nIndeed, the people of Athens eventually got so upset, they sentenced Socrates to death.\nBut Socrates never seemed to get upset himself. Even when talking about matters of life and death, he\nalways kept his cool. He was much more interested in hearing what the other person had to say than\nmaking sure he was heard or—as most of us insist upon—winning the argument.\nThe next time you face a political dispute or a personal disagreement, ask yourself: Is there any\nreason to fight about this? Is arguing going to help solve anything? Would an educated or wise person\nreally be as quarrelsome as you might initially be inclined to be? Or would they take a breath, relax, and\nresist the temptation for conflict? Just think of what you could accomplish—and how much better you\nwould feel—if you could conquer the need to fight and win every tiny little thing.",
+    "author": "EPICTETUS, DISCOURSES, 4.5.1; 7b–8a"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 25,
+    "title": "THE WISE DON’T HAVE “PROBLEMS”",
+    "quote": "This is why we say that nothing happens to the wise person contrary to their expectations.",
+    "text": "Hesiod, the poet, said that “the best treasure is a sparing tongue.” Robert Greene considers it a law of\npower: Always Say Less Than Necessary.\nWe talk because we think it’s helping, whereas in reality it’s making things hard for us. If our spouse is\nventing, we want to tell them what they should do. In fact, all they actually want us to do is hear them. In\nother situations, the world is trying to give us feedback or input, but we try to talk ourselves out of the\nproblem—only to make it worse.\nSo today, will you be part of the problem or part of the solution? Will you hear the wisdom of the\nworld or drown it out with more noise?",
+    "author": "SENECA, ON TRANQUILITY OF MIND, 13.3b"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 26,
+    "title": "TRY THE OPPOSITE",
+    "quote": "What assistance can we find in the fight against habit? Try the opposite!",
+    "text": "Viktor Frankl, the brilliant psychologist and Holocaust survivor, cured patients suffering from phobias\nor neurotic habits using a method he called “paradoxical intention.” Let’s say a patient couldn’t\nsleep. The standard therapy would have been something obvious, like relaxation techniques. Frankl\ninstead encouraged the patient to try not to fall asleep. He found that shifting focus off the problem\ndeflected the patient’s obsessive attention away from it and allowed them to eventually sleep normally.\nFans of the TV show Seinfeld might remember an episode called “The Opposite” where George\nCostanza magically improves his life by doing the opposite of whatever he’d normally do. “If every\ninstinct you have is wrong,” Jerry says to him, “then the opposite would have to be right.” The larger\npoint is that sometimes our instincts or habits get stuck in a bad pattern that pushes us further from our\nnatural, healthy selves.\nNow you shouldn’t immediately toss out everything in your life—some stuff is working (you’re\nreading this book!). But what if you explored opposites today? What if you broke the pattern?",
+    "author": "EPICTETUS, DISCOURSES, 1.27.4"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 27,
+    "title": "ADVERSITY REVEALS",
+    "quote": "How does it help, my husband, to make misfortune heavier by complaining about it? This is\nmore fit for a king—to seize your adversities head on. The more precarious his situation, the\nmore imminent his fall from power, the more firmly he should be resolved to stand and fight. It\nisn’t manly to retreat from fortune.",
+    "text": "As the CEO of Charles Schwab, Walt Bettinger hires hundreds of people each year and interviews\nhundreds more. Over his lifetime, we can safely assume he’s had his share of hits, misses, and\nsurprises when it comes to bringing people on board. But consider one technique he’s used as he’s gotten\nolder: he takes a candidate to breakfast and asks the restaurant’s manager to purposely mess up the\ncandidate’s breakfast order.\nHe’s testing to see how they react. Do they get upset? Do they act rudely? Do they let this little event\nspoil the meeting? Do they handle the inconvenience with grace and kindness?\nHow you handle even minor adversity might seem like nothing, but, in fact, it reveals everything.",
+    "author": "SENECA, OEDIPUS, 80"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 28,
+    "title": "NO SELF-FLAGELLATION NEEDED",
+    "quote": "Philosophy calls for simple living, but not for penance—it’s quite possible to be simple without\nbeing crude.",
+    "text": "Marcus’s meditations are filled with self-criticism and so are the writings of other Stoics. It’s\nimportant to remember, however, that that’s as far as it goes. There was no self-flagellation, no\npaying penance, no self-esteem issues from guilt or self-loathing. You never hear them call themselves\nworthless pieces of crap, nor do they ever starve or cut themselves as punishment. Their self-criticism is\nconstructive.\nLaying into yourself, unduly depriving yourself, punishing yourself—that’s self-flagellation, not selfimprovement.\nNo need to be too hard on yourself. Hold yourself to a higher standard but not an impossible one. And\nforgive yourself if and when you slip up.",
+    "author": "SENECA, MORAL LETTERS, 5.5"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 29,
+    "title": "NO EXCUSES",
+    "quote": "It is possible to curb your arrogance, to overcome pleasure and pain, to rise above your\nambition, and to not be angry with stupid and ungrateful people—yes, even to care for them",
+    "text": "I was just born this way.” “I never learned anything different.” “My parents set a terrible example.”\n“Everyone else does it.” What are these? Excuses that people use to justify staying as they are instead of\nstriving to become better.\nOf course it’s possible to curb our arrogance, control our anger, and be a caring person. How do you\nthink others do it? Certainly their parents weren’t perfect; they didn’t come out of the womb incapable of\nego or immune to temptation. They worked on it. They made it a priority. They solved it like they would\nsolve any other problem: by dedicating themselves to finding a solution, making incremental progress\nuntil they did.\nThey became who they are. Just like you can.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 8.8"
+  },
+  {
+    "month": "June",
+    "monthIndex": 5,
+    "date": 30,
+    "title": "THE OBSTACLE IS THE WAY",
+    "quote": "While it’s true that someone can impede our actions, they can’t impede our intentions and our\nattitudes, which have the power of being conditional and adaptable. For the mind adapts and\nconverts any obstacle to its action into a means of achieving it. That which is an impediment to\naction is turned to advance action. The obstacle on the path becomes the way",
+    "text": "Today, things will happen that will be contrary to your plans. If not today, then certainly tomorrow. As\na result of these obstacles, you will not be able to do what you planned. This is not as bad as it\nseems, because your mind is infinitely elastic and adaptable. You have the power to use the Stoic exercise\nof turning obstacles upside down, which takes one negative circumstance and uses it as an opportunity to\npractice an unintended virtue or form of excellence.\nIf something prevents you from getting to your destination on time, then this is a chance to practice\npatience.\nIf an employee makes an expensive mistake, this is a chance to teach a valuable lesson.\nIf a computer glitch erases your work, it’s a chance to start over with a clean slate.\nIf someone hurts you, it’s a chance to practice forgiveness.\nIf something is hard, it is a chance to get stronger.\nTry this line of thinking and see whether there is a situation in which one could not find some virtue to\npractice or derive some benefit. There isn’t one. Every impediment can advance action in some form or\nanother.",
+    "author": "MARCUS AURELIUS, MEDITATIONS, 5.20"
+  }
+    ]
   }
 ]
 
