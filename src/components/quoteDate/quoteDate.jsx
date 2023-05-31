@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react'
 import './quoteStyles.scss';
-import { getQuotesAndDocuments } from '../../utils/firebase.utils';
 import QUOTES from "../../assets/quotes.js"
+import { useRef } from 'react';
 
 const today = new Date();
 const monthNumber = today.getMonth();
@@ -10,12 +10,8 @@ const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'Jul
 const monthName = monthNames[monthNumber];
 const QuoteDate = () => {
   const [quotesData, setQuotesData ] = useState(null);
-  /* 
-  
-  Commenting this bit below out because we're fetching internally
-  No need to make calls to the Database right now 
+    const wisdomRef = useRef(null);
 
-  */
    useEffect(() => {
 
   //   const getQuotesMap = async () => {
@@ -35,7 +31,7 @@ const QuoteDate = () => {
     <>
     
     { 
-      <div className="quote-container first-fold" id="wisdom">
+      <div className="quote-container first-fold" id="wisdom" ref={wisdomRef} >
           <div className='date-container'>
               <h2>{`${monthName.toUpperCase()},  ${monthDate}`}</h2>
               <p>{title}</p>
