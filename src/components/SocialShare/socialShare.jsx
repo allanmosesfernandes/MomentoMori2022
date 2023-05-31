@@ -9,7 +9,7 @@ const SocialShare = () => {
   const [copied, setCopied] = useState(false);
   const shareURL = "https://dailystoicreminders.uk/#wisdom";
   const handleCopyLink = () => {
-    const url = 'https://dailystoicreminders.uk/';
+    const url = 'https://dailystoicreminders.uk/#wisdom';
     clipboardCopy(url);
 
     setCopied(true);
