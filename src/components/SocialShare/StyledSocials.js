@@ -21,6 +21,8 @@ h2 {
   h2 {
     font-size: 2rem;
     align-items: center;
+    justify-content: flex-start;
+
     img {
         width: 30px;
         height: 30px;
@@ -34,7 +36,7 @@ h2 {
 export const StyledList = styled.ul`
 li {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     transition: transform 2000ms ease-in-out;
     transition-delay: 0.1s;
     border-bottom: 1px solid white;
@@ -64,7 +66,12 @@ li {
         width: 20px;
         height: 20px;
     }
-
+button.react-share__ShareButton {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
 }
     @media only screen and (max-width: 600px) {
       //code goes here

@@ -23,7 +23,7 @@ const SocialShare = () => {
   return (
     <SocialsContainer className='quote-container'>
       <div>
-        <h2>Share: <img src={ShareIcon} alt="Share Icon"/></h2>
+        <h2>Share quote: <img src={ShareIcon} alt="Share Icon"/></h2>
       </div>
       <div>
         <StyledList>
@@ -35,25 +35,25 @@ const SocialShare = () => {
             <img src={Plus} alt="Plus Sign" />
           </li>
           <li>
-            <p className="number">02</p>
             <WhatsappShareButton url={shareURL}>
-              Whatsapp
+              <p className="number">02</p>
+                Whatsapp
+              <img src={Plus} alt="Plus Sign" />
             </WhatsappShareButton>
-            <img src={Plus} alt="Plus Sign" />
           </li>
           <li>
-            <p className="number">03</p>
             <TwitterShareButton url={shareURL}>
-              Twitter
+              <p className="number">03</p>
+                Twitter
+              <img src={Plus} alt="Plus Sign" />
             </TwitterShareButton>
-            <img src={Plus} alt="Plus Sign" />
           </li>
           <li>
+            <LinkedinShareButton url={shareURL}>
             <p className="number">04</p>
-              <LinkedinShareButton url={shareURL}>
-                Linkedin
-              </LinkedinShareButton>
+              Linkedin
             <img src={Plus} alt="Plus Sign" />
+            </LinkedinShareButton>
           </li>
 
         </StyledList>
