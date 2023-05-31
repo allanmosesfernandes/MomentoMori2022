@@ -28,7 +28,7 @@ const QuoteDate = () => {
 
   if (!quotesData) {
     return <span className="loader"></span>;
-  }
+  } 
     const quoteOfTheDay = quotesData.filter(quote => quote.title === monthName)[0].quotes.filter(quote => quote.date == monthDate);
      const { title,quote,author,text } = quoteOfTheDay[0];
   return (
