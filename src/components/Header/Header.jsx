@@ -44,31 +44,6 @@ fakeCheckbox.addEventListener("change", function () {
             <Link className='nav-link' to="about">
                 About
             </Link>
-            [04:43 pm] Gell, Ami
-
-
-
-[04:43 pm] Gell, Ami
-
-
-
-
-[04:49 pm] Gell, Ami
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             {/* <Link className='nav-link' to="sign-in">
                 Sign In
