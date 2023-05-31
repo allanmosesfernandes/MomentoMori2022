@@ -7,6 +7,7 @@ import quotes from "../../assets/quotes";
 import Symbolism from '../symbolism/symbolism';
 import Introduction from '../Introduction/Introduction';
 import StoicHabits from '../StoicHabits/stoicHabits';
+import SocialShare from '../SocialShare/socialShare';
 const FirstFold = () => {
 
 
@@ -14,6 +15,7 @@ const FirstFold = () => {
   <>
       <Introduction />
       <QuoteDate /> 
+      <SocialShare />
       <TimeBound />
       <StoicHabits />
       <Symbolism />
