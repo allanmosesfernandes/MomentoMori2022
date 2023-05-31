@@ -7,7 +7,7 @@ import { WhatsappShareButton, TwitterShareButton, LinkedinShareButton} from 'rea
 
 const SocialShare = () => {
   const [copied, setCopied] = useState(false);
-  const shareURL = "https://dailystoicreminders.uk/";
+  const shareURL = "https://dailystoicreminders.uk/#quoteOfDay";
   const handleCopyLink = () => {
     const url = 'https://dailystoicreminders.uk/';
     clipboardCopy(url);
