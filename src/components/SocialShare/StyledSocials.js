@@ -12,6 +12,22 @@ h2 {
     gap: 1rem;
     justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  //code goes here
+  grid-template-columns: 1fr;
+  gap: 0;
+
+  h2 {
+    font-size: 2rem;
+    align-items: center;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+  }
+
+}
 `
 
 
@@ -48,6 +64,10 @@ li {
         width: 20px;
         height: 20px;
     }
-}
 
+}
+    @media only screen and (max-width: 600px) {
+      //code goes here
+      margin-top: -1rem;
+    }
 `
