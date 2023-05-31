@@ -36,14 +36,13 @@ fakeCheckbox.addEventListener("change", function () {
   return (
     <>
     <nav>
-       
-            <Link to="/">
-                <div className="logo"></div>
-            </Link>
-        <div className="nav-links">
-            <Link className='nav-link' to="about">
-                About
-            </Link>
+      <Link to="/">
+          <div className="logo"></div>
+      </Link>
+      <div className="nav-links">
+        <Link className='nav-link' to="about">
+            About
+        </Link>
 
             {/* <Link className='nav-link' to="sign-in">
                 Sign In
@@ -62,8 +61,7 @@ fakeCheckbox.addEventListener("change", function () {
                 currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='hide-for-now nav-link' to='/sign-in'> Sign In </Link>)
             }  */}
  
-        </div>
-        
+      </div>
     </nav>
     <Outlet />
     <Footer />
