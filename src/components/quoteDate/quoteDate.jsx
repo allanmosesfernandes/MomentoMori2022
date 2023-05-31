@@ -18,7 +18,11 @@ const QuoteDate = () => {
   //     const quotesMap = await getQuotesAndDocuments();
   //     setQuotesData(quotesMap);
   //   }
-
+    if (window.location.hash === '#wisdom') {
+      setTimeout(() => {
+        wisdomRef.current.scrollIntoView({ behavior: 'smooth' });
+      }, 0);
+    }
      setQuotesData(QUOTES);
    }, []);
 
