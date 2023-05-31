@@ -1,8 +1,17 @@
 import React from 'react';
+import { SocialsContainer } from './StyledSocials';
+import ShareIcon from "../../assets/images/Share-icon.svg";
 
 const SocialShare = () => {
   return (
-    <div>this is social share buttons</div>
+    <SocialsContainer className='quote-container'>
+      <div>
+        <h2>Share: <img src={ShareIcon} alt="Share Icon"/></h2>
+      </div>
+      <div>
+        
+      </div>
+    </SocialsContainer>
   )
 }
 
