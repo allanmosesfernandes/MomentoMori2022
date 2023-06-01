@@ -18,7 +18,7 @@ const ProductHunt = () => {
         left: -9px;
       }
 
-      @media screen and (max-width: 376px) {
+      @media screen and (max-width: 435px) {
         width: 120px;
         transform: rotate(90deg);
         transform-origin: top left;

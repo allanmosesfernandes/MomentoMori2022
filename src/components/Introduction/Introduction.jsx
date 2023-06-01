@@ -18,6 +18,7 @@ const Introduction = () => {
           They believed that life is short, and that every moment counts.
           Therefore, they advocated for living in the present moment and
           focusing on what is most important.&nbsp;
+          
           <ProductHunt />
         </p>
 
