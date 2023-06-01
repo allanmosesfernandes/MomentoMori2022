@@ -13,7 +13,6 @@ const currentTime = new Date();
 const currentHour = currentTime.getHours();
 const currentMinute = currentTime.getMinutes();
 const percentage = ((currentHour * 60 + currentMinute) / 24 / 60 * 100).toFixed(1);
-console.log('first')
 return (
     <div className='today__time--container'>
     <p className='today__time--container-header'>Today</p>

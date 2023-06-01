@@ -3,7 +3,7 @@ import Logo from '../../assets/images/skull_logo_2.png'
 import Home from '../../assets/images/home.svg'
 import ShoppingBag from "../../assets/shopping-bag.svg"
 import Skull from '../../assets/images/about.svg'
-import { UserContext } from '../../context/UserContext'
+// import { UserContext } from '../../context/UserContext'
 import { Link, Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer.component'
 import './header.scss';
@@ -16,7 +16,7 @@ import { CartContext } from '../../context/CartContext';
 
 const Header = () => {
 const {isCartOpen} = useContext(CartContext);
-const { currentUser } = useContext(UserContext);
+// const { currentUser } = useContext(UserContext);
 
 const themeSwitch = document.getElementById("theme-switch");
 const fakeCheckbox = document.getElementById("fake");

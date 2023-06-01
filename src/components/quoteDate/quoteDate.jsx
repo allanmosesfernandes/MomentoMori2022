@@ -40,6 +40,7 @@ const QuoteDate = () => {
               <h2>{`${monthName.toUpperCase()},  ${monthDate}`}</h2>
               <p>{title}</p>
           </div>
+          
           <div className="quote-body">
               <p className='quote-highlight' id="">
                 {quote}

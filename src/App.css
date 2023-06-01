@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap');
 
+.product_hunt {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  
+}
 :root {
   --app-bg: #141414;
   --body-neon: #96cf48;
