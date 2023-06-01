@@ -13,7 +13,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { ReactSVG } from "react-svg";
 
 import { CartContext } from '../../context/CartContext';
-
+import ProductHunt from '../ProductHuntBadge/productHunt'
 const Header = () => {
 const {isCartOpen} = useContext(CartContext);
 // const { currentUser } = useContext(UserContext);
@@ -35,19 +35,22 @@ fakeCheckbox.addEventListener("change", function () {
 
   return (
     <>
-    <nav>
-      <Link to="/">
+      <nav>
+        <Link to="/">
           <div className="logo"></div>
-      </Link>
-      <div className="nav-links">
-        <Link className='nav-link' to="about">
-            About
         </Link>
 
-            {/* <Link className='nav-link' to="sign-in">
+        <div className="nav-links">
+          <ProductHunt />
+
+          <Link className="nav-link" to="about">
+            About
+          </Link>
+
+          {/* <Link className='nav-link' to="sign-in">
                 Sign In
             </Link> */}
-{/*             <Link className='nav-link' to="shop">
+          {/*             <Link className='nav-link' to="shop">
                Shop
             </Link>
 
@@ -60,13 +63,12 @@ fakeCheckbox.addEventListener("change", function () {
             {
                 currentUser ? (<span className='nav-link' onClick={signOutUser}> Sign Out </span>):(<Link className='hide-for-now nav-link' to='/sign-in'> Sign In </Link>)
             }  */}
- 
-      </div>
-    </nav>
-    <Outlet />
-    <Footer />
+        </div>
+      </nav>
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Header

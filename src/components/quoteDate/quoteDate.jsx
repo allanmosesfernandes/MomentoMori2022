@@ -2,7 +2,6 @@ import {React, useState, useEffect} from 'react'
 import './quoteStyles.scss';
 import QUOTES from "../../assets/quotes.js"
 import { useRef } from 'react';
-
 const today = new Date();
 const monthNumber = today.getMonth();
 const monthDate = today.getDate();
@@ -51,7 +50,6 @@ const QuoteDate = () => {
                   {text.slice(1)}
               </p>
           </div>
-
       </div>  
     }
 

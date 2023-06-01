@@ -35,6 +35,10 @@
     font-family: "Cormorant Garamond", serif;
     line-height: 1.5;
     font-size: 1.5rem;
+
+    div {
+        display: none;
+    }
 }
 
 
@@ -43,8 +47,12 @@
 
     //code goes here
     .Typewriter__wrapper {
-        font-size: 1.3rem;
-        line-height: 1.2;
+        font-size: 1.1rem;
+        line-height: 1.5;
+
+        div {
+            display: block;
+        }
     }
 
     .quote-container.introduction {
