@@ -17,6 +17,17 @@ const ProductHunt = () => {
         position: absolute;
         left: -9px;
       }
+
+      @media screen and (max-width: 376px) {
+        width: 120px;
+        transform: rotate(90deg);
+        transform-origin: top left;
+        position: absolute;
+        left: 44px;
+        bottom: 70px;
+    }
+        
+      }
     `;
   return (
     <ProductHuntStyled>
