@@ -51,7 +51,7 @@ const SocialShare = () => {
           <li>
             <LinkedinShareButton url={shareURL}>
             <p className="number">04</p>
-              Linkedin
+              LinkedIn
             <img src={Plus} alt="Plus Sign" />
             </LinkedinShareButton>
           </li>
