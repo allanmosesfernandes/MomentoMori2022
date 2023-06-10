@@ -38,7 +38,7 @@ li {
     display: flex;
     gap: 2rem;
     transition: transform 2000ms ease-in-out;
-    transition-delay: 0.1s;
+    transition-delay: 0.2s;
     border-bottom: 1px solid white;
     align-items: center;
     button, p, img{
