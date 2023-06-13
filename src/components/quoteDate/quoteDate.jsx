@@ -17,7 +17,7 @@ const QuoteDate = () => {
   //     const quotesMap = await getQuotesAndDocuments();
   //     setQuotesData(quotesMap);
   //   }
-    if (window.location.hash === '#wisdom') {
+    if (window.location.hash === '#quoteOfTheDay') {
       setTimeout(() => {
         wisdomRef.current.scrollIntoView({ behavior: 'smooth' });
       }, 0);
@@ -34,7 +34,7 @@ const QuoteDate = () => {
     <>
     
     { 
-      <div className="quote-container first-fold" id="wisdom" ref={wisdomRef} >
+      <div className="quote-container first-fold" id="quoteOfTheDay" ref={wisdomRef} >
           <div className='date-container'>
               <h2>{`${monthName.toUpperCase()},  ${monthDate}`}</h2>
               <p>{title}</p>

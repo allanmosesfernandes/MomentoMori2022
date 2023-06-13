@@ -11,7 +11,6 @@ const SocialShare = () => {
   const handleCopyLink = () => {
     const url = 'https://dailystoicreminders.uk/#wisdom';
     clipboardCopy(url);
-
     setCopied(true);
     setTimeout(() => {
       setCopied(false)
