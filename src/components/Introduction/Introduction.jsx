@@ -22,7 +22,7 @@ const Introduction = () => {
           <ProductHunt />
         </p>
 
-        <a href="#quoteOfDay">
+        <a href="#wisdom">
           <div className="scroll-down">
             <span className="one"></span>
             <span className="two"></span>
