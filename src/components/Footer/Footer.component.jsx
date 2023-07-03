@@ -17,9 +17,9 @@ const Footer = () => {
       <div className="footer-right">
       
       <p className='created__by'>Created by 
-        <Link path="https://allanfernandes.dev/" target="_blank">
+        <a href="https://allanfernandes.dev/" target="_blank">
           <img src={AF} alt="Allan Fernandes Logo" className="af__logo" title='Allan Moses Fernandes'/>
-        </Link>
+        </a>
       </p>
       </div>
       </div>
