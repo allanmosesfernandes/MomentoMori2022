@@ -15,8 +15,8 @@ const FirstFold = () => {
   <>
       <Introduction />
       <QuoteDate /> 
-      <SocialShare />
       <TimeBound />
+      <SocialShare />
       <StoicHabits />
       <Symbolism />
       <Acknowledgement /> 

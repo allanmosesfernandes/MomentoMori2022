@@ -5,7 +5,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 1rem;
 font-family: neue-bold, monospace;
-
+width: 80%;
 h2 {
     display: flex;
     font-size: 3.5rem;
@@ -15,6 +15,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   //code goes here
+  width: 100%;
   grid-template-columns: 1fr;
   gap: 0;
 
