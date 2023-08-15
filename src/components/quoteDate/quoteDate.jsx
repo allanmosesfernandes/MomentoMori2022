@@ -10,7 +10,6 @@ const monthName = monthNames[monthNumber];
 const QuoteDate = () => {
   const [quotesData, setQuotesData ] = useState(null);
     const wisdomRef = useRef(null);
-  console.log(quotesData);
    useEffect(() => {
 
   //   const getQuotesMap = async () => {

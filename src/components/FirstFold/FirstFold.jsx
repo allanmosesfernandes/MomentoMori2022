@@ -13,6 +13,7 @@ const FirstFold = () => {
 
   return (
   <>
+  
       <Introduction />
       <QuoteDate /> 
       <TimeBound />

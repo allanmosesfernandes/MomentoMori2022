@@ -1,12 +1,18 @@
-import React from 'react'
-import ProductHunt from '../ProductHuntBadge/productHunt';
+import React from "react";
+import ProductHunt from "../ProductHuntBadge/productHunt";
 import "./introduction.scss";
 const Introduction = () => {
-
   return (
     <>
       <div className="quote-container introduction">
         <h1>Daily Stoic Reminders</h1>
+        {/*   
+        /***
+         * When I wrote this, only God and I understood what I was doing
+         * Now, God only knows
+         */
+        /***
+         */}
         <p className="Typewriter__wrapper">
           With roots in ancient Greece, the philosophy of Stoicism offers a
           unique approach to lifes challenges that promises to awaken the
@@ -18,10 +24,8 @@ const Introduction = () => {
           They believed that life is short, and that every moment counts.
           Therefore, they advocated for living in the present moment and
           focusing on what is most important.&nbsp;
-          
           <ProductHunt />
         </p>
-
         <a href="#wisdom">
           <div className="scroll-down">
             <span className="one"></span>
@@ -32,6 +36,6 @@ const Introduction = () => {
       </div>
     </>
   );
-}
+};
 
-export default Introduction
+export default Introduction;
