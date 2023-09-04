@@ -14,6 +14,7 @@ root.render(
     <BrowserRouter>
     {/* <ProductsProvider> */}
       {/* <UserProvider> */}
+      
         <CartContextProvider>
           <App />
         </CartContextProvider>

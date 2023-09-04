@@ -16,22 +16,7 @@ import { CartContext } from '../../context/CartContext';
 import ProductHunt from '../ProductHuntBadge/productHunt'
 const Header = () => {
 const {isCartOpen} = useContext(CartContext);
-// const { currentUser } = useContext(UserContext);
 
-const themeSwitch = document.getElementById("theme-switch");
-const fakeCheckbox = document.getElementById("fake");
-
-themeSwitch.addEventListener("change", function () {
-  fakeCheckbox.checked = this.checked;
-  window.localStorage.setItem('themeSwitch', this.checked);
-
-});
-
-fakeCheckbox.addEventListener("change", function () {
-  themeSwitch.checked = this.checked;
-  window.localStorage.setItem('themeSwitch', this.checked);
-
-});
 
   return (
     <>
