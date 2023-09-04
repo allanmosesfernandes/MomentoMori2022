@@ -9,9 +9,8 @@ const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'Jul
 const monthName = monthNames[monthNumber];
 const QuoteDate = () => {
   const [quotesData, setQuotesData ] = useState(null);
-    const wisdomRef = useRef(null);
-  console.log(quotesData);
-   useEffect(() => {
+  const wisdomRef = useRef(null);
+  useEffect(() => {
 
   //   const getQuotesMap = async () => {
   //     const quotesMap = await getQuotesAndDocuments();
