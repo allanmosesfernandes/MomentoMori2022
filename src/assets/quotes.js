@@ -3386,5 +3386,289 @@ const QUOTES_DATA = [
       },
     ],
   },
+  {
+    title: "December",
+    quotes: [
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 1,
+        "title": "PRETEND TODAY IS THE END",
+        "quote": "Let us prepare our minds as if we’d come to the very end of life.\nLet us postpone nothing. Let us balance life’s books each day. . . .\nThe one who puts the finishing touches on their life each day is\nnever short of time.",
+        "text": "Live each day as if it were your last” is a cliché. Plenty say it, few\nactually do it. How reasonable would that be anyway? Surely\nSeneca isn’t saying to forsake laws and considerations—to find some orgy\nto join because the world is ending.\nA better analogy would be a soldier about to leave on deployment. Not\nknowing whether they’ll return or not, what do they do?\nThey get their affairs in order. They handle their business. They tell their\nchildren or their family that they love them. They don’t have time for\nquarreling or petty matters. And then in the morning they are ready to go—\nhoping to come back in one piece but prepared for the possibility that they\nmight not.\nLet us live today that same way.",
+        "author": "SENECA, MORAL LETTERS, 101.7b–8a"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 2,
+        "title": "DON’T MIND ME, I’M ONLY DYING SLOW",
+        "quote": "Let each thing you would do, say or intend be like that of a dying\nperson.",
+        "text": "Have you ever heard some ask: “What would you do if you found out\ntomorrow that you had cancer?” The question is designed to make you\nconsider how different life might be if you were suddenly given just a few\nmonths or weeks to live. There’s nothing like a terminal illness to wake\npeople up.\nBut here’s the thing: you already have a terminal diagnosis. We all do!\nAs the writer Edmund Wilson put it, “Death is one prophecy that never\nfails.” Every person is born with a death sentence. Each second that passes\nby is one you’ll never get back.\nOnce you realize this, it will have a profound impact on what you do,\nsay, and think. Don’t let another day tick away in ignorance of the reality\nthat you’re a dying person. We all are. Can today be the day we stop\npretending otherwise?",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 2.11.1"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 3,
+        "title": "THE PHILOSOPHER AS AN ARTISAN OF LIFE AND DEATH",
+        "quote": "Philosophy does not claim to get a person any external possession.\nTo do so would be beyond its field. As wood is to the carpenter,\nbronze to the sculptor, so our own lives are the proper material in\nthe art of living.",
+        "text": "Philosophy is not some idle pursuit appropriate only for academics or the\nrich. Instead, it is one of the most essential activities that a human\nbeing can engage in. Its purpose, as Henry David Thoreau said a few\nthousand years after Epictetus, is to help us “solve the problems of life, not\nonly theoretically but practically.” This aligns nicely with Cicero’s famous\nline: “To philosophize is to learn how to die.”\nYou’re not reading these quotes and doing these thought exercises for\nfun. Though they may be enjoyable and help you lighten up, their aim is to\nhelp you sculpt and improve your life. And because all of us have but one\nlife and one death, we should treat each experience like a sculptor with his\nchisels, carving until, to paraphrase Michelangelo, we set free the angel in\nthe marble.\nWe are trying to do this difficult thing—living and dying—as well as we\ncan. And to do that, we must remember what we’ve learned and the wise\nwords we’ve been given.",
+        "author": "EPICTETUS, DISCOURSES, 1.15.2"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 4,
+        "title": "YOU DON’T OWN THAT",
+        "quote": "Anything that can be prevented, taken away, or coerced is not a\nperson’s own—but those things that can’t be blocked are their\nown.",
+        "text": "The conservationist Daniel O’Brien has said that he doesn’t “own” his\nseveral-thousand-acre buffalo ranch in South Dakota, he just lives there\nwhile the bank lets him make mortgage payments on it. It’s a joke about the\neconomic realities of ranching, but it also hints at the idea that land doesn’t\nbelong to one individual, that it will far outlast us and our descendants.\nMarcus Aurelius used to say that we don’t own anything and that even our\nlives are held in trust.\nWe may claw and fight and work to own things, but those things can be\ntaken away in a second. The same goes for other things we like to think are\n“ours” but are equally precarious: our status, our physical health or strength,\nour relationships. How can these really be ours if something other than us—\nfate, bad luck, death, and so on—can dispossess us of them without notice?\nSo what do we own? Just our lives—and not for long.",
+        "author": "EPICTETUS, DISCOURSES, 3.24.3"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 5,
+        "title": "THE BENEFITS OF SOBERING THOUGHTS",
+        "quote": "Keep death and exile before your eyes each day, along with\neverything that seems terrible—by doing so, you’ll never have a\nbase thought nor will you have excessive desire.",
+        "text": "Political winds could change in an instant, depriving you of the most\nbasic freedoms you take for granted. Or, no matter who you are or how\nsafely you’ve lived your life, there’s someone out there who would rob and\nkill you for a couple dollars.\nAs it’s written in the timeless Epic of Gilgamesh:\n“Man is snapped off like a reed in the canebrake!\nThe comely young man, the pretty young woman—\nAll too soon in their prime Death abducts them!”\nDeath is not the only unexpected interruption we might face—our plans\ncan be dashed to pieces by a million things. Today might be a bit more\npleasant if you ignore those possibilities, but at what cost?",
+        "author": "EPICTETUS, ENCHIRIDION, 21"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 6,
+        "title": "THE SWORD DANGLES OVER YOU",
+        "quote": "Don’t behave as if you are destined to live forever. What’s fated\nhangs over you. As long as you live and while you can, become\ngood now.",
+        "text": "There is an ancient story of a courtier who had made light of the\nresponsibilities of his king. To prove he was mistaken, the king\narranged to switch places with the courtier so he could experience what it\nwas like to be a king. The king made one other adjustment: he hung a sword\nby a hair over the throne to illustrate the peril and burden of kingship as\nwell as the constant fear of assassination. We call that dangling reminder of\ndeath and difficulty the Sword of Damocles.\nThe reality is that a similar sword hangs over all of us—life can be taken\nfrom us at any moment. And that threat can send us in one of two\ndirections: we can fear and dread it, or we can use it to motivate us. To do\ngood, to be good. Because the sword is dangling, and there’s nothing else to\nbe concerned with. Would you rather it catch you in the middle of some\nshameful, selfish act? Would you rather it catch you waiting to be good in\nthe future?",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 4.17"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 7,
+        "title": "THE CARDS WE’RE DEALT",
+        "quote": "Think of the life you have lived until now as over and, as a dead\nman, see what’s left as a bonus and live it according to Nature.\nLove the hand that fate deals you and play it as your own, for what\ncould be more fitting?",
+        "text": "We have an irrational fear of acknowledging our own mortality. We\navoid thinking about it because we think it will be depressing. In\nfact, reflecting on mortality often has the opposite effect—invigorating us\nmore than saddening us. Why? Because it gives us clarity.\nIf you were suddenly told you had but a week to live, what changes\nwould you make? If you died but were resuscitated, how different would\nyour perspective be?\nWhen, as Shakespeare’s Prospero puts it, “every third thought shall be\nmy grave,” there’s no risk of getting caught up in petty matters or\ndistractions. Instead of denying our fear of death, let’s let it make us the\nbest people we can be.\nToday.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 7.56–57"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 8,
+        "title": "DON’T HIDE FROM YOUR FEELINGS",
+        "quote": "It’s better to conquer grief than to deceive it.",
+        "text": "We’ve all lost people we were close to—a friend, a colleague, a parent,\na grandparent. While we were suffering from our grief, some well-\nmeaning person did their best to take our mind off it or make us think about\nsomething else for a couple hours. However kind, these gestures are\nmisguided.\nThe Stoics are stereotyped as suppressing their emotions, but their\nphilosophy was actually intended to teach us to face, process, and deal with\nemotions immediately instead of running from them. Tempting as it is to\ndeceive yourself or hide from a powerful emotion like grief—by telling\nyourself and other people that you’re fine—awareness and understanding\nare better. Distraction might be pleasant in the short term—by going to\ngladiatorial games, as a Roman might have done, for example. Focusing is\nbetter in the long term.\nThat means facing it now. Process and parse what you are feeling.\nRemove your expectations, your entitlements, your sense of having been\nwronged. Find the positive in the situation, but also sit with your pain and\naccept it, remembering that it is a part of life. That’s how one conquers\ngrief.",
+        "author": "SENECA, ON CONSOLATION TO HELVIA, 17.1b"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 9,
+        "title": "SPENDTHRIFTS OF TIME",
+        "quote": "Were all the geniuses of history to focus on this single theme, they\ncould never fully express their bafflement at the darkness of the\nhuman mind. No person would give up even an inch of their\nestate, and the slightest dispute with a neighbor can mean hell to\npay; yet we easily let others encroach on our lives—worse, we\noften pave the way for those who will take it over. No person\nhands out their money to passersby, but to how many do each of\nus hand out our lives! We’re tight-fisted with property and money,\nyet think too little of wasting time, the one thing about which we\nshould all be the toughest misers.",
+        "text": "Today there will be endless interruptions: phone calls, emails, visitors,\nunexpected events. Booker T. Washington observed that “the number\nof people who stand ready to consume one’s time, to no purpose, is almost\ncountless.”\nA philosopher, on the other hand, knows that their default state should\nbe one of reflection and inner awareness. This is why they so diligently\nprotect their personal space and thoughts from the intrusions of the world.\nThey know that a few minutes of contemplation are worth more than any\nmeeting or report. They also know how little time we’re actually given in\nlife—and how quickly our stores can be depleted.\nSeneca reminds us that while we might be good at protecting our\nphysical property, we are far too lax at enforcing our mental boundaries.\nProperty can be regained; there is quite a bit of it out there—some of it still\nuntouched by man. But time? Time is our most irreplaceable asset—we\ncannot buy more of it. We can only strive to waste as little as possible.",
+        "author": "SENECA, ON THE BREVITY OF LIFE, 3.1–2"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 10,
+        "title": "DON’T SELL YOURSELF TOO CHEAPLY",
+        "quote": "I say, let no one rob me of a single day who isn’t going to make a\nfull return on the loss.",
+        "text": "People spend a lot more money when they use credit cards than when\nthey have to pull out actual cash. If you ever wondered why credit card\ncompanies and banks push cards so aggressively, this is why. The more\ncredit cards you have, the more you’ll spend.\nDo we treat the days of our lives like we treat our money? Because we\ndon’t exactly know how many days we’ll be alive, and because we try our\nhardest not to think about the fact that someday we’ll die, we’re pretty\nliberal with how freely we spend our time. We let people and obligations\nimpose on that time, only rarely asking: What am I getting in return here?\nSeneca’s maxim is the equivalent of cutting up your credit cards and\nswitching to cash. He says to put real thought into every transaction: Am I\ngetting my money’s worth here? Is this a fair trade?",
+        "author": "SENECA, ON TRANQUILITY OF MIND, 1.11b"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 11,
+        "title": "DIGNITY AND BRAVERY",
+        "quote": "As Cicero says, we hate gladiators if they are quick to save their\nlives by any means; we favor them if they show contempt for their\nlives.",
+        "text": "Lyndon Johnson’s college classmates used to tell an embarrassing story\nabout him. Johnson apparently had a big mouth and felt he had to\nconstantly dominate and intimidate others. Yet his biographer, Robert Caro,\nmakes it clear that when someone stood up to young Lyndon, he proved\nhimself to be a complete coward. In one instance, during an argument over\na poker game, instead of fighting, Johnson threw himself on a bed and\n“began kicking his feet in the air with a frantic, windmilling motion . . . like\na girl.” He shouted, “If you hit me, I’ll kick you! If you hit me, I’ll kick\nyou!”\nLater in his life, Johnson also worked extremely hard to avoid serving in\nWorld War II and lived it up in California while other soldiers fought and\ndied abroad. He later claimed to be a war hero. It was one of his most\nshameful lies.\nWe do not need to disregard our physical safety or engage in wanton\nacts of violence to be brave. But nobody respects a coward. Nobody likes a\nshirker of duty. Nobody admires a person who puts too high a price on their\nown comfort and needs.\nThat’s the irony of cowardice. It’s aimed at self-protection, but it creates\nshameful secrets. Self-preservation is hardly worth it because of everything\nit costs in return.\nBe brave. Be dignified.",
+        "author": "SENECA, ON TRANQUILITY OF MIND, 11.4b"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 12,
+        "title": "THE BEAT GOES ON",
+        "quote": "Walk the long gallery of the past, of empires and kingdoms\nsucceeding each other without number. And you can also see the\nfuture, for surely it will be exactly the same, unable to deviate\nfrom the present rhythm. It’s all one whether we’ve experienced\nforty years or an aeon. What more is there to see?",
+        "text": "All things die. Not just people but companies, kingdoms, religions, and\nideas—eventually. The Roman Republic lasted 450 years. The Roman\nEmpire, of which Marcus Aurelius was considered to be one of the “five\ngood emperors,” lasted 500 years. The longest recorded life of a human\nbeing is 122 years. The average life expectancy in the United States is a\nlittle over seventy-eight years. In other countries, in other eras, it has been\nmore and it has been less. But in the end, we all succumb, as Marcus said,\nto the rhythm of events—of which there is always a final, determined beat.\nThere is no need to dwell on this fact, but there is no point in ignoring it\neither.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 7.49"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 13,
+        "title": "IT’S JUST A NUMBER",
+        "quote": "You aren’t bothered, are you, because you weigh a certain amount\nand not twice as much? So why get worked up that you’ve been\ngiven a certain lifespan and not more? Just as you are satisfied\nwith your normal weight, so you should be with the time you’ve\nbeen given.",
+        "text": "They say age is just a number, but to some people it’s a very important\none—otherwise, women wouldn’t lie about being younger, and\nambitious young men wouldn’t lie about being older. Rich people and\nhealth nuts spend billions of dollars in an effort to move the expiration date\nfrom around seventy-eight years to hopefully forever.\nThe number of years we manage to eke out doesn’t matter, only what\nthose years are composed of. Seneca put it best when he said, “Life is long\nif you know how to use it.” Sadly, most people don’t—they waste the life\nthey’ve been given. Only when it is too late do they try to compensate for\nthat waste by vainly hoping to put more time on the clock.\nUse today. Use every day. Make yourself satisfied with what you have\nbeen given.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 6.49"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 14,
+        "title": "WHAT WE SHOULD KNOW BY THE END",
+        "quote": "Soon you will die, and still you aren’t sincere, undisturbed, or free\nfrom suspicion that external things can harm you, nor are you\ngracious to all, knowing that wisdom and acting justly are one and\nthe same.",
+        "text": "From what we understand, Marcus wrote many of his meditations later\nin life, when he was suffering from serious illnesses. So when he says,\n“Soon you will die,” he was speaking frankly to himself about his own\nmortality. How scary that must have been. He was staring at the real\npossibility of death and not liking what he saw in these last minutes.\nSure, he’d accomplished many things in his life, but his emotions were\nstill the cause of discomfort, pain, and frustration. He knew that with his\nlimited time left, better choices would provide relief.\nHopefully, you have a lot more time left—but that makes it even more\nimportant to make headway while you still can. We are unfinished products\nup until the end, as Marcus knew very well. But the earlier we learn it, the\nmore we can enjoy the fruits of the labor on our character—and the sooner\nwe can be free (or freer) of insincerity, anxiety, ungraciousness, and un-\nStoic-ness.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 4.37"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 15,
+        "title": "A SIMPLE WAY TO MEASURE OUR DAYS",
+        "quote": "This is the mark of perfection of character—to spend each day as\nif it were your last, without frenzy, laziness, or any pretending.",
+        "text": "The Stoics didn’t think that anyone could be perfect. The idea of\nbecoming a sage—the highest aspiration of a philosopher—wasn’t\nrealistic. This was just their Platonic ideal.\nStill, they started every day hoping to get a little closer to that mark.\nThere was much to gain in the trying. Can you actually live today like it is\nyour last day? Is it even possible to embody completeness or perfection in\nour ethos (character), effortlessly doing the right thing for a full twenty-four\nhours? Is it possible for more than a minute?\nMaybe not. But if trying was enough for the Stoics, it should be enough\nfor us too.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 7.69"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 16,
+        "title": "EVERLASTING GOOD HEALTH",
+        "quote": "I tell you, you only have to learn to live like the healthy person\ndoes . . . living with complete confidence. What confidence? The\nonly one worth holding, in what is trustworthy, unhindered, and\ncan’t be taken away—your own reasoned choice.",
+        "text": "As the Stoics say repeatedly, it’s dangerous to have faith in what you do\nnot control. But your own reasoned choice? Well, for now that is in\nyour control. Therefore it is one of the few things you can have confidence\nin. It’s the one area of health that can’t suddenly be given a terminal\ndiagnosis (except for the one we all get the day we’re born). It’s the only\none that remains pristine and never wears down—it’s only the user who\nquits it; never will it quit the user.\nIn this passage, Epictetus points out that slaves and workers and\nphilosophers alike can live this way. Socrates, Diogenes, and Cleanthes\nlived this way—even while they had families and while they were\nstruggling students.\nAnd so can you.",
+        "author": "EPICTETUS, DISCOURSES, 3.26.23b–24"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 17,
+        "title": "KNOW THYSELF—BEFORE IT’S TOO LATE",
+        "quote": "Death lies heavy upon one\nwho, known exceedingly well by all,\ndies unknown to himself.",
+        "text": "Some of the most powerful and important people in the world seem to\nhave almost no self-awareness. Although total strangers know endless\namounts of trivia about them, celebrities—because they are too busy or\nbecause it hurts too much—appear to know very little about themselves.\nWe can be guilty of the same sin. We ignore Socrates’s dictum to “know\nthyself”—often realizing we have done so at our peril, years later, when we\nwake up one day and realize how rarely we have asked ourselves questions\nlike: Who am I? What’s important to me? What do I like? What do I need?\nNow—right now—you have the time to explore yourself, to understand\nyour own mind and body. Don’t wait. Know yourself. Before it’s\nimpossibly late.",
+        "author": "SENECA, THYESTES, 400"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 18,
+        "title": "WHAT COMES TO US ALL",
+        "quote": "Both Alexander the Great and his mule-keeper were both brought\nto the same place by death—they were either received into the all-\ngenerative reason, or scattered among the atoms.",
+        "text": "In a world that is in many ways becoming more and more unequal, there\naren’t many truly equalitarian experiences left. When Benjamin Franklin\nobserved that “in this world nothing can be said to be certain, except death\nand taxes,” he couldn’t have known how good some people would get at\navoiding their taxes. But death? That’s still the one thing that everyone\nexperiences.\nWe all face the same end. Whether you conquer the known world or\nshine the shoes of the people who do, at the end death will be a radical\nequalizer—a lesson in abject humility. Shakespeare had Hamlet trace out\nthe logic in stark terms for both Alexander and Julius Caesar:\n“Imperious Caesar, dead and turn’d to clay,\nMight stop a hole to keep the wind away:\nO, that that earth, which kept the world in awe,\nShould patch a wall to expel the winter flaw!”\nThe next time you feel yourself getting high and mighty—or conversely,\nfeeling low and inferior—just remember, we all end up the same way. In\ndeath, no one is better, no one is worse. All our stories have the same finale.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 6.24"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 19,
+        "title": "HUMAN SCALE",
+        "quote": "Think of the whole universe of matter and how small your share.\nThink about the expanse of time and how brief—almost\nmomentary—the part marked for you. Think of the workings of\nfate and how infinitesimal your role.",
+        "text": "The amount of matter in the universe is immense—on the order of\ntrillions of atoms. What percentage of that matter does one human\nbody constitute?\nThe earth, as far as science tells us, is some 4.5 billion years old and\nshows no sign of ending soon. Our time on the earth, on the other hand, will\nbe what? Several decades, maybe?\nSometimes we need to have the facts and figures spelled out in front of\nus to fully realize the scale at which humans happen to exist in the big\nscheme of things.\nConsider this the next time you feel self-important, or like everything\nrises and falls on what you do next. It doesn’t. You’re just one person\namong many, doing your best among many. That’s all you need to do.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 5.24"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 20,
+        "title": "FEAR THE FEAR OF DEATH",
+        "quote": "Do you then ponder how the supreme of human evils, the surest\nmark of the base and cowardly, is not death, but the fear of death?\nI urge you to discipline yourself against such fear, direct all your\nthinking, exercises, and reading this way—and you will know the\nonly path to human freedom.",
+        "text": "To steel himself before he committed suicide rather than submit to Julius\nCaesar’s destruction of the Roman Republic, the great Stoic\nphilosopher Cato read a bit of Plato’s Phaedo. In it, Plato writes, “It is the\nchild within us that trembles before death.” Death is scary because it is such\nan unknown. No one can come back and tell us what it is like. We are in the\ndark about it.\nAs childlike and ultimately ignorant as we are about death, there are\nplenty of wise men and women who can at least provide some guidance.\nThere’s a reason that the world’s oldest people never seem to be afraid of\ndeath: they’ve had more time to think about it than we have (and they\nrealized how pointless worrying was). There are other wonderful resources:\nFlorida Scott-Maxwell’s Stoic diary during her terminal illness, The\nMeasure of My Days, is one. Seneca’s famous words to his family and\nfriends, who had broken down and begged with his executioners, is another.\n“Where,” Seneca gently chided them, “are your maxims of philosophy, or\nthe preparation of so many years’ study against evils to come?” Throughout\nphilosophy there are inspiring, brave words from brave men and women\nwho can help us face this fear.\nThere is another helpful consideration about death from the Stoics. If\ndeath is truly the end, then what is there exactly to fear? For everything\nfrom your fears to your pain receptors to your worries and your remaining\nwishes, they will perish with you. As frightening as death might seem,\nremember: it contains within it the end of fear.",
+        "author": "EPICTETUS, DISCOURSES, 3.26.38–39"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 21,
+        "title": "WHAT DO YOU HAVE TO SHOW FOR YOUR YEARS?",
+        "quote": "Many times an old man has no other evidence besides his age to\nprove he has lived a long time.",
+        "text": "How long have you been alive? Take the years, multiply them by 365,\nand then by 24. How many hours have you lived? What do you have\nto show for all of them?\nThe answer for many people is: not enough. We had so many hours that\nwe took them for granted. All we have to show for our time on this planet\nare rounds of golf, years spent at the office, time spent watching mediocre\nmovies, a stack of mindless books we hardly remember reading, and maybe\na garage full of toys. We’re like the character in Raymond Chandler’s The\nLong Goodbye: “Mostly, I just kill time,” he says, “and it dies hard.”\nOne day, our hours will begin to run out. It would be nice to be able to\nsay: “Hey, I really made the most of it.” Not in the form of achievements,\nnot money, not status—you know what the Stoics think of all that—but in\nwisdom, insight, and real progress in the things that all humans struggle\nagainst.\nWhat if you could say that you really made something of this time that\nyou had? What if you could prove that you really did live [insert number]\nyears? And not just lived them, but lived them fully?",
+        "author": "SENECA, ON TRANQUILITY OF MIND, 3.8b"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 22,
+        "title": "STAKE YOUR OWN CLAIM",
+        "quote": "For it’s disgraceful for an old person, or one in sight of old age, to\nhave only the knowledge carried in their notebooks. Zeno said\nthis . . . what do you say? Cleanthes said that . . . what do you say?\nHow long will you be compelled by the claims of another? Take\ncharge and stake your own claim—something posterity will carry\nin its notebook.",
+        "text": "Musing in his notebook about the topic of immortality, Ralph Waldo\nEmerson complained how writers dance around a difficult topic by\nrelying on quotes. “I hate quotation,” he wrote. “Tell me what you know.”\nSeneca was throwing down the same gauntlet some twenty centuries\nbefore. It’s easier to quote, to rely on the wise words of others. Especially\nwhen the people you’re deferring to are such towering figures!\nIt’s harder (and more intimidating) to venture out on your own and\nexpress your own thoughts. But how do you think those wise and true\nquotes from those towering figures were created in the first place?\nYour own experiences have value. You have accumulated your own\nwisdom too. Stake your claim. Put something down for the ages—in words\nand also in example.",
+        "author": "SENECA, MORAL LETTERS, 33.7"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 23,
+        "title": "WHAT ARE YOU SO AFRAID OF LOSING?",
+        "quote": "You are afraid of dying. But, come now, how is this life of yours\nanything but death?",
+        "text": "Seneca tells an amazing story about an obscenely wealthy Roman who\nwas carried around by slaves on a litter. On one occasion, after being\nlifted out of a bath, the Roman asked, “Am I sitting down yet?” Seneca’s\npoint was essentially: What kind of sad pathetic life is it if you’re so\ndisconnected from the world that you don’t even know whether you’re on\nthe ground? How did the man know whether he was even alive at all?\nMost of us are afraid of dying. But sometimes this fear begs the\nquestion: To protect what exactly? For a lot of people the answer is: hours\nof television, gossiping, gorging, wasting potential, reporting to a boring\njob, and on and on and on. Except, in the strictest sense, is this actually a\nlife? Is this worth gripping so tightly and being afraid of losing?\nIt doesn’t sound like it.",
+        "author": "SENECA, MORAL LETTERS, 77.18"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 24,
+        "title": "MEANINGLESS . . . LIKE A FINE WINE",
+        "quote": "You know what wine and liqueur tastes like. It makes no\ndifference whether a hundred or a thousand bottles pass through\nyour bladder—you are nothing more than a filter.",
+        "text": "Here we have another contemptuous expression, this time from Seneca,\nwho, given his reputation for opulence, probably enjoyed a nice drink\nfrom time to time. His point will probably rattle anyone for whom success\nand adulthood has turned them into a wine snob (though the logic can be\napplied just as easily to foodies, techies, audiophiles, and the like).\nAs fun and exciting and pleasurable as these pleasures are, it’s worth\nputting them in their place. You don’t get a prize at the end of your life for\nhaving consumed more, worked more, spent more, collected more, or\nlearned more about the various vintages than everyone else. You are just a\nconduit, a vessel that temporarily held or interacted with these fancy items.\nIf you find yourself lusting over them, this meditation might help reduce\ntheir luster just a smidge.",
+        "author": "SENECA, MORAL LETTERS, 77.16"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 25,
+        "title": "DON’T BURN THE CANDLE AT BOTH ENDS",
+        "quote": "The mind must be given relaxation—it will rise improved and\nsharper after a good break. Just as rich fields must not be forced—\nfor they will quickly lose their fertility if never given a break—so\nconstant work on the anvil will fracture the force of the mind. But\nit regains its powers if it is set free and relaxed for a while.\nConstant work gives rise to a certain kind of dullness and\nfeebleness in the rational soul.",
+        "text": "One can’t read Marcus Aurelius and Seneca and not be struck by the\ndifference between these two radically different personalities. Each\nhad his own strengths and weaknesses. Which would you rather have\nentrusted with the immense responsibility of an empire? Probably Marcus.\nBut who would you rather be as a person? Probably Seneca.\nOne of the reasons is that Seneca seems to have had what we would now\nrefer to as work/life balance. Whereas Marcus can read as though he’s worn\ndown and tired, Seneca always feels energetic, fresh, robust. His philosophy\nof rest and relaxation—intermixed with his rigorous study and other Stoic\nrituals—probably had a lot to do with it.\nThe mind is a muscle, and like the rest, it can be strained, overworked,\neven injured. Our physical health is also worn down by overcommitment, a\nlack of rest, and bad habits. Remember the tall tale about John Henry—the\nman who challenged the machine? He died of exhaustion at the end. Don’t\nforget that.\nToday, you may face things that try your patience, require considerable\nfocus or clarity, or demand creative breakthroughs. Life is a long haul—it\nwill mean many such moments. Are you going to be able to handle them if\nyou’ve burned the candle at both ends? If you’ve been abusing and\noverworking your body?",
+        "author": "SENECA, ON TRANQUILITY OF MIND, 17.5"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 26,
+        "title": "LIFE IS LONG—IF YOU KNOW HOW TO USE IT",
+        "quote": "It’s not at all that we have too short a time to live, but that we\nsquander a great deal of it. Life is long enough, and it’s given in\nsufficient measure to do many great things if we spend it well. But\nwhen it’s poured down the drain of luxury and neglect, when it’s\nemployed to no good end, we’re finally driven to see that it has\npassed by before we even recognized it passing. And so it is—we\ndon’t receive a short life, we make it so.",
+        "text": "No one knows how long they have to live, but sadly, we can be sure of\none thing: we’ll waste far too much of life. Waste it sitting around,\nwaste it chasing the wrong things, waste it by refusing to take the time to\nask ourselves what’s actually important to us. Far too often, we’re like the\noverconfident academics that Petrarch criticized in his classic essay on\nignorance—the types who “fritter away their powers incessantly in caring\nfor things outside of them and seek themselves there.” Yet they have no\nidea this is what they’re doing.\nSo today, if you find yourself rushed or uttering the words “I just don’t\nhave enough time,” stop and take a second. Is this actually true? Or have\nyou just committed to a lot of unnecessary things? Are you actually being\nefficient, or have you assumed a great deal of waste into your life? The\naverage American spends something like forty hours a year in traffic. That’s\nmonths over the course of a life. And for “traffic,” you can substitute so\nmany activities—from fighting with others to watching television to\ndaydreaming.\nYour life is plenty long—just use it properly.",
+        "author": "SENECA, ON THE BREVITY OF LIFE, 1.3–4a"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 27,
+        "title": "DON’T LET YOUR SOUL GO FIRST",
+        "quote": "It’s a disgrace in this life when the soul surrenders first while the\nbody refuses to.",
+        "text": "Despite his privileges, Marcus Aurelius had a difficult life. The Roman\nhistorian Cassius Dio mused that Marcus “did not meet with the good\nfortune that he deserved, for he was not strong in body and was involved in\na multitude of troubles throughout practically his entire reign.” At one\npoint, he was so sick that a rumor spread that he had died—and matters\nwere made worse when his most trusted general used it as an opportunity to\ndeclare himself the new emperor.\nBut throughout these struggles—the years at war, the crippling illnesses,\nhis troubled son—he never gave up. It’s an inspiring example for us to think\nabout today if we get tired, frustrated, or have to deal with some crisis. Here\nwas a guy who had every reason to be angry and bitter, who could have\nabandoned his principles and lived in luxury or ease, who could have put\nhis responsibilities aside and focused on his own health.\nBut he never did. His soul stayed strong even after his body became\nweak. He didn’t give up, right up to the second until his body finally did—\nwhen he died near Vienna in 180 AD.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 6.29"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 28,
+        "title": "ON BEING REMEMBERED",
+        "quote": "Everything lasts for a day, the one who remembers and the\nremembered.",
+        "text": "Take a walk down Forty-first Street toward the beautiful New York City\nPublic Library, with its majestic stone lions. On your way up “Library\nWay,” you’ll pass a gold placard laid into the cement, part of a series of\nquotations from great writers throughout history. This one is from Marcus\nAurelius: “Everything is only for a day, both that which remembers and that\nwhich is remembered.”\nThe library itself was designed by the firm of John Merven Carrère, one\nof the twentieth century’s most accomplished architects. It combines the\ncollections of such luminaries and philanthropists as Samuel Tilden, John\nJacob Astor, and James Lenox, and their names are carved into the stone.\nToday, the naming rights go to hedge fund manager Stephen A.\nSchwarzman. The opening of the library in 1911 was attended by President\nWilliam Howard Taft, Governor John Alden Dix, and New York City mayor\nWilliam Jay Gaynor. The plaques you pass on your way were designed by\nthe excellent Gregg LeFevre.\nMarcus’s quote makes us ponder: How many of these people have we\neven heard of? The people involved in the story of the library were some of\nthe most famous men in the world, masters of their respective crafts, rich\nbeyond imagination in some cases. Even along “Library Way,” many of the\nfamous authors are unfamiliar to the modern reader. They are all long gone,\nas are the people who remembered them.\nAll of us, including Marcus—who is passed over by just as many\nunaware pedestrians—last for just a day, at most.",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 4.35"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 29,
+        "title": "GIVE THANKS",
+        "quote": "In all things we should try to make ourselves be as grateful as\npossible. For gratitude is a good thing for ourselves, in a manner\nin which justice, commonly held to belong to others, is not.\nGratitude pays itself back in large measure.",
+        "text": "Think of all the things you can be grateful for today. That you are alive,\nthat you live in a time primarily of peace, that you have enough health\nand leisure to read this book. What of the little things? The person who\nsmiled at you, the woman who held the door open, that song you like on the\nradio, the pleasant weather.\nGratitude is infectious. Its positivity is radiant.\nEven if today was your last day on earth—if you knew in advance that it\nwas going to end in a few short hours—would there still be plenty to be\ngrateful for? How much better would your life be if you kicked off every\nday like that? If you let it carry through from morning to night and touch\nevery part of your life?",
+        "author": "SENECA, MORAL LETTERS, 81.19"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 30,
+        "title": "TAKING THE BITE OUT OF IT",
+        "quote": "To bear trials with a calm mind\nrobs misfortune of its strength and burden.",
+        "text": "The people you admire, the ones who seem to be able to successfully\nhandle and deal with adversity and difficulty, what do they have in\ncommon? Their sense of equilibrium, their orderly discipline. On the one-\nyard line, in the midst of criticism, after a heartbreaking tragedy, during a\nstressful period, they keep going.\nNot because they’re better than you. Not because they’re smarter. But\nbecause they have learned a little secret. You can take the bite out of any\ntough situation by bringing a calm mind to it. By considering it and\nmeditating on it in advance.\nAnd this is true not just for our day-to-day adversities but for the\ngreatest and most unavoidable trial of all: our own eventual death. It could\ncome tomorrow, it could come in forty years. It could be quick and painless,\nor it could be excruciating. Our greatest asset in that ordeal will not be\nreligion, it will not even be the wise words of the philosophers. It will be,\nsimply, our calm and reasoned mind.",
+        "author": "SENECA, HERCULES OETAEUS, 231–232"
+      },
+      {
+        "month": "December",
+        "monthIndex": 11,
+        "date": 31,
+        "title": "GET ACTIVE IN YOUR OWN RESCUE",
+        "quote": "Stop wandering about! You aren’t likely to read your own\nnotebooks, or ancient histories, or the anthologies you’ve\ncollected to enjoy in your old age. Get busy with life’s purpose,\ntoss aside empty hopes, get active in your own rescue—if you care\nfor yourself at all—and do it while you can.",
+        "text": "The purpose of all our reading and studying is to aid us in the pursuit of\nthe good life (and death). At some point, we must put our books aside\nand take action. So that, as Seneca put it, the “words become works.” There\nis an old saying that a “scholar made is a soldier spoiled.” We want to be\nboth scholars and soldiers—soldiers in the good fight.\nThat’s what’s next for you. Move forward, move onward. Another book\nisn’t the answer. The right choices and decisions are. Who knows how\nmuch time you have left, or what awaits us tomorrow?",
+        "author": "MARCUS AURELIUS, MEDITATIONS, 3.14"
+      }
+    ]
+  }
 ];
 export default QUOTES_DATA;
