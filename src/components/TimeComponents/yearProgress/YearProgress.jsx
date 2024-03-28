@@ -20,7 +20,6 @@ let daysPassed = Math.floor(differenceInMilliSeconds / (1000 * 60 * 60 * 24));
 //=== Total Days in the current Year ===//
 let lastDayOfCurrentYear = new Date(currentYear, 11,31);
 let totalDays = (lastDayOfCurrentYear.getTime() - firstDayOfCurrentYearinMS.getTime()) / (1000 * 60 * 60 * 24) + 1;
-
 //=== year percent ===//
 let yearPercent = Math.round((daysPassed * 100) / totalDays)
 
@@ -31,7 +30,7 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
     <div className="arrow circular__donut__sizing">
         <CircularProgressbar 
             value={daysPassed} 
-            maxValue={totalDays} 
+            maxValue={Math.round(totalDays)}
             text={`${yearPercent}%`}
             strokeWidth={15}
             styles={buildStyles({
@@ -44,10 +43,10 @@ let yearPercent = Math.round((daysPassed * 100) / totalDays)
                 backgroundColor: '#3e98c7'
                 })}
         />
-    </div>  
+    </div>
     <p className='today__time--container-hour'>
-          {daysPassed}  / {totalDays} days
-          <span className='middle-dot'>.</span> 
+          {daysPassed}  / 366 days
+          <span className='middle-dot'>.</span>
     </p>
     {/* <p className='month__name'>
           {yearPercent}<span className='no-stylist'> %</span>
