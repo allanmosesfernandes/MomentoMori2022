@@ -14,8 +14,8 @@ import SignInGoogle from './components/Sign-in-form/SignInGoogle';
 
 const App = () => {
   return (
-    
-   <Routes>
+
+  <Routes>
     <Route path='/' element={<Header />}>
       <Route index element={<FirstFold />} />
       <Route path='about' element={<About />} />
@@ -25,7 +25,7 @@ const App = () => {
       <Route path='features' element={<Features />} />
       <Route path="*" element={<PageNotFound />} />
     </Route>
-   </Routes>
+  </Routes>
   )
 }
 

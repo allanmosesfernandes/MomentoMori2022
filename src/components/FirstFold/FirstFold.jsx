@@ -15,12 +15,12 @@ const FirstFold = () => {
   <>
   
       <Introduction />
-      <QuoteDate /> 
-      <TimeBound />
+      <QuoteDate />
       <SocialShare />
+      <TimeBound />
       <StoicHabits />
       <Symbolism />
-      <Acknowledgement /> 
+      <Acknowledgement />
   </>
 
 
