@@ -21,7 +21,7 @@ const QuoteDate = () => {
         wisdomRef.current.scrollIntoView({ behavior: 'smooth' });
       }, 0);
     }
-     setQuotesData(QUOTES);
+    setQuotesData(QUOTES);
    }, []);
 
   if (!quotesData) {
@@ -51,7 +51,7 @@ const QuoteDate = () => {
                   {text.slice(1)}
               </p>
           </div>
-      </div>  
+      </div>
     }
 
     </>

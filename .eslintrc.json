@@ -1,5 +1,13 @@
 {
-
+  "env": {
+    "es2021": true, // This ensures that ESLint knows you are using features from ECMAScript 2021
+    "browser": true, // or "node": true, depending on your environment
+    "commonjs": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "rules": {
     "no-console": "warn"
   }

@@ -7,7 +7,6 @@ import Skull from '../../assets/images/about.svg'
 import { Link, Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer.component'
 import './header.scss';
-import CartIcon from '../cart-icon/cart-icon.component';
 import { signOutUser } from '../../utils/firebase.utils';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { ReactSVG } from "react-svg";
