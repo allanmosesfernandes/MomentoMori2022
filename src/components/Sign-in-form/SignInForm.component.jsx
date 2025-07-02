@@ -5,8 +5,6 @@ import './sign-in-form.styles.scss'
 import { createUserDocFromAuth, userSignInEmailPassword, signInWithGooglePopUp } from '../../utils/firebase.utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 
 
