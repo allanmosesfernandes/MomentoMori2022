@@ -15,9 +15,6 @@
     "sass": "^1.57.1",
     "styled-components": "^5.3.11"
   },
-  "overrides": {
-    "@esbuild/android-arm": "0.0.0"
-  },
   "optionalDependencies": {
     "@esbuild/android-arm": "*"
   },
