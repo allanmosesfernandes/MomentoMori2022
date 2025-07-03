@@ -18,6 +18,9 @@
   "overrides": {
     "@esbuild/android-arm": "0.0.0"
   },
+  "optionalDependencies": {
+    "@esbuild/android-arm": "*"
+  },
   "scripts": {
     "start": "vite",
     "build": "vite build",
