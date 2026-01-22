@@ -1,2 +1,5 @@
 {
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#05ef3c"
+    }
 }
