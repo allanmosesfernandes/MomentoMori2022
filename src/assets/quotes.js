@@ -209,7 +209,7 @@ const QUOTES_DATA = [
         month: "January",
         monthIndex: 0,
         date: 22,
-        title: "THE DAYI N REVIEW",
+        title: "THE DAY IN REVIEW",
         quote:
           "I will keep constant watch over myself and—most usefully—will put each day up for review.\nFor this is what makes us evil—that none of us looks back upon our own lives. We reflect upon\nonly that which we are about to do. And yet our plans for the future descend from the past.",
         text: "In a letter to his older brother Novatus, Seneca describes a beneficial exercise he borrowed from\nanother prominent philosopher. At the end of each day he would ask himself variations of the following\nquestions: What bad habit did I curb today? How am I better? Were my actions just? How can I\nimprove?\nAt the beginning or end of each day, the Stoic sits down with his journal and reviews: what he did,\nwhat he thought, what could be improved. It’s for this reason that Marcus Aurelius’s Meditations is a\nsomewhat inscrutable book—it was for personal clarity and not public benefit. Writing down Stoic\nexercises was and is also a form of practicing them, just as repeating a prayer or hymn might be.\nKeep your own journal, whether it’s saved on a computer or in a little notebook. Take time to\nconsciously recall the events of the previous day. Be unflinching in your assessments. Notice what\ncontributed to your happiness and what detracted from it. Write down what you’d like to work on or\nquotes that you like. By making the effort to record such thoughts, you’re less likely to forget them. An\nadded bonus: you’ll have a running tally to track your progress too.",
